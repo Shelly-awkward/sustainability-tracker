@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全球永續準則與確信進度追蹤</title>
+<style>
+  :root {
+    --ink: #1f2328;
+    --ink-2: #57606a;
+    --ink-3: #8c959f;
+    --surface: #ffffff;
+    --surface-2: #f6f8fa;
+    --border: #d0d7de;
+    --accent: #0969da;
+    --c-mandatory-bg: #dafbe1; --c-mandatory-fg: #116329;
+    --c-adopted-bg: #ddf4ff;  --c-adopted-fg: #0a5394;
+    --c-proposed-bg: #fff8c5; --c-proposed-fg: #7d4e00;
+    --c-voluntary-bg: #f0f2f5;--c-voluntary-fg: #57606a;
+    --c-mixed-bg: #fbefff;    --c-mixed-fg: #6639ba;
+    --c-paused-bg: #ffebe9;   --c-paused-fg: #a40e26;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    color: var(--ink); background: var(--surface-2); line-height: 1.6;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 24px 20px 60px; }
+  header.site { padding: 28px 0 10px; }
+  header.site h1 { font-size: 1.55rem; letter-spacing: .02em; }
+  header.site .sub { color: var(--ink-2); margin-top: 6px; font-size: .95rem; }
+  header.site .meta { color: var(--ink-3); margin-top: 4px; font-size: .85rem; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 6px; align-items: center; }
+  .legend .lg-label { font-size: .85rem; color: var(--ink-2); margin-right: 2px; }
+
+  .chip {
+    display: inline-block; padding: 1px 10px; border-radius: 999px;
+    font-size: .8rem; font-weight: 600; white-space: nowrap;
+  }
+  .chip.mandatory { background: var(--c-mandatory-bg); color: var(--c-mandatory-fg); }
+  .chip.adopted   { background: var(--c-adopted-bg);   color: var(--c-adopted-fg); }
+  .chip.proposed  { background: var(--c-proposed-bg);  color: var(--c-proposed-fg); }
+  .chip.voluntary { background: var(--c-voluntary-bg); color: var(--c-voluntary-fg); }
+  .chip.mixed     { background: var(--c-mixed-bg);     color: var(--c-mixed-fg); }
+  .chip.paused    { background: var(--c-paused-bg);    color: var(--c-paused-fg); }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; margin-top: 18px; overflow: hidden;
+  }
+  .card > h2 {
+    font-size: 1.05rem; padding: 14px 18px; border-bottom: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .card > h2 .hint { font-weight: 400; font-size: .82rem; color: var(--ink-3); margin-left: 8px; }
+
+  .table-scroll { overflow-x: auto; }
+  table.matrix { width: 100%; border-collapse: collapse; font-size: .9rem; min-width: 980px; }
+  table.matrix th {
+    text-align: left; font-size: .8rem; color: var(--ink-2); font-weight: 600;
+    padding: 10px 12px; background: var(--surface-2); border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  table.matrix td { padding: 11px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr.j-row { cursor: pointer; }
+  tr.j-row:hover td { background: #f3f6fa; }
+  tr.j-row td.name { white-space: nowrap; font-weight: 600; }
+  tr.j-row .flag { margin-right: 6px; }
+  tr.j-row .caret { color: var(--ink-3); font-size: .8rem; margin-left: 6px; }
+  td .small { display: block; color: var(--ink-2); font-size: .8rem; margin-top: 2px; }
+
+  tr.detail-row td { background: #fbfcfd; padding: 16px 20px 20px; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 800px) { .detail-grid { grid-template-columns: 1fr; } }
+  .detail-col h3 { font-size: .9rem; margin-bottom: 6px; color: var(--ink); }
+  .detail-col p { font-size: .87rem; color: var(--ink-2); margin-bottom: 8px; }
+  ul.timeline { list-style: none; margin: 6px 0 0; border-left: 2px solid var(--border); }
+  ul.timeline li { position: relative; padding: 2px 0 8px 16px; font-size: .85rem; color: var(--ink-2); }
+  ul.timeline li::before {
+    content: ""; position: absolute; left: -5px; top: 9px; width: 8px; height: 8px;
+    border-radius: 50%; background: var(--surface); border: 2px solid var(--accent);
+  }
+  ul.timeline li b { color: var(--ink); font-weight: 600; margin-right: 6px; }
+  .src-line { margin-top: 12px; font-size: .82rem; color: var(--ink-3); }
+  .src-line a { color: var(--accent); text-decoration: none; margin-right: 12px; }
+  .src-line a:hover { text-decoration: underline; }
+
+  .review-banner {
+    border: 1px solid #d4a72c66; background: #fff8c5; border-radius: 10px;
+    margin-top: 18px; padding: 14px 18px;
+  }
+  .review-banner h2 { font-size: .98rem; color: #7d4e00; }
+  .review-banner ul { margin: 8px 0 0 18px; font-size: .88rem; }
+  .review-banner li { margin-bottom: 4px; }
+  .review-banner a { color: #7d4e00; }
+  .review-banner .note { font-size: .8rem; color: #9a6700; margin-top: 8px; }
+
+  .feed-controls { display: flex; flex-wrap: wrap; gap: 10px; padding: 14px 18px 0; }
+  .feed-controls select, .feed-controls input {
+    font: inherit; font-size: .87rem; padding: 5px 10px; border: 1px solid var(--border);
+    border-radius: 6px; background: var(--surface); color: var(--ink);
+  }
+  .feed-controls input { flex: 1 1 200px; }
+  ul.feed { list-style: none; padding: 8px 18px 16px; }
+  ul.feed li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+  ul.feed li:last-child { border-bottom: none; }
+  .feed .f-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+  .feed .f-date { font-size: .8rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  .feed .f-jur { font-size: .8rem; color: var(--ink-2); }
+  .feed .f-title { font-size: .95rem; font-weight: 600; }
+  .feed .f-title a { color: var(--ink); text-decoration: none; }
+  .feed .f-title a:hover { color: var(--accent); text-decoration: underline; }
+  .feed .f-sum { font-size: .87rem; color: var(--ink-2); margin-top: 3px; }
+  .feed .f-en { font-size: .8rem; color: var(--ink-3); margin-top: 2px; }
+  .feed .badge-change {
+    font-size: .72rem; font-weight: 700; padding: 0 8px; border-radius: 999px;
+    background: var(--c-proposed-bg); color: var(--c-proposed-fg);
+  }
+  .feed-empty { padding: 20px; color: var(--ink-3); font-size: .9rem; }
+  .feed-more { display: block; width: 100%; padding: 10px; border: none; border-top: 1px solid var(--border);
+    background: var(--surface-2); color: var(--accent); font: inherit; font-size: .87rem; cursor: pointer; }
+
+  footer { margin-top: 26px; color: var(--ink-3); font-size: .8rem; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <h1>🌏 全球永續準則與確信進度追蹤</h1>
+    <div class="sub">日本・韓國・澳洲・歐盟・美國・加拿大・英國・新加坡 ＋ ISSB / IAASB — 永續揭露準則採用進度與永續確信要求</div>
+    <div class="meta">每週日自動更新動態 ｜ 狀態矩陣經人工確認後更新 ｜ 資料最後更新：<span id="lastUpdated">載入中…</span></div>
+  </header>
+
+  <div class="legend">
+    <span class="lg-label">狀態圖例：</span>
+    <span class="chip mandatory">已強制</span>
+    <span class="chip adopted">已定案</span>
+    <span class="chip proposed">草案／研議中</span>
+    <span class="chip voluntary">自願適用</span>
+    <span class="chip mixed">分歧（聯邦／州）</span>
+    <span class="chip paused">暫停／倒退</span>
+  </div>
+
+  <div id="reviewBanner"></div>
+
+  <section class="card">
+    <h2>各轄區狀態矩陣 <span class="hint">點任一列展開時間軸與細節</span></h2>
+    <div class="table-scroll">
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th>轄區</th>
+            <th>揭露準則</th>
+            <th>ISSB 對齊</th>
+            <th>揭露進度</th>
+            <th>首次強制適用</th>
+            <th>確信進度</th>
+            <th>確信準則</th>
+          </tr>
+        </thead>
+        <tbody id="matrixBody"><tr><td colspan="7" class="feed-empty">載入中…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>最新動態 <span class="hint">每週自動抓取各主管機關與準則制定者新聞</span></h2>
+    <div class="feed-controls">
+      <select id="jurFilter"><option value="">全部轄區</option></select>
+      <select id="impactFilter">
+        <option value="">全部類型</option>
+        <option value="status_change">可能影響狀態</option>
+        <option value="info">一般動態</option>
+      </select>
+      <input id="kwFilter" type="search" placeholder="關鍵字搜尋（中英標題與摘要）">
+    </div>
+    <ul class="feed" id="feedList"></ul>
+    <button class="feed-more" id="moreBtn" hidden>顯示更多</button>
+  </section>
+
+  <footer>
+    <p>狀態等級說明：「已強制」＝法規已生效且進入適用期；「已定案」＝規則／路線圖已確定但尚未（全面）適用；「草案／研議中」＝僅有草案或路線圖草案；「自願適用」＝準則已備但無強制力；「分歧」＝聯邦與州（或機關間）方向不一；「暫停／倒退」＝原訂規則暫停、撤回或不確定。</p>
+    <p style="margin-top:6px">本站由自動化流程輔助整理，內容僅供研究參考，實際適用請以各主管機關原文為準。原始碼與資料：<a id="repoLink" href="https://github.com/Shelly-awkward/sustainability-tracker">GitHub</a></p>
+  </footer>
+</div>
+
+<script>
+const LEVEL_LABEL = {
+  mandatory: "已強制", adopted: "已定案", proposed: "草案／研議中",
+  voluntary: "自願適用", mixed: "分歧", paused: "暫停／倒退"
+};
+const state = { jurisdictions: [], updates: [], feedShown: 30 };
+
+function chip(level) {
+  const label = LEVEL_LABEL[level] || level;
+  return `<span class="chip ${level}">${label}</span>`;
+}
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function timelineHtml(items) {
+  if (!items || !items.length) return "<p style='font-size:.83rem;color:var(--ink-3)'>（無時間軸資料）</p>";
+  return `<ul class="timeline">` + items.map(t =>
+    `<li><b>${esc(t.date)}</b>${esc(t.event)}</li>`).join("") + `</ul>`;
+}
+
+function renderMatrix() {
+  const tbody = document.getElementById("matrixBody");
+  tbody.innerHTML = "";
+  state.jurisdictions.forEach(j => {
+    const tr = document.createElement("tr");
+    tr.className = "j-row";
+    tr.innerHTML = `
+      <td class="name"><span class="flag">${j.flag}</span>${esc(j.name_zh)}<span class="caret">▸</span></td>
+      <td>${esc(j.disclosure.standard)}<span class="small">${esc(j.disclosure.setter)}</span></td>
+      <td style="font-size:.85rem">${esc(j.disclosure.issb_alignment)}</td>
+      <td>${chip(j.disclosure.status_level)}<span class="small">${esc(j.disclosure.status_zh)}</span></td>
+      <td style="font-size:.85rem">${esc(j.disclosure.first_mandatory)}</td>
+      <td>${chip(j.assurance.status_level)}<span class="small">${esc(j.assurance.status_zh)}</span></td>
+      <td style="font-size:.85rem">${esc(j.assurance.standard)}</td>`;
+    const dtr = document.createElement("tr");
+    dtr.className = "detail-row";
+    dtr.hidden = true;
+    dtr.innerHTML = `<td colspan="7">
+      <div class="detail-grid">
+        <div class="detail-col">
+          <h3>📄 揭露：適用範圍</h3>
+          <p>${esc(j.disclosure.scope_zh)}</p>
+          <h3>時間軸</h3>
+          ${timelineHtml(j.disclosure.timeline)}
+        </div>
+        <div class="detail-col">
+          <h3>✅ 確信：要求內容</h3>
+          <p>${esc(j.assurance.requirement_zh)}</p>
+          <h3>時間軸</h3>
+          ${timelineHtml(j.assurance.timeline)}
+        </div>
+      </div>
+      <div class="src-line">
+        參考來源：${(j.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("")}
+        ｜ 本列人工確認日：${esc(j.last_reviewed)}
+      </div>
+    </td>`;
+    tr.addEventListener("click", () => {
+      dtr.hidden = !dtr.hidden;
+      tr.querySelector(".caret").textContent = dtr.hidden ? "▸" : "▾";
+    });
+    tbody.appendChild(tr);
+    tbody.appendChild(dtr);
+  });
+}
+
+function jurName(id) {
+  const j = state.jurisdictions.find(x => x.id === id);
+  return j ? `${j.flag} ${j.name_zh}` : id;
+}
+
+function renderReviewBanner() {
+  const pending = state.updates.filter(u => u.needs_review);
+  const box = document.getElementById("reviewBanner");
+  if (!pending.length) { box.innerHTML = ""; return; }
+  box.innerHTML = `<div class="review-banner">
+    <h2>⚠️ ${pending.length} 則動態可能影響狀態矩陣，待人工確認</h2>
+    <ul>${pending.map(u =>
+      `<li>${esc(u.date)}｜${jurName(u.jurisdiction_id)}｜<a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.title_zh)}</a></li>`
+    ).join("")}</ul>
+    <div class="note">確認方式：檢視來源後更新 data/status.json 對應欄位，並將該則動態的 needs_review 改為 false（可直接請 Claude Code 代勞）。</div>
+  </div>`;
+}
+
+function renderFeed() {
+  const jur = document.getElementById("jurFilter").value;
+  const impact = document.getElementById("impactFilter").value;
+  const kw = document.getElementById("kwFilter").value.trim().toLowerCase();
+  let items = state.updates;
+  if (jur) items = items.filter(u => u.jurisdiction_id === jur);
+  if (impact) items = items.filter(u => u.impact === impact);
+  if (kw) items = items.filter(u =>
+    (u.title_zh + " " + (u.title_en || "") + " " + (u.summary_zh || "")).toLowerCase().includes(kw));
+  const list = document.getElementById("feedList");
+  const moreBtn = document.getElementById("moreBtn");
+  if (!items.length) {
+    list.innerHTML = `<li class="feed-empty">沒有符合條件的動態</li>`;
+    moreBtn.hidden = true;
+    return;
+  }
+  const shown = items.slice(0, state.feedShown);
+  list.innerHTML = shown.map(u => `<li>
+      <div class="f-head">
+        <span class="f-date">${esc(u.date)}</span>
+        <span class="f-jur">${jurName(u.jurisdiction_id)}</span>
+        ${u.impact === "status_change" ? `<span class="badge-change">可能影響狀態${u.needs_review ? "・待確認" : ""}</span>` : ""}
+      </div>
+      <div class="f-title"><a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.title_zh)}</a></div>
+      <div class="f-sum">${esc(u.summary_zh)}</div>
+      <div class="f-en">${esc(u.title_en || "")}</div>
+    </li>`).join("");
+  moreBtn.hidden = items.length <= state.feedShown;
+}
+
+async function init() {
+  try {
+    const bust = "?v=" + Date.now();
+    const [statusRes, updatesRes] = await Promise.all([
+      fetch("data/status.json" + bust), fetch("data/updates.json" + bust)
+    ]);
+    const statusData = await statusRes.json();
+    const updatesData = await updatesRes.json();
+    state.jurisdictions = statusData.jurisdictions || [];
+    state.updates = (updatesData.updates || []).slice()
+      .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    document.getElementById("lastUpdated").textContent = statusData.last_updated || "—";
+
+    const jurSel = document.getElementById("jurFilter");
+    state.jurisdictions.forEach(j => {
+      const opt = document.createElement("option");
+      opt.value = j.id; opt.textContent = `${j.flag} ${j.name_zh}`;
+      jurSel.appendChild(opt);
+    });
+
+    renderMatrix();
+    renderReviewBanner();
+    renderFeed();
+
+    ["jurFilter", "impactFilter"].forEach(id =>
+      document.getElementById(id).addEventListener("change", () => { state.feedShown = 30; renderFeed(); }));
+    document.getElementById("kwFilter").addEventListener("input", () => { state.feedShown = 30; renderFeed(); });
+    document.getElementById("moreBtn").addEventListener("click", () => { state.feedShown += 30; renderFeed(); });
+  } catch (e) {
+    document.getElementById("matrixBody").innerHTML =
+      `<tr><td colspan="7" class="feed-empty">資料載入失敗：${esc(e.message)}</td></tr>`;
+  }
+}
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,351 @@
+{
+  "last_updated": "2026-07-13",
+  "jurisdictions": [
+    {
+      "id": "issb",
+      "flag": "🌐",
+      "name_zh": "ISSB / IAASB（國際源頭）",
+      "name_en": "ISSB / IAASB (Global Baseline)",
+      "search_query": "ISSB IFRS S1 S2 IAASB ISSA 5000 sustainability standard",
+      "disclosure": {
+        "setter": "ISSB（IFRS 基金會）",
+        "standard": "IFRS S1 / IFRS S2",
+        "issb_alignment": "本尊",
+        "status_level": "adopted",
+        "status_zh": "已發布；S2 修訂 2027/1/1 生效",
+        "first_mandatory": "由各轄區自行決定採用",
+        "scope_zh": "全球基準線；截至 2026/4 已有 28 個轄區採用（自願或強制）、另有 12 個規劃中",
+        "timeline": [
+          { "date": "2023-06", "event": "IFRS S1 / S2 正式發布" },
+          { "date": "2025-06", "event": "IFRS 基金會開始發布各轄區採用進度檔案（jurisdictional profiles）" },
+          { "date": "2025-12", "event": "ISSB 發布 IFRS S2 針對性修訂（GWP 值轄區豁免等），2027/1/1 生效、可提前適用" },
+          { "date": "2026-Q1", "event": "SASB 產業準則修訂草案發布（對齊 GRI / TNFD）" },
+          { "date": "2026-Q4", "event": "預計提出自然相關（nature-related)揭露規定草案，以指引形式補充 S1/S2，不出新準則" }
+        ]
+      },
+      "assurance": {
+        "setter": "IAASB / IESBA",
+        "standard": "ISSA 5000（＋IESBA 永續確信倫理準則 IESSA）",
+        "status_level": "adopted",
+        "status_zh": "已發布，2026/12/15 生效",
+        "requirement_zh": "全球確信基準線：適用有限確信與合理確信、涵蓋所有永續主題、會計師與非會計師確信者皆適用",
+        "timeline": [
+          { "date": "2024-11", "event": "IAASB 正式發布 ISSA 5000" },
+          { "date": "2025-01", "event": "IESBA 發布永續確信倫理與獨立性準則（IESSA）" },
+          { "date": "2025-08", "event": "IAASB 發布 ISSA 5000 採用與實施支援資源" },
+          { "date": "2026-12-15", "event": "ISSA 5000 與 IESSA 生效" }
+        ]
+      },
+      "sources": [
+        { "label": "ISSB（IFRS 基金會）", "url": "https://www.ifrs.org/groups/international-sustainability-standards-board/" },
+        { "label": "IAASB ISSA 5000 專區", "url": "https://www.iaasb.org/focus-areas/understanding-international-standard-sustainability-assurance-5000" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "japan",
+      "flag": "🇯🇵",
+      "name_zh": "日本",
+      "name_en": "Japan",
+      "search_query": "Japan SSBJ FSA sustainability disclosure standards assurance",
+      "disclosure": {
+        "setter": "SSBJ（日本永續基準委員會）／金融廳（FSA）",
+        "standard": "SSBJ 準則（適用基準＋一般＋氣候，對應 IFRS S1/S2）",
+        "issb_alignment": "高度對齊（含日本特有選項）",
+        "status_level": "mandatory",
+        "status_zh": "已法制化，2027/3 財年起分階段強制",
+        "first_mandatory": "2027/3 結束之財年（東證 Prime 市值 ≥3 兆日圓）",
+        "scope_zh": "東證 Prime 上市公司分階段：市值 ≥3 兆日圓→2027/3 財年；≥1 兆→2028/3；≥5,000 億→2029/3；其餘 Prime 公司時點另定。於有價證券報告書內揭露",
+        "timeline": [
+          { "date": "2025-03", "event": "SSBJ 正式發布三號準則" },
+          { "date": "2025-11", "event": "FSA 發布永續揭露與確信路線圖" },
+          { "date": "2026-02", "event": "內閣府令修正定案，SSBJ 準則正式入法" },
+          { "date": "2026-04", "event": "FSA 更新路線圖（英文版）" },
+          { "date": "2027-03", "event": "第一階段（市值 ≥3 兆日圓）首個適用財年結束" }
+        ]
+      },
+      "assurance": {
+        "setter": "金融廳（FSA）／JICPA",
+        "standard": "規劃以 ISSA 5000 為基礎之日本確信準則",
+        "status_level": "adopted",
+        "status_zh": "路線圖已定：揭露強制後一年起強制確信",
+        "requirement_zh": "各階段揭露強制適用的次年起強制確信（第一階段自 2028/3 財年）；前兩年確信範圍限縮於特定資訊；會計師事務所與非會計師確信者皆可登錄執業",
+        "timeline": [
+          { "date": "2026-04", "event": "FSA 確信路線圖：揭露後一年起強制、前兩年限縮範圍、建立確信者登錄制" },
+          { "date": "2028-03", "event": "第一階段公司（市值 ≥3 兆日圓）首個強制確信財年" }
+        ]
+      },
+      "sources": [
+        { "label": "FSA 揭露與確信路線圖（2026/4）", "url": "https://www.fsa.go.jp/en/news/2026/20260409/02.pdf" },
+        { "label": "SSBJ 官網", "url": "https://www.ssb-j.jp/en/" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "korea",
+      "flag": "🇰🇷",
+      "name_zh": "韓國",
+      "name_en": "South Korea",
+      "search_query": "Korea KSSB FSC ESG sustainability disclosure standards",
+      "disclosure": {
+        "setter": "KSSB（韓國永續基準委員會）／金融委員會（FSC）",
+        "standard": "KSSB 準則（第一套，2026/2 發布）",
+        "issb_alignment": "以 ISSB 為基礎",
+        "status_level": "proposed",
+        "status_zh": "準則已發布；強制時程仍為路線圖草案",
+        "first_mandatory": "未定（草案討論自 2029 年前後分階段，KOSPI 大型公司先行）",
+        "scope_zh": "規劃由 KOSPI 大型上市公司（資產 ≥2 兆韓元）先行、逐步擴及全體 KOSPI 上市公司；正式時點與範圍待 FSC 定案",
+        "timeline": [
+          { "date": "2023-10", "event": "FSC 宣布強制揭露延後至 2026 年以後，並成立 KSSB" },
+          { "date": "2024-04", "event": "KSSB 發布準則草案公開徵詢" },
+          { "date": "2026-02-25", "event": "FSC 公布強制 ESG 揭露路線圖草案" },
+          { "date": "2026-02-26", "event": "KSSB 通過並發布第一套韓國永續揭露準則" }
+        ]
+      },
+      "assurance": {
+        "setter": "FSC（未定案）",
+        "standard": "未定",
+        "status_level": "proposed",
+        "status_zh": "尚未定案，隨揭露路線圖研議中",
+        "requirement_zh": "確信要求預計於強制揭露路線圖定案時一併明確；目前自願揭露之確信由市場自行安排",
+        "timeline": [
+          { "date": "2026-02", "event": "FSC 路線圖草案中一併徵詢確信安排" }
+        ]
+      },
+      "sources": [
+        { "label": "金融委員會（FSC）", "url": "https://www.fsc.go.kr/eng/" },
+        { "label": "IFRS 韓國轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-snapshots/south-korea-ifrs-snapshot.pdf" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "australia",
+      "flag": "🇦🇺",
+      "name_zh": "澳洲",
+      "name_en": "Australia",
+      "search_query": "Australia AASB S2 climate reporting ASIC sustainability assurance",
+      "disclosure": {
+        "setter": "AASB（澳洲會計準則委員會）／ASIC",
+        "standard": "AASB S2（強制）／AASB S1（自願）",
+        "issb_alignment": "以 IFRS S2 為基礎（氣候先行）",
+        "status_level": "mandatory",
+        "status_zh": "已強制，2025/1/1 起分三組上路",
+        "first_mandatory": "2025/1/1 起財年（Group 1）",
+        "scope_zh": "Group 1：2025/1/1 起；Group 2（營收 >2 億澳元／資產 >5 億／員工 >250 三取二）：2026/7/1 起；Group 3：2027/7/1 起。範疇三第 2 年起強制；前瞻性陳述有 3 年安全港",
+        "timeline": [
+          { "date": "2024-09", "event": "國會通過強制氣候揭露立法" },
+          { "date": "2025-01", "event": "Group 1 首個適用財年開始" },
+          { "date": "2026-07", "event": "Group 2 適用財年開始" },
+          { "date": "2027-07", "event": "Group 3 適用財年開始" }
+        ]
+      },
+      "assurance": {
+        "setter": "AUASB（澳洲審計與確信準則委員會）",
+        "standard": "ASSA 5000 / ASSA 5010（以 ISSA 5000 為基礎）",
+        "status_level": "mandatory",
+        "status_zh": "已強制，分階段至 2030 全面合理確信",
+        "requirement_zh": "第 1 年起範疇一/二有限確信，依 ASSA 5010 時程逐步擴大，至 2030 財年對全部氣候揭露採合理確信",
+        "timeline": [
+          { "date": "2025-01", "event": "Group 1 首年：範疇一/二有限確信" },
+          { "date": "2030-07", "event": "全部氣候揭露進入合理確信" }
+        ]
+      },
+      "sources": [
+        { "label": "AASB", "url": "https://aasb.gov.au/" },
+        { "label": "ASIC 永續報導專區", "url": "https://asic.gov.au/regulatory-resources/sustainability-reporting/" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "eu",
+      "flag": "🇪🇺",
+      "name_zh": "歐盟",
+      "name_en": "European Union",
+      "search_query": "EU CSRD ESRS EFRAG omnibus sustainability reporting assurance",
+      "disclosure": {
+        "setter": "歐盟執委會／EFRAG",
+        "standard": "CSRD ＋ ESRS（Omnibus 簡化中）",
+        "issb_alignment": "自成體系（雙重重大性），與 ISSB 有互通對照",
+        "status_level": "mandatory",
+        "status_zh": "已強制中；Omnibus 定案大幅縮小適用範圍",
+        "first_mandatory": "2024 財年（第一波大型公司，2025 年申報）",
+        "scope_zh": "Omnibus I 指令 2026/2/26 刊登公報、3/18 生效：適用門檻上調至員工 >1,000 人（並有營收門檻），第二、三波延後兩年（stop-the-clock）；簡化版 ESRS（ESRS 2026）已於 2026/7/3 通過，2027/1/1 起財年適用",
+        "timeline": [
+          { "date": "2023-07", "event": "第一套 ESRS 授權法案通過" },
+          { "date": "2025-04", "event": "Stop-the-clock 指令生效，第二、三波延後兩年" },
+          { "date": "2025-07", "event": "EFRAG 發布簡化版 ESRS 徵求意見稿" },
+          { "date": "2026-02-26", "event": "Omnibus I 指令刊登歐盟公報（2/24 理事會通過）" },
+          { "date": "2026-03-18", "event": "Omnibus I 指令生效；執委會須於 6 個月內通過簡化版 ESRS 授權法案" },
+          { "date": "2026-07-03", "event": "執委會通過簡化版 ESRS（ESRS 2026）授權法案與自願性標準（VSME）：2027/1/1 起財年適用，尚待歐洲議會與理事會 2–4 個月審查" }
+        ]
+      },
+      "assurance": {
+        "setter": "歐盟執委會／CEAOB",
+        "standard": "有限確信（執委會確信準則 2027/7/1 前通過）",
+        "status_level": "mandatory",
+        "status_zh": "有限確信強制中；合理確信要求已刪除",
+        "requirement_zh": "CSRD 報告須經有限確信；Omnibus 刪除「升級為合理確信」之授權以控制成本；執委會通過有限確信準則之期限延至 2027/7/1；第三國確信者 2025–2030 有過渡制度",
+        "timeline": [
+          { "date": "2024", "event": "第一波公司報告開始接受有限確信" },
+          { "date": "2026-03", "event": "Omnibus 定案：刪除合理確信授權" },
+          { "date": "2027-07", "event": "執委會通過有限確信準則之最後期限" }
+        ]
+      },
+      "sources": [
+        { "label": "EFRAG", "url": "https://www.efrag.org/" },
+        { "label": "執委會 CSRD 專頁", "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "us",
+      "flag": "🇺🇸",
+      "name_zh": "美國",
+      "name_en": "United States",
+      "search_query": "SEC climate disclosure rule California SB 253 SB 261 CARB",
+      "disclosure": {
+        "setter": "SEC（聯邦）／加州 CARB（州）",
+        "standard": "SEC 氣候規則（撤回中）／加州 SB 253、SB 261",
+        "issb_alignment": "未對齊 ISSB（加州以 GHG Protocol／TCFD 為基礎）",
+        "status_level": "mixed",
+        "status_zh": "聯邦撤回中；加州州法推進（部分涉訟）",
+        "first_mandatory": "加州 SB 253：2026/11/10 前申報範疇一/二（2025 年度資料）",
+        "scope_zh": "SEC 2024/3 通過之氣候規則已停止辯護並於 2026/6 提案廢止。加州 SB 253（營收 >10 億美元）：範疇一/二 2026/11/10 前首報、範疇三 2027 起；SB 261（營收 >5 億）氣候風險報告遭第九巡迴法院暫停執行，判決未出",
+        "timeline": [
+          { "date": "2024-03", "event": "SEC 通過氣候揭露規則，旋即涉訟並自行暫停" },
+          { "date": "2025-03", "event": "SEC 表決停止為規則辯護" },
+          { "date": "2025-11", "event": "第九巡迴法院對 SB 261 發出暫停執行命令" },
+          { "date": "2026-03", "event": "CARB 通過 SB 253/261 首批施行規章" },
+          { "date": "2026-06", "event": "SEC 提案正式廢止氣候揭露規則；CARB 將 SB 253 首報期限延至 11/10" }
+        ]
+      },
+      "assurance": {
+        "setter": "加州 CARB",
+        "standard": "SB 253 規定之第三方確信",
+        "status_level": "mixed",
+        "status_zh": "僅加州：2027 起範疇一/二有限確信",
+        "requirement_zh": "SB 253 首報（2026）免確信；2027 年起範疇一/二須有限確信，2030 年起升為合理確信；聯邦層級無確信要求",
+        "timeline": [
+          { "date": "2027", "event": "SB 253 範疇一/二有限確信開始" },
+          { "date": "2030", "event": "SB 253 升為合理確信" }
+        ]
+      },
+      "sources": [
+        { "label": "CARB 氣候揭露專區", "url": "https://ww2.arb.ca.gov/our-work/programs/climate-related-disclosure-programs" },
+        { "label": "SEC", "url": "https://www.sec.gov/" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "canada",
+      "flag": "🇨🇦",
+      "name_zh": "加拿大",
+      "name_en": "Canada",
+      "search_query": "Canada CSSB CSDS CSA climate sustainability disclosure",
+      "disclosure": {
+        "setter": "CSSB（加拿大永續準則委員會）／CSA",
+        "standard": "CSDS 1 / CSDS 2",
+        "issb_alignment": "採用 ISSB（含加拿大過渡放寬）",
+        "status_level": "voluntary",
+        "status_zh": "準則已定案但屬自願；CSA 強制規則暫停",
+        "first_mandatory": "未定",
+        "scope_zh": "CSDS 1/2 自 2025/1/1 起自願適用；CSA 於 2025/4/23 宣布暫停強制氣候揭露規則之制定，未給恢復時點",
+        "timeline": [
+          { "date": "2024-12", "event": "CSSB 發布最終版 CSDS 1 / CSDS 2" },
+          { "date": "2025-01", "event": "CSDS 自願適用開始" },
+          { "date": "2025-04", "event": "CSA 宣布暫停強制氣候揭露規則制定" }
+        ]
+      },
+      "assurance": {
+        "setter": "加拿大審計與確信準則委員會（AASB Canada）",
+        "standard": "跟隨 ISSA 5000（自願市場）",
+        "status_level": "voluntary",
+        "status_zh": "無強制要求",
+        "requirement_zh": "無法定確信要求；自願揭露之確信由市場自行採用以 ISSA 5000 為基礎之準則",
+        "timeline": []
+      },
+      "sources": [
+        { "label": "CSSB", "url": "https://www.frascanada.ca/en/cssb" },
+        { "label": "CSA 公告", "url": "https://www.securities-administrators.ca/news/" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "uk",
+      "flag": "🇬🇧",
+      "name_zh": "英國",
+      "name_en": "United Kingdom",
+      "search_query": "UK Sustainability Reporting Standards SRS FCA FRC assurance",
+      "disclosure": {
+        "setter": "DBT（商業貿易部）／FCA",
+        "standard": "UK SRS S1 / S2",
+        "issb_alignment": "採認 IFRS S1/S2（含 6 項英國修改）",
+        "status_level": "adopted",
+        "status_zh": "已定案自願適用；上市公司擬 2027 起強制",
+        "first_mandatory": "擬 2027/1/1 起（上市公司，待 FCA 2026 秋季最終規則）",
+        "scope_zh": "2026/2/25 DBT 發布最終版 UK SRS S1/S2，即刻可自願採用；FCA 預計 2026 年秋季發布最終規則，擬要求上市公司自 2027/1/1 起依 UK SRS 揭露",
+        "timeline": [
+          { "date": "2025-06", "event": "UK SRS S1/S2 徵求意見稿發布" },
+          { "date": "2026-01-30", "event": "FCA 發布上市公司強制適用 UK SRS 之諮詢文件（修訂上市規則）" },
+          { "date": "2026-02-25", "event": "DBT 發布最終版 UK SRS S1/S2（自願適用）" },
+          { "date": "2026-Q4", "event": "FCA 預計發布上市公司強制適用之最終規則" },
+          { "date": "2027-01", "event": "擬議之上市公司強制適用起始日" }
+        ]
+      },
+      "assurance": {
+        "setter": "FRC（財務報導委員會）",
+        "standard": "ISSA (UK) 5000",
+        "status_level": "adopted",
+        "status_zh": "準則已定，2026/12/15 起生效；登記制先行",
+        "requirement_zh": "ISSA (UK) 5000 適用於 2026/12/15 以後開始期間之永續資訊確信；FRC 預計 2026 年中啟動確信執業者過渡登記制；是否強制確信待整體制度定案",
+        "timeline": [
+          { "date": "2026-02-03", "event": "政府確認建立由 FRC 營運之自願性永續確信監督制度（先登記事務所、涵蓋 UK SRS/TCFD/ESRS 等確信）" },
+          { "date": "2026-mid", "event": "FRC 過渡性確信執業者登記制預計上線（適用於 2027/1/1 起報導年度）" },
+          { "date": "2026-12-15", "event": "ISSA (UK) 5000 生效" }
+        ]
+      },
+      "sources": [
+        { "label": "GOV.UK — UK SRS", "url": "https://www.gov.uk/guidance/uk-sustainability-reporting-standards" },
+        { "label": "FRC 永續報導 FAQ", "url": "https://www.frc.org.uk/library/standards-codes-policy/accounting-and-reporting/annual-corporate-reporting/sustainability-reporting-developments-frequently-asked-questions/" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "singapore",
+      "flag": "🇸🇬",
+      "name_zh": "新加坡",
+      "name_en": "Singapore",
+      "search_query": "Singapore ACRA SGX climate reporting sustainability assurance",
+      "disclosure": {
+        "setter": "ACRA ／ SGX RegCo",
+        "standard": "ISSB 為基礎之氣候揭露（併入 SGX 上市規則）",
+        "issb_alignment": "採用 ISSB（氣候先行）",
+        "status_level": "mandatory",
+        "status_zh": "已強制中（分階段；2025/8 起部分時程展延）",
+        "first_mandatory": "FY2025（全體上市公司範疇一/二；STI 成分股全套 ISSB 氣候揭露）",
+        "scope_zh": "全體上市公司自 FY2025 起報範疇一/二；STI 成分股 FY2025 起全套 ISSB 氣候揭露、FY2026 起範疇三。2025/8 展延：非 STI 且市值 <10 億新元之上市公司全套揭露延至 FY2030；大型非上市公司（營收 ≥10 億且資產 ≥5 億新元）延至 FY2030",
+        "timeline": [
+          { "date": "2024-02", "event": "政府接受 SRAC 建議，確立分階段氣候揭露路線" },
+          { "date": "2025-01", "event": "FY2025 開始：上市公司範疇一/二申報上路" },
+          { "date": "2025-08-25", "event": "ACRA／SGX RegCo 宣布展延多數時程（非 STI 小型上市與大型非上市延至 FY2030）" }
+        ]
+      },
+      "assurance": {
+        "setter": "ACRA",
+        "standard": "有限確信（以 SSA/ISSA 5000 體系為基礎）",
+        "status_level": "adopted",
+        "status_zh": "路線已定：上市公司 FY2029 起範疇一/二有限確信",
+        "requirement_zh": "上市公司自 FY2029 起對範疇一/二排放取得外部有限確信；非 STI 小型上市公司延至 FY2032；大型非上市公司時程隨揭露展延另定",
+        "timeline": [
+          { "date": "2029", "event": "上市公司範疇一/二有限確信開始（FY2029）" },
+          { "date": "2032", "event": "非 STI 小型上市公司確信開始（FY2032）" }
+        ]
+      },
+      "sources": [
+        { "label": "ACRA 永續報導時程", "url": "https://www.acra.gov.sg/regulations/sustainability-reporting/requirements-timeline/" },
+        { "label": "SGX 2025/8 展延公告", "url": "https://www.sgxgroup.com/media-centre/20250825-extended-timelines-most-climate-reporting-requirements-support" }
+      ],
+      "last_reviewed": "2026-07-13"
+    }
+  ]
+}

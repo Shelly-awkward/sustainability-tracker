@@ -1,0 +1,147 @@
+{
+  "updates": [
+    {
+      "id": "3a83642cb3ea",
+      "date": "2026-07-03",
+      "jurisdiction_id": "eu",
+      "title_en": "European Commission adopts simplified ESRS (ESRS 2026) and voluntary VSME standard",
+      "title_zh": "歐盟執委會通過簡化版 ESRS（ESRS 2026）與自願性 VSME 標準",
+      "summary_zh": "揭露要求大幅精簡（資料點約砍六成），CSRD 適用公司自 2027/1/1 起財年適用 ESRS 2026；尚待歐洲議會與理事會 2–4 個月審查。狀態矩陣已同步更新。",
+      "url": "https://finance.ec.europa.eu/news/commission-adopts-revised-sustainability-reporting-standards-2026-07-03_en",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "dbe8ca6be942",
+      "date": "2026-07-07",
+      "jurisdiction_id": "us",
+      "title_en": "EXCHANGES AND MARKET REGULATION—SEC publishes ambitious rulemaking agenda (Jul 7, 2026) - VitalLaw.com",
+      "title_zh": "美國 SEC 發布宏大的法規制定議程",
+      "summary_zh": "美國 SEC 發布最新法規議程，涵蓋範圍擴大至少 10 個項目，包含廣泛的改革提案。",
+      "url": "https://www.vitallaw.com/news/exchanges-and-market-regulation-sec-publishes-ambitious-rulemaking-agenda/sld01d17b9dccbf8348ddac5d837a8a9ffef9",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "2423f57af5c6",
+      "date": "2026-01-30",
+      "jurisdiction_id": "uk",
+      "title_en": "FCA consults on mandatory reporting in line with UK Sustainability Reporting Standards",
+      "title_zh": "英國 FCA 就上市公司強制適用 UK SRS 發布諮詢文件",
+      "summary_zh": "FCA 提議修訂上市規則，要求上市公司自 2027/1/1 起依 UK SRS 揭露；最終規則預計 2026 年秋季發布。",
+      "url": "https://www.ashurst.com/en/insights/fca-consults-on-aligning-listed-issuers-sustainability-disclosures/",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "8d432b431c6d",
+      "date": "2026-02-03",
+      "jurisdiction_id": "uk",
+      "title_en": "UK moves ahead with voluntary oversight regime for sustainability assurance",
+      "title_zh": "英國確認建立自願性永續確信監督制度（FRC 營運）",
+      "summary_zh": "先以事務所為登記對象、涵蓋 UK SRS／TCFD／ESRS 等確信；過渡登記制 2026 年中上線，適用 2027/1/1 起報導年度，日後視國會時程考慮法制化。",
+      "url": "https://www.macfarlanes.com/insights/102mgjt/uk-moves-ahead-with-voluntary-oversight-regime-for-sustainability-assurance",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "seed-009",
+      "date": "2026-06-24",
+      "jurisdiction_id": "us",
+      "title_en": "CARB postpones first SB 253 Scope 1/2 reporting deadline to November 10, 2026",
+      "title_zh": "加州 CARB 將 SB 253 範疇一/二首次申報期限延至 2026/11/10",
+      "summary_zh": "原訂 2026/8/10 的首次申報（2025 年度範疇一/二排放）延後三個月；範疇三仍訂 2027 年開始，首年免確信、2027 年起有限確信。",
+      "url": "https://www.bdo.com/insights/sustainability-and-esg/climate-reporting-due-2026-california-rulemakers-provide-updates-on-senate-bills-sb-261-253",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "seed-008",
+      "date": "2026-06-15",
+      "jurisdiction_id": "us",
+      "title_en": "SEC proposes to rescind its 2024 climate disclosure rules",
+      "title_zh": "SEC 提案正式廢止 2024 年氣候揭露規則",
+      "summary_zh": "SEC 於 2025/3 停止為規則辯護後，2026/6 進一步提案廢止整套聯邦氣候揭露規則；美國聯邦層級揭露要求實質倒退，州法（加州）成為主要驅動力。",
+      "url": "https://www.duanemorris.com/alerts/sec_proposes_rescind_climate_disclosure_rules_practical_steps_companies_can_take_now_0626.html",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "seed-007",
+      "date": "2026-04-09",
+      "jurisdiction_id": "japan",
+      "title_en": "FSA publishes updated Japanese roadmap on sustainability disclosure and assurance",
+      "title_zh": "日本金融廳發布永續揭露與確信路線圖（更新版）",
+      "summary_zh": "確認 SSBJ 分階段強制時程（市值 3 兆／1 兆／5,000 億日圓），並明定確信於各階段揭露強制後一年開始、前兩年限縮範圍、建立確信者登錄制度。",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260409/02.pdf",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "seed-006",
+      "date": "2026-03-11",
+      "jurisdiction_id": "us",
+      "title_en": "CARB passes initial climate disclosure regulations under SB 253 and SB 261",
+      "title_zh": "加州 CARB 通過 SB 253／SB 261 首批施行規章",
+      "summary_zh": "明確化適用門檻認定、申報格式與費用等執行細節；SB 261 因第九巡迴法院暫停執行命令仍在訴訟中，企業被建議維持「隨時可發布」狀態。",
+      "url": "https://www.freshlawblog.com/2026/03/13/update-carb-passes-initial-climate-disclosure-regulation-under-sb-253-and-sb-261/",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "seed-005",
+      "date": "2026-02-26",
+      "jurisdiction_id": "eu",
+      "title_en": "EU Omnibus I directive published in the Official Journal, in force 18 March 2026",
+      "title_zh": "歐盟 Omnibus I 指令刊登公報，2026/3/18 生效",
+      "summary_zh": "CSRD 適用門檻上調至員工逾 1,000 人、範圍大幅縮小；刪除升級合理確信之授權、有限確信準則採納期限延至 2027/7/1；簡化版 ESRS 授權法案須於生效後 6 個月內通過。",
+      "url": "https://viewpoint.pwc.com/gx/en/pwc/in-briefs/ib_int202527.html",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "seed-004",
+      "date": "2026-02-26",
+      "jurisdiction_id": "korea",
+      "title_en": "KSSB approves and publishes Korea's first sustainability disclosure standards",
+      "title_zh": "韓國 KSSB 通過並發布首套永續揭露準則",
+      "summary_zh": "以 ISSB 為基礎；前一日（2/25）金融委員會同步公布強制 ESG 揭露路線圖草案，強制適用時點與範圍仍在研議。",
+      "url": "https://reporting.academy/en/pages/south-korea-defines-its-esg-reporting-route/",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "seed-003",
+      "date": "2026-02-25",
+      "jurisdiction_id": "uk",
+      "title_en": "UK government publishes final UK SRS S1 and S2 for voluntary use",
+      "title_zh": "英國發布最終版 UK SRS S1／S2，即刻可自願採用",
+      "summary_zh": "為 IFRS S1/S2 之英國採認版（含 6 項英國修改）；FCA 預計 2026 秋季發布最終規則，擬要求上市公司自 2027/1/1 起強制適用。",
+      "url": "https://www.gov.uk/guidance/uk-sustainability-reporting-standards",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "seed-002",
+      "date": "2025-12-18",
+      "jurisdiction_id": "issb",
+      "title_en": "ISSB issues targeted amendments to IFRS S2",
+      "title_zh": "ISSB 發布 IFRS S2 針對性修訂",
+      "summary_zh": "提供 GWP 值轄區豁免等釋例與放寬以支援導入，2027/1/1 生效、可提前適用；另預告 2026 年將提出 SASB 產業準則修訂與自然相關揭露指引草案。",
+      "url": "https://www.ifrs.org/news-and-events/news/2025/12/issb-issues-targeted-amendments-ifrs-s2/",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "seed-001",
+      "date": "2025-08-25",
+      "jurisdiction_id": "singapore",
+      "title_en": "ACRA and SGX RegCo extend most climate reporting timelines",
+      "title_zh": "新加坡 ACRA／SGX RegCo 展延多數氣候申報時程",
+      "summary_zh": "非 STI 且市值低於 10 億新元之上市公司全套 ISSB 揭露延至 FY2030、確信延至 FY2032；大型非上市公司揭露延至 FY2030；STI 成分股時程不變。",
+      "url": "https://www.sgxgroup.com/media-centre/20250825-extended-timelines-most-climate-reporting-requirements-support",
+      "impact": "status_change",
+      "needs_review": false
+    }
+  ]
+}
