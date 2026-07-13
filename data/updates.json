@@ -9,7 +9,8 @@
       "summary_zh": "ISO 14060 國際標準目前在公開諮詢階段，將為轉型計畫帶來更大的一致性和問責制。",
       "url": "https://www.edie.net/partner-content/iso-14060-what-could-a-new-global-standard-mean-for-your-net-zero-transition-plans-16-july-webinar/",
       "impact": "info",
-      "needs_review": false
+      "needs_review": false,
+      "hidden": true
     },
     {
       "id": "b2749b3c3f71",
@@ -20,7 +21,8 @@
       "summary_zh": "歐盟執委會採納了更新版的歐洲永續報告準則（ESRS），將其要求削減 60%，同時為中小型公司推出自願報告準則。",
       "url": "https://www.edie.net/european-commission-slices-esrs-requirements-by-60-in-omnibus-drive/",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false,
+      "hidden": true
     },
     {
       "id": "dbe8ca6be942",

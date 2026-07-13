@@ -12,6 +12,7 @@
 1. `data/status.json`（狀態矩陣）**只能人工／在對話中經用戶確認後修改**——自動腳本永遠不碰它。
 2. 改 `status.json` 時：一併更新該轄區 `last_reviewed`，並把觸發修改的動態（`data/updates.json`）之 `needs_review` 改為 `false`。
 3. `updates.json` 由每週腳本維護，手動加項目時格式照舊（id 隨意唯一、date 用 YYYY-MM-DD）。
+   **整理動態時不要刪除項目**——URL 一刪就退出去重名單，下週會被重新抓回來；改設 `"hidden": true`（網頁會跳過、去重仍有效）。
 4. 所有檔案存 UTF-8。
 
 ## 常用操作

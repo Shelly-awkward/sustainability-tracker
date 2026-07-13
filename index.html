@@ -309,7 +309,7 @@ async function init() {
     const statusData = await statusRes.json();
     const updatesData = await updatesRes.json();
     state.jurisdictions = statusData.jurisdictions || [];
-    state.updates = (updatesData.updates || []).slice()
+    state.updates = (updatesData.updates || []).filter(u => !u.hidden)
       .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
     document.getElementById("lastUpdated").textContent = statusData.last_updated || "—";
 
