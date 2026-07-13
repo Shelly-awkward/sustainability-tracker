@@ -69,6 +69,17 @@
       "needs_review": false
     },
     {
+      "id": "seed-010",
+      "date": "2026-06-01",
+      "jurisdiction_id": "brazil",
+      "title_en": "Brazil's CVM scraps mandatory ISSB reporting phase via Resolution 244, keeps voluntary regime",
+      "title_zh": "巴西 CVM 第 244 號決議取消 ISSB 強制申報計畫，維持自願制",
+      "summary_zh": "原訂 2026 財年起上市公司強制適用 ISSB 準則之階段遭刪除；自願申報者仍須正式申報並自 2026 起取得合理確信，2027 起不申報之上市公司須公告說明。",
+      "url": "https://reporting.academy/en/pages/brazil-makes-issb-aligned-sustainability-reporting-voluntary/",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
       "id": "seed-007",
       "date": "2026-04-09",
       "jurisdiction_id": "japan",

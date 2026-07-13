@@ -346,6 +346,120 @@
         { "label": "SGX 2025/8 展延公告", "url": "https://www.sgxgroup.com/media-centre/20250825-extended-timelines-most-climate-reporting-requirements-support" }
       ],
       "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "hongkong",
+      "flag": "🇭🇰",
+      "name_zh": "香港",
+      "name_en": "Hong Kong",
+      "search_query": "Hong Kong HKEX HKICPA climate disclosure sustainability assurance",
+      "disclosure": {
+        "setter": "HKICPA ／ 港交所（HKEX）／ 財經事務及庫務局",
+        "standard": "HKFRS S1 / S2（＋HKEX 上市規則氣候規定）",
+        "issb_alignment": "全面採認 IFRS S1/S2",
+        "status_level": "mandatory",
+        "status_zh": "已強制中：大型股 2026 起強制、其餘遵守或解釋",
+        "first_mandatory": "2026/1/1 起財年（恒生大型股指數成分公司）",
+        "scope_zh": "主板全體發行人自 2025/1/1 起依 IFRS S2 為基礎之氣候規定「遵守或解釋」；大型股 2026/1/1 起強制（含範疇三，有合理資訊減免）。HKFRS S1/S2 適用於 2025/8/1 起開始之期間；政府路線圖目標 2028 年前上市公司與大型公眾責任實體全面採用",
+        "timeline": [
+          { "date": "2024-12", "event": "政府發布永續揭露路線圖；HKICPA 發布 HKFRS S1/S2（12/12）" },
+          { "date": "2025-01", "event": "主板全體發行人氣候揭露「遵守或解釋」上路" },
+          { "date": "2025-08", "event": "HKFRS S1/S2 對 2025/8/1 起開始之期間生效" },
+          { "date": "2026-01", "event": "大型股強制氣候揭露（含範疇三）開始" },
+          { "date": "2028", "event": "路線圖目標：上市公司與大型公眾責任實體全面採用" }
+        ]
+      },
+      "assurance": {
+        "setter": "HKICPA ／ 會計及財務匯報局（AFRC）",
+        "standard": "HKSSA 5000（與 ISSA 5000 一致）",
+        "status_level": "proposed",
+        "status_zh": "準則已備、尚未強制；HKEX 擬 2027 諮詢強制化",
+        "requirement_zh": "確信目前非強制；HKSSA 5000 已發布供自願確信採用，AFRC 正建立本地永續確信監管框架，HKEX 規劃 2027 年就強制確信進行市場諮詢",
+        "timeline": [
+          { "date": "2025", "event": "HKSSA 5000 發布（對齊 ISSA 5000）" },
+          { "date": "2027", "event": "HKEX 規劃就強制確信進行市場諮詢" }
+        ]
+      },
+      "sources": [
+        { "label": "FSTB 永續揭露路線圖", "url": "https://www.fstb.gov.hk/fsb/en/publication/report/docs/FSTB_Roadmap2024_eBooklet_EN.pdf" },
+        { "label": "IFRS 香港轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-profiles/hong-kong-sar-ifrs-profile.pdf" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "malaysia",
+      "flag": "🇲🇾",
+      "name_zh": "馬來西亞",
+      "name_en": "Malaysia",
+      "search_query": "Malaysia NSRF Bursa Securities Commission sustainability reporting assurance",
+      "disclosure": {
+        "setter": "證券委員會（SC）／ Bursa Malaysia",
+        "standard": "NSRF（直接採用 IFRS S1/S2）",
+        "issb_alignment": "直接採用 ISSB",
+        "status_level": "mandatory",
+        "status_zh": "已強制，2025 起分三組上路",
+        "first_mandatory": "2025/1/1 起財年（主板市值 ≥20 億馬幣）",
+        "scope_zh": "Group 1（主板市值 ≥20 億馬幣）：2025 起；Group 2（其餘主板）：2026 起；Group 3（ACE 板＋營收 ≥20 億馬幣之大型非上市公司）：2027 起。前兩年（Group 3 三年）可只揭露氣候（S2）；經 Bursa CSI 平台申報",
+        "timeline": [
+          { "date": "2024-09", "event": "SC 發布國家永續報導框架（NSRF）" },
+          { "date": "2024-12-23", "event": "Bursa 修訂主板／ACE 板上市規則，納入 IFRS S1/S2 報導要求" },
+          { "date": "2025-01", "event": "Group 1 首個適用財年開始" },
+          { "date": "2026-01", "event": "Group 2 適用開始" },
+          { "date": "2027-01", "event": "Group 3 適用開始；Group 1 進入全面適用（含範疇三揭露）" }
+        ]
+      },
+      "assurance": {
+        "setter": "SC ／ 馬來西亞審計準則（認可 ISAE 3000R / ISSA 5000）",
+        "standard": "ISSA 5000 或 ISAE 3000 (Revised)",
+        "status_level": "adopted",
+        "status_zh": "時程已定：Group 1 自 2027 起範疇一/二合理確信",
+        "requirement_zh": "Group 1 自 2027/1/1 起財年就範疇一/二排放取得合理確信；上市公司須說明永續聲明經內部稽核或獨立確信（認可準則含 ISAE 3000R、ISSA 5000）並揭露確信結論",
+        "timeline": [
+          { "date": "2027-01", "event": "Group 1 範疇一/二合理確信開始" }
+        ]
+      },
+      "sources": [
+        { "label": "SC — NSRF 專頁", "url": "https://www.sc.com.my/nsrf" },
+        { "label": "IFRS 馬來西亞轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-profiles/malaysia-ifrs-profile.pdf" }
+      ],
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "id": "brazil",
+      "flag": "🇧🇷",
+      "name_zh": "巴西",
+      "name_en": "Brazil",
+      "search_query": "Brazil CVM sustainability disclosure ISSB assurance",
+      "disclosure": {
+        "setter": "CVM（證券交易委員會）",
+        "standard": "CVM 第 193 號決議（採 ISSB／CBPS 準則）",
+        "issb_alignment": "採用 ISSB（全球首個核准國）",
+        "status_level": "voluntary",
+        "status_zh": "強制計畫已於 2026/6 取消；自願申報＋2027 起不報須說明",
+        "first_mandatory": "已取消（原訂 2026/1/1 起強制）",
+        "scope_zh": "原訂上市公司自 2026 財年起強制，CVM 第 244 號決議（2026/6/1）刪除強制階段：維持自願但須正式申報並遵循準則；2027/1/1 起選擇不報之上市公司須於年度財報申報日前公告說明",
+        "timeline": [
+          { "date": "2023-10", "event": "CVM 第 193 號決議：全球首個在國家層級核准 ISSB 準則之證券主管機關，2024 起自願適用" },
+          { "date": "2026-06-01", "event": "CVM 第 244 號決議刪除強制階段，維持自願申報制" },
+          { "date": "2027-01", "event": "不申報之上市公司開始適用「不報須說明」公告義務" }
+        ]
+      },
+      "assurance": {
+        "setter": "CVM ／ 聯邦會計委員會（CFC）",
+        "standard": "CFC 發布之確信準則（CVM 註冊之獨立會計師執行）",
+        "status_level": "adopted",
+        "status_zh": "自願申報者仍須確信：2026 起合理確信",
+        "requirement_zh": "選擇依第 193 號決議申報者，其報告須由 CVM 註冊之獨立會計師依 CFC 準則確信；2026/1/1 起財年適用合理確信（先前為有限確信）",
+        "timeline": [
+          { "date": "2024", "event": "自願申報＋有限確信開始" },
+          { "date": "2026-01", "event": "申報者升為合理確信" }
+        ]
+      },
+      "sources": [
+        { "label": "CVM 第 193 號決議（英文版）", "url": "https://www.gov.br/cvm/en/foreign-investors/regulation-files/ResolutionCVM193.pdf" },
+        { "label": "IFRS 巴西轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-profiles/brazil-ifrs-profile.pdf" }
+      ],
+      "last_reviewed": "2026-07-13"
     }
   ]
 }
