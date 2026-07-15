@@ -402,12 +402,13 @@
         "status_level": "mandatory",
         "status_zh": "已強制，2025 起分三組上路",
         "first_mandatory": "2025/1/1 起財年（主板市值 ≥20 億馬幣）",
-        "scope_zh": "Group 1（主板市值 ≥20 億馬幣）：2025 起；Group 2（其餘主板）：2026 起；Group 3（ACE 板＋營收 ≥20 億馬幣之大型非上市公司）：2027 起。前兩年（Group 3 三年）可只揭露氣候（S2）；經 Bursa CSI 平台申報",
+        "scope_zh": "Group 1（主板市值 ≥20 億馬幣）：2025 起；Group 2（其餘主板）：2026 起；Group 3（ACE 板＋營收 ≥20 億馬幣之大型非上市公司）：2027 起。前兩年（Group 3 三年）可只揭露氣候（S2）；經 Bursa CSI 平台申報。另 SSM 於 2026-04 諮詢修訂公司法，擬分階段將申報義務擴及門檻以下之非上市中小企業（研議中）",
         "timeline": [
           { "date": "2024-09", "event": "SC 發布國家永續報導框架（NSRF）" },
           { "date": "2024-12-23", "event": "Bursa 修訂主板／ACE 板上市規則，納入 IFRS S1/S2 報導要求" },
           { "date": "2025-01", "event": "Group 1 首個適用財年開始" },
           { "date": "2026-01", "event": "Group 2 適用開始" },
+          { "date": "2026-04-30", "event": "SSM 發布《公司法 2016》修法諮詢文件：擬以「遵循或解釋」將永續申報義務向下延伸至 NSRF 門檻以下的非上市公司（依營收／員工數分級，最低至營收 1,500 萬馬幣或 100 人，2028–2033 分階段、氣候揭露先行），意見徵詢至 2026-06-02" },
           { "date": "2027-01", "event": "Group 3 適用開始；Group 1 進入全面適用（含範疇三揭露）" }
         ]
       },
@@ -423,9 +424,10 @@
       },
       "sources": [
         { "label": "SC — NSRF 專頁", "url": "https://www.sc.com.my/nsrf" },
-        { "label": "IFRS 馬來西亞轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-profiles/malaysia-ifrs-profile.pdf" }
+        { "label": "IFRS 馬來西亞轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-profiles/malaysia-ifrs-profile.pdf" },
+        { "label": "SSM — 公司法修法諮詢文件（2026-04）", "url": "https://www.ssm.com.my/Pages/Legal_Framework/Document/[ENG]20260422_External%20ESG%20Framework_Consultative%20Document_BI.pdf" }
       ],
-      "last_reviewed": "2026-07-13"
+      "last_reviewed": "2026-07-15"
     },
     {
       "id": "brazil",
