@@ -4,7 +4,7 @@
 流程：
 1. 讀 data/status.json 取得各轄區的搜尋關鍵字
 2. Tavily 搜尋最近 9 天新聞，依 URL 去重
-3. Claude Haiku 一次過濾＋翻譯摘要＋分類（一般動態 / 可能影響狀態）
+3. Claude Sonnet 一次過濾＋翻譯摘要＋分類（一般動態 / 可能影響狀態）
 4. 寫回 data/updates.json；「可能影響狀態」標 needs_review=true，等人工確認後才改 status.json
 
 金鑰：環境變數 ANTHROPIC_API_KEY / TAVILY_API_KEY 優先（GitHub Actions），
@@ -27,7 +27,7 @@ UPDATES_FILE = ROOT / "data" / "updates.json"
 LOCAL_KEYS = Path(r"C:\Users\dinef\AI\keys")
 MAX_UPDATES = 500
 SEARCH_DAYS = 9  # 每週跑一次，多抓兩天避免漏接
-CLAUDE_MODEL = "claude-haiku-4-5-20251001"
+CLAUDE_MODEL = "claude-sonnet-5"
 
 
 def get_key(env_name, local_file):
@@ -57,6 +57,35 @@ def tavily_search(api_key, query):
     return resp.json().get("results", [])
 
 
+CLASSIFY_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "results": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "index": {"type": "integer"},
+                    "keep": {"type": "boolean"},
+                    "jurisdiction": {"type": "string"},
+                    "date": {"type": "string"},
+                    "title_zh": {"type": "string"},
+                    "summary_zh": {"type": "string"},
+                    "impact": {"type": "string", "enum": ["status_change", "info"]},
+                },
+                "required": [
+                    "index", "keep", "jurisdiction", "date",
+                    "title_zh", "summary_zh", "impact",
+                ],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["results"],
+    "additionalProperties": False,
+}
+
+
 def classify_with_claude(api_key, items):
     """一次呼叫處理全部新項目：過濾、翻譯、分類。回傳與 items 等長的清單。"""
     payload = [
@@ -80,7 +109,7 @@ def classify_with_claude(api_key, items):
 - summary_zh：一到兩句繁體中文摘要，說清楚「誰、做了什麼、影響哪個時程」（keep=false 可給空字串）
 - impact："status_change"（涉及時程變動、範圍變動、法規定案/撤回/暫停等會改變各國狀態者）或 "info"（一般進展）
 
-只輸出 JSON 陣列（與輸入等長、含 index），不要任何其他文字或 markdown 圍欄。"""
+輸出 results 陣列（與輸入等長、含 index）。"""
     resp = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
@@ -90,17 +119,20 @@ def classify_with_claude(api_key, items):
         },
         json={
             "model": CLAUDE_MODEL,
-            "max_tokens": 8000,
+            "max_tokens": 16000,
+            "output_config": {
+                "format": {"type": "json_schema", "schema": CLASSIFY_SCHEMA}
+            },
             "messages": [{"role": "user", "content": prompt}],
         },
         timeout=180,
     )
     resp.raise_for_status()
-    text = resp.json()["content"][0]["text"].strip()
-    if text.startswith("```"):
-        text = text.strip("`")
-        text = text[text.find("["):text.rfind("]") + 1]
-    return json.loads(text)
+    body = resp.json()
+    if body.get("stop_reason") == "max_tokens":
+        raise RuntimeError("Claude 回應被 max_tokens 截斷，請調高上限或分批處理")
+    text = next(b["text"] for b in body["content"] if b["type"] == "text")
+    return json.loads(text)["results"]
 
 
 def main():
