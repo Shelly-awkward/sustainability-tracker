@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-15",
   "jurisdictions": [
     {
       "id": "issb",
@@ -91,32 +91,35 @@
         "setter": "KSSB（韓國永續基準委員會）／金融委員會（FSC）",
         "standard": "KSSB 準則（第一套，2026/2 發布）",
         "issb_alignment": "以 ISSB 為基礎",
-        "status_level": "proposed",
-        "status_zh": "準則已發布；強制時程仍為路線圖草案",
-        "first_mandatory": "未定（草案討論自 2029 年前後分階段，KOSPI 大型公司先行）",
-        "scope_zh": "規劃由 KOSPI 大型上市公司（資產 ≥2 兆韓元）先行、逐步擴及全體 KOSPI 上市公司；正式時點與範圍待 FSC 定案",
+        "status_level": "adopted",
+        "status_zh": "最終方案已定案（2026/7）：2028 年起分階段強制，納入年度事業報告書法定揭露",
+        "first_mandatory": "2028 年（合併資產 ≥10 兆韓元之 KOSPI 上市公司先行）",
+        "scope_zh": "2028 年合併資產 ≥10 兆韓元 KOSPI 上市公司（含子公司約 291 家）→ 2029 年擴及 ≥5 兆韓元（約 3,171 家）；≥2 兆韓元是否納入 2030 年檢討。初期 3 年民刑事責任豁免（蓄意漂綠除外）；Scope 3 自 2031 年分階段",
         "timeline": [
           { "date": "2023-10", "event": "FSC 宣布強制揭露延後至 2026 年以後，並成立 KSSB" },
           { "date": "2024-04", "event": "KSSB 發布準則草案公開徵詢" },
           { "date": "2026-02-25", "event": "FSC 公布強制 ESG 揭露路線圖草案" },
-          { "date": "2026-02-26", "event": "KSSB 通過並發布第一套韓國永續揭露準則" }
+          { "date": "2026-02-26", "event": "KSSB 通過並發布第一套韓國永續揭露準則" },
+          { "date": "2026-07-08", "event": "政府與執政黨公布 ESG 揭露制度化最終方案：2028 年起 ≥10 兆韓元、2029 年起 ≥5 兆韓元強制揭露" }
         ]
       },
       "assurance": {
-        "setter": "FSC（未定案）",
-        "standard": "未定",
-        "status_level": "proposed",
-        "status_zh": "尚未定案，隨揭露路線圖研議中",
-        "requirement_zh": "確信要求預計於強制揭露路線圖定案時一併明確；目前自願揭露之確信由市場自行安排",
+        "setter": "FSC",
+        "standard": "未定（確信準則細節待後續子法）",
+        "status_level": "adopted",
+        "status_zh": "最終方案定案：2030 年起強制第三方確信",
+        "requirement_zh": "依 2026/7 最終方案，2030 年起強制第三方確信；確信準則與範圍細節待後續規範明確",
         "timeline": [
-          { "date": "2026-02", "event": "FSC 路線圖草案中一併徵詢確信安排" }
+          { "date": "2026-02", "event": "FSC 路線圖草案中一併徵詢確信安排" },
+          { "date": "2026-07-08", "event": "最終方案定案：2030 年起強制第三方確信" }
         ]
       },
       "sources": [
         { "label": "金融委員會（FSC）", "url": "https://www.fsc.go.kr/eng/" },
-        { "label": "IFRS 韓國轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-snapshots/south-korea-ifrs-snapshot.pdf" }
+        { "label": "IFRS 韓國轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-snapshots/south-korea-ifrs-snapshot.pdf" },
+        { "label": "Korea JoongAng Daily（2026/7 最終方案報導）", "url": "https://www.koreajoongangdaily.com/business/govt-finalizes-esg-disclosure-requirement-for-large-listed-firms/12761200" }
       ],
-      "last_reviewed": "2026-07-13"
+      "last_reviewed": "2026-07-15"
     },
     {
       "id": "australia",

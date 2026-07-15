@@ -47,6 +47,17 @@
       "hidden": true
     },
     {
+      "id": "korea-final-plan-20260708",
+      "date": "2026-07-08",
+      "jurisdiction_id": "korea",
+      "title_en": "Korea finalizes plan for mandatory ESG disclosure: KRW 10tn KOSPI firms from 2028",
+      "title_zh": "韓國定案 ESG 揭露制度化最終方案：2028 年起合併資產 ≥10 兆韓元 KOSPI 公司強制揭露",
+      "summary_zh": "政府與執政黨黨政協議公布最終方案：2028 年起合併資產 ≥10 兆韓元 KOSPI 上市公司於年度事業報告書強制揭露（含子公司約 291 家），2029 年擴及 ≥5 兆韓元（約 3,171 家）；初期 3 年責任豁免（蓄意漂綠除外）、2030 年起強制第三方確信、Scope 3 自 2031 年分階段。",
+      "url": "https://www.koreajoongangdaily.com/business/govt-finalizes-esg-disclosure-requirement-for-large-listed-firms/12761200",
+      "impact": "status_change",
+      "needs_review": false
+    },
+    {
       "id": "dbe8ca6be942",
       "date": "2026-07-07",
       "jurisdiction_id": "us",
