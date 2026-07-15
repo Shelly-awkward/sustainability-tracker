@@ -13,6 +13,28 @@
       "hidden": true
     },
     {
+      "id": "9e859d92339f",
+      "date": "2026-07-15",
+      "jurisdiction_id": "issb",
+      "title_en": "The Fight for Audit-Ready Sustainability Claims Continues - Newsweek",
+      "title_zh": "審計就緒永續聲明的爭奪持續進行中",
+      "summary_zh": "全球監管機構正從自願框架轉向可強制執行的永續揭露標準，要求企業驗證環境和wellness聲明並與財務數據同等對待，這將增加合規成本但提升透明度。",
+      "url": "https://www.newsweek.com/the-fight-for-audit-ready-sustainability-claims-continues-12132449",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "c0825cb76e1f",
+      "date": "2026-07-15",
+      "jurisdiction_id": "malaysia",
+      "title_en": "Malaysia’s inaugural Philanthropy Conference calls for collaborative action to advance national development - The Star",
+      "title_zh": "馬來西亞首屆慈善會議呼籲簡化永續報告以支持中小企業",
+      "summary_zh": "ASEAN-BAC於馬來西亞慈善會議上推動簡化永續報告框架以減輕中小企業負擔，反映該地區對更具包容性永續揭露標準的需求。",
+      "url": "https://www.thestar.com.my/news/nation/2026/07/07/malaysias-inaugural-philanthropy-conference-calls-for-collaborative-action-to-advance-national-development",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "b2749b3c3f71",
       "date": "2026-07-13",
       "jurisdiction_id": "eu",
@@ -176,6 +198,17 @@
       "summary_zh": "非 STI 且市值低於 10 億新元之上市公司全套 ISSB 揭露延至 FY2030、確信延至 FY2032；大型非上市公司揭露延至 FY2030；STI 成分股時程不變。",
       "url": "https://www.sgxgroup.com/media-centre/20250825-extended-timelines-most-climate-reporting-requirements-support",
       "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "aa01a10649ee",
+      "date": "2014-01-01",
+      "jurisdiction_id": "korea",
+      "title_en": "Assessing corporate sustainability with large language models: evidence from Europe - Nature",
+      "title_zh": "利用大型語言模型評估企業永續表現：來自歐洲的證據",
+      "summary_zh": "研究人員開發機器學習框架從企業報告中系統性提取ESG指標，對600家歐洲大型企業（2014-2023）進行分析，構建290萬個ESG觀測數據集，為永續披露的量化評估提供方法論進展。",
+      "url": "https://www.nature.com/articles/s41467-026-75160-z",
+      "impact": "info",
       "needs_review": false
     }
   ]
