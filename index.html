@@ -117,6 +117,10 @@
     font-size: .72rem; font-weight: 700; padding: 0 8px; border-radius: 999px;
     background: var(--c-proposed-bg); color: var(--c-proposed-fg);
   }
+  .feed .badge-done {
+    font-size: .72rem; font-weight: 700; padding: 0 8px; border-radius: 999px;
+    background: var(--c-mandatory-bg); color: var(--c-mandatory-fg);
+  }
   .feed-empty { padding: 20px; color: var(--ink-3); font-size: .9rem; }
   .feed-more { display: block; width: 100%; padding: 10px; border: none; border-top: 1px solid var(--border);
     background: var(--surface-2); color: var(--accent); font: inherit; font-size: .87rem; cursor: pointer; }
@@ -171,7 +175,7 @@
       <select id="jurFilter"><option value="">全部轄區</option></select>
       <select id="impactFilter">
         <option value="">全部類型</option>
-        <option value="status_change">可能影響狀態</option>
+        <option value="status_change">影響狀態的大事</option>
         <option value="info">一般動態</option>
       </select>
       <input id="kwFilter" type="search" placeholder="關鍵字搜尋（中英標題與摘要）">
@@ -291,7 +295,7 @@ function renderFeed() {
       <div class="f-head">
         <span class="f-date">${esc(u.date)}</span>
         <span class="f-jur">${jurName(u.jurisdiction_id)}</span>
-        ${u.impact === "status_change" ? `<span class="badge-change">可能影響狀態${u.needs_review ? "・待確認" : ""}</span>` : ""}
+        ${u.impact === "status_change" ? (u.needs_review ? `<span class="badge-change">可能影響狀態・待確認</span>` : `<span class="badge-done">已更新</span>`) : ""}
       </div>
       <div class="f-title"><a href="${esc(u.url)}" target="_blank" rel="noopener">${esc(u.title_zh)}</a></div>
       <div class="f-sum">${esc(u.summary_zh)}</div>
