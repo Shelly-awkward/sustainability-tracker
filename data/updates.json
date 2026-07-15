@@ -21,7 +21,8 @@
       "summary_zh": "全球監管機構正從自願框架轉向可強制執行的永續揭露標準，要求企業驗證環境和wellness聲明並與財務數據同等對待，這將增加合規成本但提升透明度。",
       "url": "https://www.newsweek.com/the-fight-for-audit-ready-sustainability-claims-continues-12132449",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false,
+      "hidden": true
     },
     {
       "id": "c0825cb76e1f",
