@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "id": "3361b31a0fc4",
+      "date": "2026-07-18",
+      "jurisdiction_id": "eu",
+      "title_en": "GKN Aerospace-backed Start-up Focuses on Cryogenic Power Distribution - Aviation International News",
+      "title_zh": "歐盟法院裁定商務航空應納入永續分類標準（綠色分類法）",
+      "summary_zh": "歐盟普通法院（European General Court）裁定應將商務航空納入歐盟永續分類法（Green Taxonomy）範疇，推翻先前將其排除於分類標準之外的規定，可能影響相關永續揭露與資金認定範圍。",
+      "url": "https://www.ainonline.com/aviation-news/futureflight/2026-05-05/gkn-backed-start-focuses-cryogenic-power-distribution",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "a47d5af2168b",
       "date": "2026-07-16",
       "jurisdiction_id": "issb",
