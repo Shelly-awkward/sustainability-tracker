@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "id": "6487d8dbfb88",
+      "date": "2026-07-19",
+      "jurisdiction_id": "eu",
+      "title_en": "Is environmental compliance becoming Big Food’s biggest cost? - FoodNavigator.com",
+      "title_zh": "歐盟毀林法規（EUDR）將於2026年12月生效，食品業投資可追溯性系統應對合規成本",
+      "summary_zh": "歷經多次延遲後，歐盟毀林法規（EUDR）確定於2026年12月正式生效，企業將面臨更高的環境合規與供應鏈可追溯性要求，食品業者正加速投資相關系統以因應時程。",
+      "url": "https://www.foodnavigator.com/Article/2026/07/17/eudr-spending-cost-centre-or-investment/",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "3361b31a0fc4",
       "date": "2026-07-18",
       "jurisdiction_id": "eu",
