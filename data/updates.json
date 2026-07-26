@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "id": "1bf639febba5",
+      "date": "2026-07-26",
+      "jurisdiction_id": "brazil",
+      "title_en": "Editor’s note: Brazil’s reporting U-turn tests ISSB’s ambitions",
+      "title_zh": "巴西永續揭露規範急轉彎，考驗ISSB全球推行企圖",
+      "summary_zh": "巴西證券監理機關原為首批將ISSB準則納入強制規定的機構之一，惟在籌辦COP30之際政策出現轉向，衝擊其原訂之永續揭露強制時程與ISSB全球採用進度。",
+      "url": "https://www.sustainableviews.com/editors-note-brazils-reporting-u-turn-tests-issbs-ambitions-dfaa24fb",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "6487d8dbfb88",
       "date": "2026-07-19",
       "jurisdiction_id": "eu",
@@ -10,6 +21,17 @@
       "url": "https://www.foodnavigator.com/Article/2026/07/17/eudr-spending-cost-centre-or-investment/",
       "impact": "status_change",
       "needs_review": true
+    },
+    {
+      "id": "33ba925689eb",
+      "date": "2026-07-19",
+      "jurisdiction_id": "us",
+      "title_en": "CARB Guidance Brings Regulatory Clarity for Soy-Based Biofuels - Global Agriculture",
+      "title_zh": "CARB發布低碳燃料標準永續防護指引，為大豆生質燃料提供法規明確性",
+      "summary_zh": "加州空氣資源局（CARB）發布低碳燃料標準（LCFS）永續防護措施的最新實施指引，美國大豆協會表示此舉為以大豆為原料的生質燃料業者提供更明確的法規依循方向。",
+      "url": "https://www.global-agriculture.com/global-agriculture/carb-guidance-brings-regulatory-clarity-for-soy-based-biofuels/",
+      "impact": "info",
+      "needs_review": false
     },
     {
       "id": "3361b31a0fc4",
@@ -111,6 +133,17 @@
       "summary_zh": "原訂 2026/8/10 的首次申報（2025 年度範疇一/二排放）延後三個月；範疇三仍訂 2027 年開始，首年免確信、2027 年起有限確信。",
       "url": "https://www.bdo.com/insights/sustainability-and-esg/climate-reporting-due-2026-california-rulemakers-provide-updates-on-senate-bills-sb-261-253",
       "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "c871166804a1",
+      "date": "2026-06-19",
+      "jurisdiction_id": "japan",
+      "title_en": "Effrosyni Lefka's Post",
+      "title_zh": "IFIAR針對永續確信實務進行盤點調查（日本FSA／SSBJ）",
+      "summary_zh": "國際獨立審計監理論壇（IFIAR）發布永續確信調查結果，聚焦日本FSA與SSBJ的實務現況，惟目前尚未有新規則產生。",
+      "url": "https://www.linkedin.com/posts/effrosyni-lefka-64a9a845_grasfi2026-sustainablefinance-activity-7479061402045976576-HCoD",
+      "impact": "info",
       "needs_review": false
     },
     {
