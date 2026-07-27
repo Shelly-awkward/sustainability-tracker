@@ -9,7 +9,8 @@
       "summary_zh": "巴西證券監理機關原為首批將ISSB準則納入強制規定的機構之一，惟在籌辦COP30之際政策出現轉向，衝擊其原訂之永續揭露強制時程與ISSB全球採用進度。",
       "url": "https://www.sustainableviews.com/editors-note-brazils-reporting-u-turn-tests-issbs-ambitions-dfaa24fb",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false,
+      "hidden": true
     },
     {
       "id": "6487d8dbfb88",
@@ -20,7 +21,8 @@
       "summary_zh": "歷經多次延遲後，歐盟毀林法規（EUDR）確定於2026年12月正式生效，企業將面臨更高的環境合規與供應鏈可追溯性要求，食品業者正加速投資相關系統以因應時程。",
       "url": "https://www.foodnavigator.com/Article/2026/07/17/eudr-spending-cost-centre-or-investment/",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false,
+      "hidden": true
     },
     {
       "id": "33ba925689eb",
@@ -42,7 +44,8 @@
       "summary_zh": "歐盟普通法院（European General Court）裁定應將商務航空納入歐盟永續分類法（Green Taxonomy）範疇，推翻先前將其排除於分類標準之外的規定，可能影響相關永續揭露與資金認定範圍。",
       "url": "https://www.ainonline.com/aviation-news/futureflight/2026-05-05/gkn-backed-start-focuses-cryogenic-power-distribution",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false,
+      "hidden": true
     },
     {
       "id": "a47d5af2168b",
