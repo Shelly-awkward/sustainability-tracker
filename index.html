@@ -96,6 +96,20 @@
   .review-banner a { color: #7d4e00; }
   .review-banner .note { font-size: .8rem; color: #9a6700; margin-top: 8px; }
 
+  .explain { padding: 4px 18px 14px; }
+  details.exp { border-bottom: 1px solid var(--border); padding: 10px 0; }
+  details.exp:last-child { border-bottom: none; }
+  details.exp summary { cursor: pointer; font-weight: 600; font-size: .95rem; list-style-position: outside; }
+  details.exp summary:hover { color: var(--accent); }
+  details.exp .exp-body { padding: 8px 2px 2px; font-size: .88rem; color: var(--ink-2); }
+  details.exp .exp-body p { margin-bottom: 8px; }
+  details.exp .exp-body ul { margin: 0 0 8px 20px; }
+  details.exp .exp-body li { margin-bottom: 4px; }
+  details.exp .exp-body b { color: var(--ink); }
+  table.cmp { width: 100%; border-collapse: collapse; font-size: .85rem; margin: 8px 0; min-width: 640px; }
+  table.cmp th, table.cmp td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: top; }
+  table.cmp th { background: var(--surface-2); white-space: nowrap; color: var(--ink-2); font-size: .8rem; }
+
   .feed-controls { display: flex; flex-wrap: wrap; gap: 10px; padding: 14px 18px 0; }
   .feed-controls select, .feed-controls input {
     font: inherit; font-size: .87rem; padding: 5px 10px; border: 1px solid var(--border);
@@ -166,6 +180,76 @@
         </thead>
         <tbody id="matrixBody"><tr><td colspan="7" class="feed-empty">載入中…</td></tr></tbody>
       </table>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>永續確信制度說明 <span class="hint">點各主題展開；各轄區現況請對照上方矩陣「確信進度」欄</span></h2>
+    <div class="explain">
+
+      <details class="exp" open>
+        <summary>什麼是永續確信（sustainability assurance）？</summary>
+        <div class="exp-body">
+          <p>永續確信指由<b>獨立第三方</b>就企業揭露之永續（ESG）資訊執行確信程序並出具<b>確信報告</b>，性質上類似財務報表之查核或核閱，目的在提升永續資訊之可信度、降低漂綠（greenwashing）風險。</p>
+          <p>隨各轄區永續揭露義務陸續落地，確信制度設計有三個核心問題：<b>（1）是否強制、何時開始</b>——通常較揭露義務晚一至三年；<b>（2）確信程度</b>——有限確信或合理確信、範圍多大；<b>（3）誰有資格執行</b>——僅限會計師，或開放其他確信服務提供者，及其登記與監理機制。</p>
+        </div>
+      </details>
+
+      <details class="exp">
+        <summary>有限確信 vs 合理確信：差在哪？</summary>
+        <div class="exp-body">
+          <div class="table-scroll">
+            <table class="cmp">
+              <thead><tr><th>項目</th><th>有限確信（limited assurance）</th><th>合理確信（reasonable assurance）</th></tr></thead>
+              <tbody>
+                <tr><td><b>確信程度</b></td><td>有意義（meaningful）但較低</td><td>高度但非絕對</td></tr>
+                <tr><td><b>約當財報情境</b></td><td>核閱（review）</td><td>查核（audit）</td></tr>
+                <tr><td><b>主要程序</b></td><td>以查詢及分析性程序為主，通常不測試內部控制</td><td>須了解並評估內部控制、執行細項測試與證實程序，證據蒐集範圍與財報查核相當</td></tr>
+                <tr><td><b>結論表述</b></td><td>負面表述：「未注意到任何事項，使我們相信該資訊在所有重大方面未依適用基準編製」</td><td>正面表述：「該資訊在所有重大方面依適用基準允當表達」</td></tr>
+                <tr><td><b>成本負擔</b></td><td>較低，為多數轄區之起步要求</td><td>較高，通常為終點要求</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>制度定位上，<b>有限確信</b>是多數轄區的起步要求（歐盟 CSRD、加州首階段、澳洲第一年、新加坡、日本前期）；<b>合理確信</b>則是部分轄區設定的終點（澳洲 2030 財年、加州 2030 年、馬來西亞 Group 1、巴西 2026 年起）。歐盟原授權執委會評估升級為合理確信，已在 Omnibus 簡化方案中刪除，以控制企業合規成本。</p>
+        </div>
+      </details>
+
+      <details class="exp">
+        <summary>國際準則體系：ISSA 5000、IESSA 與各地版本</summary>
+        <div class="exp-body">
+          <ul>
+            <li><b>ISSA 5000（IAASB，2024/11 發布，2026/12/15 生效）</b>：全球永續確信基準線。框架中立（narrative-agnostic）——無論依 ISSB、ESRS、GRI 或其他框架編製之永續資訊均可適用；同時規範有限確信與合理確信兩種案件；會計師與非會計師確信者皆可採用。生效後取代實務上常用之 ISAE 3000（Revised）與 ISAE 3410（溫室氣體聲明確信）。</li>
+            <li><b>IESSA（IESBA，與 ISSA 5000 同日生效）</b>：永續確信之倫理與獨立性準則，將會計師職業道德規範之獨立性要求延伸適用至永續確信案件，非會計師確信者亦一體適用。</li>
+            <li><b>各轄區本地化版本</b>：多以 ISSA 5000 為基礎訂定本地準則——澳洲 ASSA 5000／ASSA 5010（另訂分階段時程）、英國 ISSA (UK) 5000、香港 HKSSA 5000、日本規劃中之確信準則；馬來西亞認可 ISSA 5000 與 ISAE 3000（Revised）並行；巴西則由聯邦會計委員會（CFC）另訂準則。</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="exp">
+        <summary>誰可以執行確信？會計師與非會計師確信者</summary>
+        <div class="exp-body">
+          <p>各轄區大致分為兩種模式：</p>
+          <ul>
+            <li><b>僅限會計師／會計師事務所</b>：如巴西——報告須由 CVM 註冊之獨立會計師依 CFC 準則確信。</li>
+            <li><b>開放非會計師確信者</b>：如日本採登錄制，會計師事務所與非會計師確信者皆可登錄執業；歐盟 CSRD 允許成員國開放「獨立確信服務提供者」（IASP）；ISSA 5000 與 IESSA 本身即設計為兩類確信者均可適用。</li>
+          </ul>
+          <p>開放非會計師確信者之轄區，通常配套<b>登記與監理制度</b>以確保品質：英國 FRC 預計 2026 年中啟動確信執業者過渡登記制；香港由會計及財務匯報局（AFRC）建立本地永續確信監管框架；歐盟對第三國確信者另設 2025–2030 年過渡制度。</p>
+        </div>
+      </details>
+
+      <details class="exp">
+        <summary>常見導入路徑：從範疇一／二排放到全面合理確信</summary>
+        <div class="exp-body">
+          <p>多數轄區採<b>分階段（phase-in）</b>設計，典型路徑為：</p>
+          <ul>
+            <li><b>第一步</b>：僅就範疇一／二溫室氣體排放取得有限確信（加州 2027、新加坡 FY2029、澳洲第一年）；</li>
+            <li><b>第二步</b>：確信範圍逐步擴大至全部氣候或永續揭露（澳洲依 ASSA 5010 時程、日本前兩年限縮範圍後放寬）；</li>
+            <li><b>第三步</b>：部分轄區升級為合理確信（澳洲至 2030 財年全面合理確信、加州 2030 年起）。</li>
+          </ul>
+          <p>也有轄區跳過漸進路徑：馬來西亞 Group 1 自 2027 年起即對範疇一／二排放採合理確信；巴西自願申報者 2026 年起亦直接適用合理確信。各轄區詳細時程請點開上方矩陣各列之「確信」時間軸。</p>
+        </div>
+      </details>
+
     </div>
   </section>
 
