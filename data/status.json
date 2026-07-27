@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-27",
   "jurisdictions": [
     {
       "id": "issb",
@@ -29,6 +29,13 @@
         "status_level": "adopted",
         "status_zh": "已發布，2026/12/15 生效",
         "requirement_zh": "全球確信基準線：適用有限確信與合理確信、涵蓋所有永續主題、會計師與非會計師確信者皆適用",
+        "comparison": {
+          "mandatory_zh": "—（是否強制由各轄區決定）",
+          "level_zh": "有限確信與合理確信皆規範",
+          "scope_zh": "所有永續主題、任何報導框架皆適用",
+          "start_zh": "準則 2026/12/15 生效",
+          "provider_zh": "會計師與非會計師確信者皆適用（IESSA 倫理準則一體適用）"
+        },
         "timeline": [
           { "date": "2024-11", "event": "IAASB 正式發布 ISSA 5000" },
           { "date": "2025-01", "event": "IESBA 發布永續確信倫理與獨立性準則（IESSA）" },
@@ -70,6 +77,13 @@
         "status_level": "adopted",
         "status_zh": "路線圖已定：揭露強制後一年起強制確信",
         "requirement_zh": "各階段揭露強制適用的次年起強制確信（第一階段自 2028/3 財年）；前兩年確信範圍限縮於特定資訊；會計師事務所與非會計師確信者皆可登錄執業",
+        "comparison": {
+          "mandatory_zh": "強制（路線圖已定）",
+          "level_zh": "未明定（以 ISSA 5000 為基礎之日本準則規劃中）",
+          "scope_zh": "前兩年限縮於特定資訊，之後擴大",
+          "start_zh": "各階段揭露強制之次年起；第一階段自 2028/3 財年",
+          "provider_zh": "會計師事務所與非會計師確信者皆可登錄執業"
+        },
         "timeline": [
           { "date": "2026-04", "event": "FSA 確信路線圖：揭露後一年起強制、前兩年限縮範圍、建立確信者登錄制" },
           { "date": "2028-03", "event": "第一階段公司（市值 ≥3 兆日圓）首個強制確信財年" }
@@ -109,6 +123,13 @@
         "status_level": "adopted",
         "status_zh": "最終方案定案：2030 年起強制第三方確信",
         "requirement_zh": "依 2026/7 最終方案，2030 年起強制第三方確信；確信準則與範圍細節待後續規範明確",
+        "comparison": {
+          "mandatory_zh": "強制（2026/7 最終方案定案）",
+          "level_zh": "未定（待後續子法）",
+          "scope_zh": "未定（待後續子法）",
+          "start_zh": "2030 年起",
+          "provider_zh": "第三方確信；資格細節未定"
+        },
         "timeline": [
           { "date": "2026-02", "event": "FSC 路線圖草案中一併徵詢確信安排" },
           { "date": "2026-07-08", "event": "最終方案定案：2030 年起強制第三方確信" }
@@ -148,6 +169,13 @@
         "status_level": "mandatory",
         "status_zh": "已強制，分階段至 2030 全面合理確信",
         "requirement_zh": "第 1 年起範疇一/二有限確信，依 ASSA 5010 時程逐步擴大，至 2030 財年對全部氣候揭露採合理確信",
+        "comparison": {
+          "mandatory_zh": "強制（隨揭露義務上路）",
+          "level_zh": "有限確信 → 2030 財年起全面合理確信",
+          "scope_zh": "第 1 年範疇一/二排放，依 ASSA 5010 時程逐步擴大至全部氣候揭露",
+          "start_zh": "揭露首年即適用（Group 1 自 2025/1/1 起財年）",
+          "provider_zh": "—"
+        },
         "timeline": [
           { "date": "2025-01", "event": "Group 1 首年：範疇一/二有限確信" },
           { "date": "2030-07", "event": "全部氣候揭露進入合理確信" }
@@ -188,6 +216,13 @@
         "status_level": "mandatory",
         "status_zh": "有限確信強制中；合理確信要求已刪除",
         "requirement_zh": "CSRD 報告須經有限確信；Omnibus 刪除「升級為合理確信」之授權以控制成本；執委會通過有限確信準則之期限延至 2027/7/1；第三國確信者 2025–2030 有過渡制度",
+        "comparison": {
+          "mandatory_zh": "強制",
+          "level_zh": "有限確信（升級合理確信之授權已刪除）",
+          "scope_zh": "CSRD 永續報告（ESRS）全部內容",
+          "start_zh": "隨 CSRD 申報義務適用（首波 2024 財年）",
+          "provider_zh": "法定審計人員；成員國得開放獨立確信服務提供者（IASP）；第三國確信者 2025–2030 過渡制度"
+        },
         "timeline": [
           { "date": "2024", "event": "第一波公司報告開始接受有限確信" },
           { "date": "2026-03", "event": "Omnibus 定案：刪除合理確信授權" },
@@ -228,6 +263,13 @@
         "status_level": "mixed",
         "status_zh": "僅加州：2027 起範疇一/二有限確信",
         "requirement_zh": "SB 253 首報（2026）免確信；2027 年起範疇一/二須有限確信，2030 年起升為合理確信；聯邦層級無確信要求",
+        "comparison": {
+          "mandatory_zh": "分歧：僅加州強制，聯邦無要求",
+          "level_zh": "有限確信（2027 起）→ 合理確信（2030 起）",
+          "scope_zh": "範疇一/二排放（SB 253）",
+          "start_zh": "2027 年起（2026 首報免確信）",
+          "provider_zh": "第三方確信者（依 CARB 規範）"
+        },
         "timeline": [
           { "date": "2027", "event": "SB 253 範疇一/二有限確信開始" },
           { "date": "2030", "event": "SB 253 升為合理確信" }
@@ -265,6 +307,13 @@
         "status_level": "voluntary",
         "status_zh": "無強制要求",
         "requirement_zh": "無法定確信要求；自願揭露之確信由市場自行採用以 ISSA 5000 為基礎之準則",
+        "comparison": {
+          "mandatory_zh": "無強制要求",
+          "level_zh": "—",
+          "scope_zh": "—",
+          "start_zh": "—",
+          "provider_zh": "自願市場採以 ISSA 5000 為基礎之準則"
+        },
         "timeline": []
       },
       "sources": [
@@ -301,6 +350,13 @@
         "status_level": "adopted",
         "status_zh": "準則已定，2026/12/15 起生效；登記制先行",
         "requirement_zh": "ISSA (UK) 5000 適用於 2026/12/15 以後開始期間之永續資訊確信；FRC 預計 2026 年中啟動確信執業者過渡登記制；是否強制確信待整體制度定案",
+        "comparison": {
+          "mandatory_zh": "未定（待整體制度定案）",
+          "level_zh": "未定",
+          "scope_zh": "未定",
+          "start_zh": "ISSA (UK) 5000 適用於 2026/12/15 後開始之期間（自願採用先行）",
+          "provider_zh": "FRC 預計 2026 年中啟動確信執業者過渡登記制"
+        },
         "timeline": [
           { "date": "2026-02-03", "event": "政府確認建立由 FRC 營運之自願性永續確信監督制度（先登記事務所、涵蓋 UK SRS/TCFD/ESRS 等確信）" },
           { "date": "2026-mid", "event": "FRC 過渡性確信執業者登記制預計上線（適用於 2027/1/1 起報導年度）" },
@@ -339,6 +395,13 @@
         "status_level": "adopted",
         "status_zh": "路線已定：上市公司 FY2029 起範疇一/二有限確信",
         "requirement_zh": "上市公司自 FY2029 起對範疇一/二排放取得外部有限確信；非 STI 小型上市公司延至 FY2032；大型非上市公司時程隨揭露展延另定",
+        "comparison": {
+          "mandatory_zh": "強制（路線已定）",
+          "level_zh": "有限確信",
+          "scope_zh": "範疇一/二排放",
+          "start_zh": "上市公司 FY2029；非 STI 小型上市公司 FY2032；大型非上市公司另定",
+          "provider_zh": "外部確信（細節依 ACRA 規範）"
+        },
         "timeline": [
           { "date": "2029", "event": "上市公司範疇一/二有限確信開始（FY2029）" },
           { "date": "2032", "event": "非 STI 小型上市公司確信開始（FY2032）" }
@@ -378,6 +441,13 @@
         "status_level": "proposed",
         "status_zh": "準則已備、尚未強制；HKEX 擬 2027 諮詢強制化",
         "requirement_zh": "確信目前非強制；HKSSA 5000 已發布供自願確信採用，AFRC 正建立本地永續確信監管框架，HKEX 規劃 2027 年就強制確信進行市場諮詢",
+        "comparison": {
+          "mandatory_zh": "尚未強制（HKEX 擬 2027 諮詢強制化）",
+          "level_zh": "—（現階段自願確信）",
+          "scope_zh": "—",
+          "start_zh": "未定",
+          "provider_zh": "AFRC 正建立本地永續確信監管框架"
+        },
         "timeline": [
           { "date": "2025", "event": "HKSSA 5000 發布（對齊 ISSA 5000）" },
           { "date": "2027", "event": "HKEX 規劃就強制確信進行市場諮詢" }
@@ -418,6 +488,13 @@
         "status_level": "adopted",
         "status_zh": "時程已定：Group 1 自 2027 起範疇一/二合理確信",
         "requirement_zh": "Group 1 自 2027/1/1 起財年就範疇一/二排放取得合理確信；上市公司須說明永續聲明經內部稽核或獨立確信（認可準則含 ISAE 3000R、ISSA 5000）並揭露確信結論",
+        "comparison": {
+          "mandatory_zh": "強制（Group 1）；其餘上市公司須說明查證方式",
+          "level_zh": "合理確信（Group 1 範疇一/二）",
+          "scope_zh": "範疇一/二排放；其他永續聲明經內部稽核或獨立確信並揭露結論",
+          "start_zh": "Group 1 自 2027/1/1 起財年",
+          "provider_zh": "採認可準則（ISAE 3000R、ISSA 5000）之確信執業者"
+        },
         "timeline": [
           { "date": "2027-01", "event": "Group 1 範疇一/二合理確信開始" }
         ]
@@ -455,6 +532,13 @@
         "status_level": "adopted",
         "status_zh": "自願申報者仍須確信：2026 起合理確信",
         "requirement_zh": "選擇依第 193 號決議申報者，其報告須由 CVM 註冊之獨立會計師依 CFC 準則確信；2026/1/1 起財年適用合理確信（先前為有限確信）",
+        "comparison": {
+          "mandatory_zh": "自願申報者強制確信",
+          "level_zh": "合理確信（2026 起；先前為有限確信）",
+          "scope_zh": "依第 193 號決議編製之報告",
+          "start_zh": "2026/1/1 起財年",
+          "provider_zh": "CVM 註冊之獨立會計師（依 CFC 準則）"
+        },
         "timeline": [
           { "date": "2024", "event": "自願申報＋有限確信開始" },
           { "date": "2026-01", "event": "申報者升為合理確信" }

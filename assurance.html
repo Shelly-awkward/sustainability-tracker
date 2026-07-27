@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>各轄區永續確信要求比較表</title>
+<style>
+  :root {
+    --ink: #1f2328;
+    --ink-2: #57606a;
+    --ink-3: #8c959f;
+    --surface: #ffffff;
+    --surface-2: #f6f8fa;
+    --border: #d0d7de;
+    --accent: #0969da;
+    --c-mandatory-bg: #dafbe1; --c-mandatory-fg: #116329;
+    --c-adopted-bg: #ddf4ff;  --c-adopted-fg: #0a5394;
+    --c-proposed-bg: #fff8c5; --c-proposed-fg: #7d4e00;
+    --c-voluntary-bg: #f0f2f5;--c-voluntary-fg: #57606a;
+    --c-mixed-bg: #fbefff;    --c-mixed-fg: #6639ba;
+    --c-paused-bg: #ffebe9;   --c-paused-fg: #a40e26;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    color: var(--ink); background: var(--surface-2); line-height: 1.6;
+  }
+  .wrap { max-width: 1320px; margin: 0 auto; padding: 24px 20px 60px; }
+  header.site { padding: 28px 0 10px; }
+  header.site h1 { font-size: 1.55rem; letter-spacing: .02em; }
+  header.site .sub { color: var(--ink-2); margin-top: 6px; font-size: .95rem; }
+  header.site .meta { color: var(--ink-3); margin-top: 4px; font-size: .85rem; }
+  .backlink { display: inline-block; margin-top: 10px; font-size: .88rem; color: var(--accent); text-decoration: none; }
+  .backlink:hover { text-decoration: underline; }
+
+  .chip {
+    display: inline-block; padding: 1px 10px; border-radius: 999px;
+    font-size: .8rem; font-weight: 600; white-space: nowrap;
+  }
+  .chip.mandatory { background: var(--c-mandatory-bg); color: var(--c-mandatory-fg); }
+  .chip.adopted   { background: var(--c-adopted-bg);   color: var(--c-adopted-fg); }
+  .chip.proposed  { background: var(--c-proposed-bg);  color: var(--c-proposed-fg); }
+  .chip.voluntary { background: var(--c-voluntary-bg); color: var(--c-voluntary-fg); }
+  .chip.mixed     { background: var(--c-mixed-bg);     color: var(--c-mixed-fg); }
+  .chip.paused    { background: var(--c-paused-bg);    color: var(--c-paused-fg); }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; margin-top: 18px; overflow: hidden;
+  }
+  .card > h2 {
+    font-size: 1.05rem; padding: 14px 18px; border-bottom: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .card > h2 .hint { font-weight: 400; font-size: .82rem; color: var(--ink-3); margin-left: 8px; }
+
+  .table-scroll { overflow-x: auto; }
+  table.cmp { width: 100%; border-collapse: collapse; font-size: .87rem; min-width: 1240px; }
+  table.cmp th {
+    text-align: left; font-size: .8rem; color: var(--ink-2); font-weight: 600;
+    padding: 10px 12px; background: var(--surface-2); border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  table.cmp td { padding: 11px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.cmp tr:last-child td { border-bottom: none; }
+  table.cmp th.sticky, table.cmp td.sticky {
+    position: sticky; left: 0; background: var(--surface); z-index: 1;
+    border-right: 1px solid var(--border); white-space: nowrap;
+  }
+  table.cmp th.sticky { background: var(--surface-2); }
+  td.name { font-weight: 600; }
+  td.name .flag { margin-right: 6px; }
+  td.name .rev { display: block; font-weight: 400; font-size: .75rem; color: var(--ink-3); margin-top: 2px; }
+  td .small { display: block; color: var(--ink-2); font-size: .78rem; margin-top: 2px; }
+  .empty { padding: 20px; color: var(--ink-3); font-size: .9rem; }
+
+  footer { margin-top: 26px; color: var(--ink-3); font-size: .8rem; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <h1>✅ 各轄區永續確信要求比較表</h1>
+    <div class="sub">是否強制・確信等級・確信範圍・起始時點・確信準則・確信者資格 — 逐轄區結構化比較</div>
+    <div class="meta">資料與<a href="index.html" style="color:var(--accent)">狀態矩陣</a>同源（data/status.json），經人工確認後更新 ｜ 資料最後更新：<span id="lastUpdated">載入中…</span></div>
+    <a class="backlink" href="index.html">← 回首頁（狀態矩陣・制度說明・最新動態）</a>
+  </header>
+
+  <section class="card">
+    <h2>確信要求比較 <span class="hint">「未定」＝該轄區尚未明定；「—」＝不適用或無資料</span></h2>
+    <div class="table-scroll">
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th class="sticky">轄區</th>
+            <th>確信進度</th>
+            <th>是否強制</th>
+            <th>確信等級</th>
+            <th>確信範圍</th>
+            <th>起始時點</th>
+            <th>確信準則</th>
+            <th>確信者資格</th>
+          </tr>
+        </thead>
+        <tbody id="cmpBody"><tr><td colspan="8" class="empty">載入中…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>「有限確信」與「合理確信」之差異、ISSA 5000 準則體系與確信者資格制度，請見首頁「<a href="index.html">永續確信制度說明</a>」區塊；各轄區確信時間軸請於首頁狀態矩陣點列展開。</p>
+    <p style="margin-top:6px">本站由自動化流程輔助整理，內容僅供研究參考，實際適用請以各主管機關原文為準。原始碼與資料：<a href="https://github.com/Shelly-awkward/sustainability-tracker">GitHub</a></p>
+  </footer>
+</div>
+
+<script>
+const LEVEL_LABEL = {
+  mandatory: "已強制", adopted: "已定案", proposed: "草案／研議中",
+  voluntary: "自願適用", mixed: "分歧", paused: "暫停／倒退"
+};
+function chip(level) {
+  const label = LEVEL_LABEL[level] || level;
+  return `<span class="chip ${level}">${label}</span>`;
+}
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+async function init() {
+  try {
+    const res = await fetch("data/status.json?v=" + Date.now());
+    const data = await res.json();
+    document.getElementById("lastUpdated").textContent = data.last_updated || "—";
+    const tbody = document.getElementById("cmpBody");
+    tbody.innerHTML = (data.jurisdictions || []).map(j => {
+      const a = j.assurance || {};
+      const c = a.comparison || {};
+      return `<tr>
+        <td class="name sticky"><span class="flag">${j.flag}</span>${esc(j.name_zh)}<span class="rev">人工確認：${esc(j.last_reviewed)}</span></td>
+        <td>${chip(a.status_level)}<span class="small">${esc(a.status_zh)}</span></td>
+        <td>${esc(c.mandatory_zh || "—")}</td>
+        <td>${esc(c.level_zh || "—")}</td>
+        <td>${esc(c.scope_zh || "—")}</td>
+        <td>${esc(c.start_zh || "—")}</td>
+        <td>${esc(a.standard)}<span class="small">${esc(a.setter)}</span></td>
+        <td>${esc(c.provider_zh || "—")}</td>
+      </tr>`;
+    }).join("");
+  } catch (e) {
+    document.getElementById("cmpBody").innerHTML =
+      `<tr><td colspan="8" class="empty">資料載入失敗：${esc(e.message)}</td></tr>`;
+  }
+}
+init();
+</script>
+</body>
+</html>
