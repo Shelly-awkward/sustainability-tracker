@@ -1,6 +1,61 @@
 {
   "updates": [
     {
+      "id": "642ceb7e6054",
+      "date": "2026-08-02",
+      "jurisdiction_id": "issb",
+      "title_en": "GHG Protocol outlines next phase of carbon accounting standards - edie.net",
+      "title_zh": "GHG Protocol 公布碳盤查準則下一階段規劃",
+      "summary_zh": "GHG Protocol 宣布其準則全面翻修計畫的下一階段，確認將與國際標準化組織（ISO）合作建立統一化的碳盤查框架，可能影響未來企業溫室氣體盤查方法學的發展時程。",
+      "url": "https://www.edie.net/ghg-protocol-outlines-next-phase-of-carbon-accounting-standards/",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "4775855b1bee",
+      "date": "2026-08-02",
+      "jurisdiction_id": "korea",
+      "title_en": "Korea Expands Mandatory Sustainability Reporting to More Companies - ESG Today",
+      "title_zh": "南韓擴大強制永續報告範圍至更多企業",
+      "summary_zh": "南韓永續準則委員會（KSSB）發布最終版永續揭露準則（第1號一般規範、第2號氣候揭露），與ISSB的IFRS S1/S2大致接軌，並據此擴大強制永續報告的適用公司範圍。",
+      "url": "https://www.esgtoday.com/korea-significantly-expands-mandatory-sustainability-reporting-requirements",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "fcb26b07dfbc",
+      "date": "2026-08-02",
+      "jurisdiction_id": "eu",
+      "title_en": "Sustainability reporting in the EU",
+      "title_zh": "歐盟ESRS-TC（第三國企業準則）採用時程恐再延後",
+      "summary_zh": "歐盟執委會原訂2026年6月底前採用適用於非歐盟集團的ESRS-TC永續揭露準則，但依提案的優先順序調整，此時程可能延至最早2027年10月；EFRAG預計自2026年7月起展開為期100天的公眾諮詢。",
+      "url": "https://kpmg.com/us/en/frv/reference-library/2026/sustainability-reporting-eu.html",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "f382805e28f6",
+      "date": "2026-08-02",
+      "jurisdiction_id": "singapore",
+      "title_en": "Singapore Releases Proposed ISSB-Aligned Sustainability Reporting Standards - ESG Today",
+      "title_zh": "新加坡ACRA提出與ISSB接軌之永續揭露準則草案",
+      "summary_zh": "新加坡會計及企業管制局（ACRA）發布與ISSB接軌的永續揭露準則草案，並推出永續確信知識庫、培訓課程及政府永續報告補助計畫，協助企業準備未來的揭露與確信要求。",
+      "url": "https://www.esgtoday.com/singapore-releases-proposed-issb-aligned-sustainability-reporting-standards",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "6341b83dbfbe",
+      "date": "2026-08-02",
+      "jurisdiction_id": "singapore",
+      "title_en": "Acra proposes sustainability disclosure standards for Singapore - The Business Times",
+      "title_zh": "新加坡ACRA公布永續揭露準則草案細節",
+      "summary_zh": "ACRA提出的草案為業界提供揭露要求的明確性，其中範疇三排放揭露原則上為自願性，惟部分大型企業除外，此舉將影響新加坡企業未來的報告準備時程。",
+      "url": "https://www.businesstimes.com.sg/esg/acra-proposes-sustainability-disclosure-standards-singapore",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "1bf639febba5",
       "date": "2026-07-26",
       "jurisdiction_id": "brazil",
