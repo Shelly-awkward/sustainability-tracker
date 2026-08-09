@@ -1,6 +1,138 @@
 {
   "updates": [
     {
+      "id": "62c57b194e87",
+      "date": "2026-08-09",
+      "jurisdiction_id": "issb",
+      "title_en": "IAASB proposes to revise audit standards for new tech risks - Accounting Today",
+      "title_zh": "IAASB提出修訂審計準則以因應新科技風險",
+      "summary_zh": "國際審計與確信準則委員會(IAASB)提案修訂ISA 330、500及520三項審計準則，以因應科技進步對審計與確信工作的影響，強化風險導向審計架構。",
+      "url": "https://www.accountingtoday.com/news/iaasb-proposes-to-revise-audit-standards-for-new-risks-and-tech",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "264eedd534ed",
+      "date": "2026-08-09",
+      "jurisdiction_id": "eu",
+      "title_en": "EU CSRD: EFRAG consultation on sustainability reporting for non-EU companies, Julia Voskoboinikova",
+      "title_zh": "EFRAG就非歐盟企業永續揭露準則ESRS-40a展開諮詢",
+      "summary_zh": "EFRAG針對CSRD架構下適用於非歐盟母公司的ESRS-40a準則草案展開公眾諮詢，該準則沿用經修訂後的ESRS架構。",
+      "url": "https://sustainablefutures.linklaters.com/post/102nfav/eu-csrd-efrag-consultation-on-sustainability-reporting-for-non-eu-companies",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "e38f94456e67",
+      "date": "2026-08-09",
+      "jurisdiction_id": "eu",
+      "title_en": "EFRAG Consults On Proposed Sustainability Reporting Standards For Non-EU Companies | Ashurst Perkins Coie - JDSupra",
+      "title_zh": "EFRAG就非歐盟公司永續報告準則徵詢意見",
+      "summary_zh": "歐盟財務報告諮詢小組(EFRAG)於2026年7月歐盟執委會通過ESRS簡化版及自願性準則後，重啟並發布適用於非歐盟企業的ESRS-40a草案，現正徵詢意見。",
+      "url": "https://www.jdsupra.com/legalnews/efrag-consults-on-proposed-4839426",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "7608fb4d3eef",
+      "date": "2026-08-09",
+      "jurisdiction_id": "eu",
+      "title_en": "The EU’s New Sustainability Regulations for Non-EU Companies Highlights a Growing Divide",
+      "title_zh": "歐盟為非歐盟企業訂定較窄範圍的永續揭露規則",
+      "summary_zh": "EFRAG發布適用於非歐盟大型公司的ESRS-40a草案，揭露範圍明顯較歐盟本地企業窄，引發投資人對可比性與資料可靠性的疑慮。",
+      "url": "https://www.minerva.info/post/the-eus-new-sustainability-regulations-for-non-eu-companies-highlights-a-growing-divide",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "c388e6d17b51",
+      "date": "2026-08-09",
+      "jurisdiction_id": "eu",
+      "title_en": "EFRAG Drafts New ESG Rules for Non-EU Groups - ESG News",
+      "title_zh": "EFRAG調高非歐盟企業CSRD適用門檻",
+      "summary_zh": "根據Omnibus簡化程序，非歐盟母公司須連續兩年歐盟營收超過4.5億歐元、且其歐盟子公司或分支機構淨營收超過2億歐元，方須適用CSRD揭露規定，大幅限縮原1.5億歐元門檻下的適用範圍。",
+      "url": "https://esgnews.com/efrag-drafts-new-esg-rules-for-non-eu-groups",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "ca17fb21662d",
+      "date": "2026-08-09",
+      "jurisdiction_id": "eu",
+      "title_en": "Climate Transition Plan Disclosure Jumps to 69% of CSRD Companies: EFRAG - ESG Today",
+      "title_zh": "EFRAG報告：69%受CSRD規範企業已揭露氣候轉型計畫",
+      "summary_zh": "EFRAG最新報告顯示，受CSRD規範企業揭露氣候轉型計畫的比例升至69%，但平均僅針對3.3項重大主題設定目標，凸顯重大性評估仍為揭露基礎的挑戰。",
+      "url": "https://www.esgtoday.com/climate-transition-plan-disclosure-jumps-to-69-of-csrd-companies-efrag",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "be46b351ec81",
+      "date": "2026-08-09",
+      "jurisdiction_id": "us",
+      "title_en": "What Happened at CARB's Greenhouse Gas Virtual Workshop?",
+      "title_zh": "CARB氣候揭露規則(SB253/SB261)訴訟現況說明",
+      "summary_zh": "加州空氣資源局(CARB)於溫室氣體工作坊說明SB253與SB261訴訟進度，第九巡迴法院已對SB261核發暫緩執行令，該案結果可能影響SB253後續執行時程。",
+      "url": "https://natlawreview.com/article/california-climate-disclosure-update-carbs-july-2026-workshop-and-2027-reporting",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "705699bc6d0b",
+      "date": "2026-08-09",
+      "jurisdiction_id": "singapore",
+      "title_en": "ACRA seeks feedback on sustainability disclosure standards",
+      "title_zh": "新加坡ACRA就永續揭露準則徵詢意見",
+      "summary_zh": "新加坡會計及企業管制局(ACRA)發布過渡性永續揭露準則草案並徵詢意見，廣泛永續揭露仍維持自願性質。",
+      "url": "https://sbr.com.sg/news/acra-seeks-feedback-sustainability-disclosure-standards",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "d96a4dfc20b5",
+      "date": "2026-08-09",
+      "jurisdiction_id": "singapore",
+      "title_en": "Singapore charts streamlined sustainability disclosures with focus on climate",
+      "title_zh": "新加坡SFRS 1、SFRS 2揭露準則：氣候優先強制適用",
+      "summary_zh": "新加坡研擬SFRS 1與SFRS 2永續揭露準則，基於氣候優先策略，SFRS 2(氣候相關揭露)將採強制適用，SFRS 1則維持自願性質。",
+      "url": "https://sg.finance.yahoo.com/news/singapore-charts-streamlined-sustainability-disclosures-180100257.html",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "723b325a70fb",
+      "date": "2026-08-09",
+      "jurisdiction_id": "singapore",
+      "title_en": "All listed and large companies in S’pore will need to disclose their climate impact by FY2030",
+      "title_zh": "新加坡2030會計年度起強制上市及大型企業揭露氣候影響",
+      "summary_zh": "新加坡規劃自2030會計年度起，要求所有上市公司及大型非上市公司強制揭露氣候相關影響，與國際準則接軌。",
+      "url": "https://www.straitstimes.com/business/companies-markets/all-listed-and-large-companies-in-spore-may-need-to-disclose-their-climate-impact-by-fy2030",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "2205ac2525af",
+      "date": "2026-08-09",
+      "jurisdiction_id": "malaysia",
+      "title_en": "Nooryusazli Y.'s Post",
+      "title_zh": "馬來西亞NSRF由跨機構委員會共同制定",
+      "summary_zh": "馬來西亞永續報告諮詢委員會(ACSR)成員包含馬來西亞證券委員會等機構，共同研擬國家永續報告框架(NSRF)。",
+      "url": "https://www.linkedin.com/posts/nooryusazli-y-ba17781_cycle-one-of-malaysias-national-sustainability-activity-7491240434308927488-1GaU",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "16134927a028",
+      "date": "2026-08-09",
+      "jurisdiction_id": "malaysia",
+      "title_en": "NSRF: Malaysia's Blueprint for Global ESG Leadership",
+      "title_zh": "NSRF：馬來西亞邁向全球ESG領導地位的藍圖",
+      "summary_zh": "馬來西亞國家永續報告框架(NSRF)旨在將企業揭露由自願性質提升為具一致性、可比較性與可靠性之強制基準，以強化投資人信心。",
+      "url": "https://www.optisage.com/post/nsrf-malaysias-blueprint-for-global-esg-leadership",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "642ceb7e6054",
       "date": "2026-08-02",
       "jurisdiction_id": "issb",
@@ -293,6 +425,17 @@
       "needs_review": false
     },
     {
+      "id": "27ec2607acbe",
+      "date": "2026-02-25",
+      "jurisdiction_id": "uk",
+      "title_en": "UK SRS S1 vs S2: What's the Difference and Which One to Prioritise First",
+      "title_zh": "UK SRS S1與S2準則比較：強制適用時程提案",
+      "summary_zh": "UK SRS S1、S2準則於2026年2月25日發布，現階段為自願適用，FCA透過CP26/5提案自2027年1月1日起對指定上市公司強制要求採用UK SRS S2氣候揭露。",
+      "url": "https://www.smartresilience.com/resources/blogs/uk-srs-s1-vs-s2",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "8d432b431c6d",
       "date": "2026-02-03",
       "jurisdiction_id": "uk",
@@ -315,6 +458,28 @@
       "needs_review": false
     },
     {
+      "id": "c1b9ac7a3e88",
+      "date": "2026-01-30",
+      "jurisdiction_id": "uk",
+      "title_en": "JAGGAER : The Hard Cost of Carbon - Sustainability Outlook",
+      "title_zh": "英國FCA提案要求上市公司自2027年起強制採用UK SRS",
+      "summary_zh": "英國商業貿易部已於2026年初定案UK SRS S1與S2準則(現為自願採用)，FCA於2026年1月30日發布CP26/5諮詢文件，提案要求上市公司自2027年1月1日起之會計年度強制依UK SRS揭露。",
+      "url": "https://www.sustainabilityoutlookmag.com/sustainability-insights/jaggaer-the-hard-cost-of-carbon",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "66872988ecb4",
+      "date": "2026-01-08",
+      "jurisdiction_id": "japan",
+      "title_en": "SSBJ Standards: The Complete 2026 Disclosure Guide",
+      "title_zh": "SSBJ揭露準則2026完整指南：日本金融廳分階段適用時程",
+      "summary_zh": "日本金融廳(FSA)於2026年1月8日發布『永續揭露與確信路徑圖』，依企業規模分階段要求採用SSBJ準則，最大型主板上市公司優先適用。",
+      "url": "https://www.sprih.com/blogs/ssbj-standards-sustainability-disclosure-guide",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "seed-002",
       "date": "2025-12-18",
       "jurisdiction_id": "issb",
@@ -324,6 +489,17 @@
       "url": "https://www.ifrs.org/news-and-events/news/2025/12/issb-issues-targeted-amendments-ifrs-s2/",
       "impact": "info",
       "needs_review": false
+    },
+    {
+      "id": "407772eb2c30",
+      "date": "2025-12-15",
+      "jurisdiction_id": "malaysia",
+      "title_en": "ESG Reporting in Malaysia: Regulatory Requirements, Reporting Standards & Frameworks | Wellkinetics",
+      "title_zh": "馬來西亞Bursa強制透過CSI平台申報氣候與永續揭露",
+      "summary_zh": "自2025年12月15日起，馬來西亞交易所(Bursa Malaysia)要求所有氣候與永續揭露須透過新設之集中永續資訊平台(CSI Platform)提交，取代原人工ESG申報平台，並依IFRS S1、S2強制準則辦理。",
+      "url": "https://wellkinetics.com.my/esg-reporting-malaysia",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "seed-001",
