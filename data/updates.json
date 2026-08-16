@@ -1,6 +1,83 @@
 {
   "updates": [
     {
+      "id": "2e70f99f1d1b",
+      "date": "2026-08-16",
+      "jurisdiction_id": "japan",
+      "title_en": "CSRD and SSBJ Together: The Dual-Reporting Guide for Japanese Companies With EU Operations | Socious Blog",
+      "title_zh": "日本金融廳（FSA）永續揭露與確信路線圖：確信要求較揭露晚一年上路",
+      "summary_zh": "文章說明日本金融廳（FSA）的路線圖，永續確信規定將於揭露準則強制適用一年後上路，初期採有限確信，範圍限於範疇一、二、治理與風險管理，較歐盟CSRD揭露即需確信的規定慢一年。",
+      "url": "https://socious.io/blog/csrd-ssbj-dual-reporting-japan-eu",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "d00da83b3430",
+      "date": "2026-08-16",
+      "jurisdiction_id": "korea",
+      "title_en": "Korea introduces mandatory ESG reporting",
+      "title_zh": "南韓引入強制性ESG揭露，KSSB準則對應IFRS S1/S2並給予範疇三豁免",
+      "summary_zh": "南韓正式導入強制永續報告義務，KSSB第1號與第2號準則分別對應IFRS S1與S2，並提供過渡期優惠，範疇三排放揭露延後三年實施。",
+      "url": "https://www.esgrovia.com/en/blog/korea-introduces-mandatory-esg-reporting",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "9066cca82cd8",
+      "date": "2026-08-16",
+      "jurisdiction_id": "korea",
+      "title_en": "The Climate of Business #213: NY moratorium on AI data ...",
+      "title_zh": "南韓金融委員會（FSC）確認擴大強制永續報告至逾3,000家企業",
+      "summary_zh": "南韓金融服務委員會（FSC）證實將強制性永續報告義務範圍擴大至超過3,000家企業，擴大KSSB準則的適用對象。",
+      "url": "https://www.linkedin.com/pulse/climate-business-213-ny-moratorium-ai-data-centres-south-jordanova-ikxte",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "bc1cd41d4091",
+      "date": "2026-08-16",
+      "jurisdiction_id": "australia",
+      "title_en": "Beyond Climate Active: Why the proposed closure could strengthen climate reporting | RSM Australia",
+      "title_zh": "澳洲擬關閉Climate Active認證計畫，AASB S2氣候揭露成為主流企業報告要求",
+      "summary_zh": "澳洲政府提議關閉自願性的Climate Active認證計畫，同時說明AASB S2強制氣候揭露規定要求企業揭露治理、策略、風險管理及指標與目標等資訊，正逐步成為主流公司報告的一部分。",
+      "url": "https://www.rsm.global/australia/insights/beyond-climate-active-why-proposed-closure-could-strengthen-climate-reporting",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "cc476d19d34a",
+      "date": "2026-08-16",
+      "jurisdiction_id": "singapore",
+      "title_en": "ACRA consults on Singapore’s Sustainability Disclosure Standards, Gilly Hutchinson, Joanne Wong",
+      "title_zh": "新加坡ACRA就永續揭露準則（SDS）展開諮詢，SGX上市規則作為過渡安排",
+      "summary_zh": "新加坡會計及企業管制局（ACRA）就其永續揭露準則草案展開公眾諮詢，現行SGX上市規則要求上市公司自2025財年起依ISSB準則分階段揭露氣候資訊，作為正式SDS發布前的過渡措施。",
+      "url": "https://sustainablefutures.linklaters.com/post/102nhol/acra-consults-on-singapores-sustainability-disclosure-standards",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "a3640d65ce4d",
+      "date": "2026-08-16",
+      "jurisdiction_id": "hongkong",
+      "title_en": "ESG Reporting in Hong Kong: Who Must Report and When (2026)",
+      "title_zh": "香港ESG揭露時程：HKFRS S1/S2已生效，2028年起上市發行人分階段強制適用",
+      "summary_zh": "香港自2025年8月1日起施行與ISSB準則接軌的HKFRS S1及S2；香港交易所預計於2027年就強制採用香港準則展開諮詢，並預期自2028年1月1日起以比例原則對上市發行人強制適用。",
+      "url": "https://sleek.com/hk/resources/esg-reporting-hong-kong",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "a8253a05850a",
+      "date": "2026-08-14",
+      "jurisdiction_id": "eu",
+      "title_en": "US raises pressure on EU to 'deliver' on non-tariff trade commitments - Reuters",
+      "title_zh": "美國向歐盟施壓，要求放寬企業永續盡職調查與揭露相關規範",
+      "summary_zh": "路透社報導，美國駐歐盟大使公開要求歐盟鬆綁使大型企業對其全球供應鏈環境與社會影響負責的法規（如CSRD、CSDDD），並指稱歐盟此前曾承諾此類措施不會妨礙歐美貿易。",
+      "url": "https://www.reuters.com/business/autos-transportation/us-raises-pressure-eu-deliver-non-tariff-trade-commitments-2026-08-14/",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "62c57b194e87",
       "date": "2026-08-09",
       "jurisdiction_id": "issb",
@@ -188,6 +265,28 @@
       "needs_review": true
     },
     {
+      "id": "fe153c345fe6",
+      "date": "2026-08-01",
+      "jurisdiction_id": "korea",
+      "title_en": "Policy Digest: August 2026",
+      "title_zh": "政策摘要：新加坡研議ISSB接軌框架、南韓提案擴大KSSB強制揭露至3,000家上市公司",
+      "summary_zh": "2026年8月政策摘要指出，新加坡正發展與ISSB接軌的揭露框架，南韓則提案將KSSB第1、2號準則的強制揭露範圍擴大至逾3,000家上市公司。",
+      "url": "https://www.linkedin.com/pulse/policy-digest-august-2026-esgbook-tq39e",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "558459273610",
+      "date": "2026-07-28",
+      "jurisdiction_id": "uk",
+      "title_en": "UK SRS Reporting Guidance — What to Disclose & When",
+      "title_zh": "英國FCA、FRC永續報告確信規劃：CP26/5未強制確信、確信機構註冊制尚未正式上路",
+      "summary_zh": "英國金融行為監理總署（FCA）諮詢文件CP26/5並未在UK SRS揭露初期強制要求確信，而財務報導委員會（FRC）原訂2026年年中啟用的臨時永續確信從業者註冊制，截至7月28日仍未確認上線，且屬自願性質。",
+      "url": "https://uksrs.org.uk/uk-srs-reporting",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "1bf639febba5",
       "date": "2026-07-26",
       "jurisdiction_id": "brazil",
@@ -359,6 +458,17 @@
       "needs_review": false
     },
     {
+      "id": "5bb39af02c68",
+      "date": "2026-06-01",
+      "jurisdiction_id": "brazil",
+      "title_en": "Asuene’s acquisition spree: What does it reflect about the carbon footprint and sustainability reporting sector? | Eco-intelligent",
+      "title_zh": "巴西證券主管機關CVM將強制永續揭露規定改回自願性制度",
+      "summary_zh": "巴西證券交易委員會（CVM）於2026年6月將原先獨立的強制性永續揭露規定改回自願性制度，儘管其強制性碳交易法SBCE仍維持對大型排放者強制適用。",
+      "url": "https://eco-intelligent.com/2026/08/03/asuene",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "ssmca2016cons",
       "date": "2026-04-30",
       "jurisdiction_id": "malaysia",
@@ -445,6 +555,17 @@
       "url": "https://www.macfarlanes.com/insights/102mgjt/uk-moves-ahead-with-voluntary-oversight-regime-for-sustainability-assurance",
       "impact": "status_change",
       "needs_review": false
+    },
+    {
+      "id": "f24356a3c7a7",
+      "date": "2026-02-01",
+      "jurisdiction_id": "japan",
+      "title_en": "Understanding Companies Beyond Financial Statements: The Trend of Non-Financial Information Disclosure in Human Capital Reporting (The Current State of the Workforce)｜cc_commons",
+      "title_zh": "日本內閣府令修正，正式將SSBJ永續揭露準則制度化",
+      "summary_zh": "2026年2月的內閣府令修正案正式將SSBJ（日本永續準則委員會）制定的永續揭露準則納入法制，東證主板中五年平均市值3兆日圓以上企業預計自2027年3月31日後結束會計年度起適用，市值1兆日圓以上企業適用時程亦隨後展開。",
+      "url": "https://note.com/cc_commons/n/n45943158f794?hl=en",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "2423f57af5c6",
