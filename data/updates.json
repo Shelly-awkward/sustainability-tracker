@@ -1,6 +1,127 @@
 {
   "updates": [
     {
+      "id": "9eaec06483f6",
+      "date": "2026-08-23",
+      "jurisdiction_id": "singapore",
+      "title_en": "Singapore ISSB Climate Reporting 2026: What the Revised Reporting Roadmap Means",
+      "title_zh": "新加坡ISSB氣候揭露路線圖修訂重點",
+      "summary_zh": "文章解析新加坡ACRA/SGX調整後之強制氣候揭露與確信實施路線圖，說明企業能力建置期程對2026年後合規之影響。",
+      "url": "https://samcorporate.com/singapore-issb-climate-reporting-2026",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "faf2ef30b041",
+      "date": "2026-08-23",
+      "jurisdiction_id": "korea",
+      "title_en": "Horizon – News and Trends in Sustainability Law | July 2026",
+      "title_zh": "南韓金融委員會(FSC)拍板強制永續揭露規範",
+      "summary_zh": "南韓FSC正式定案強制永續報告規範，資產門檻可能進一步下修至2兆韓元，預計2030年全面實施，並採用與ISSB接軌的KSSB1、KSSB2準則。",
+      "url": "https://www.dlapiper.com/en-us/insights/publications/horizon/2026/horizon-news-and-trends-in-sustainability-law-july-2026",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "fac009d66a65",
+      "date": "2026-08-23",
+      "jurisdiction_id": "issb",
+      "title_en": "IFRS Foundation plans overhaul - Accounting Today",
+      "title_zh": "IFRS基金會計畫強化ISSB與IASB財務韌性",
+      "summary_zh": "IFRS基金會受託人核准IASB與ISSB未來五年營運與財務計畫，旨在強化準則制定機構之長期財務韌性。",
+      "url": "https://www.accountingtoday.com/news/ifrs-foundation-plans-overhaul",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "7378df6caaa0",
+      "date": "2026-08-23",
+      "jurisdiction_id": "us",
+      "title_en": "California Climate Disclosure Laws — CARB Finalizes Its Initial Rulemaking, Resets the 2026 Deadline, and Previews the 2027 Framework | Insights | Mayer Brown",
+      "title_zh": "加州CARB完成氣候揭露初步規則制定，重設2026年期限並預告2027年架構",
+      "summary_zh": "美國加州空氣資源委員會(CARB)完成SB253/SB261初步規則制定，重新設定2026年申報期限，並預告2027年新規範架構。",
+      "url": "https://www.mayerbrown.com/en/insights/publications/2026/08/california-climate-disclosure-laws-carb-finalizes-its-initial-rulemaking-resets-the-2026-deadline-and-previews-the-2027-framework",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "83d0e5447d3c",
+      "date": "2026-08-23",
+      "jurisdiction_id": "canada",
+      "title_en": "Climate disclosure across the OECD: Why the US risks becoming the exception",
+      "title_zh": "OECD氣候揭露現況：加拿大CSA強制氣候揭露規則制定於2025年4月暫停",
+      "summary_zh": "文章整理OECD各國氣候揭露現況，指出加拿大證券管理機構(CSA)已於2025年4月暫停強制氣候揭露規則制定工作，尚未納入一般證券申報要求。",
+      "url": "https://minerva.info/post/climate-disclosure-across-the-oecd-us-risks-becoming-the-exception",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "9415b65f0132",
+      "date": "2026-08-23",
+      "jurisdiction_id": "singapore",
+      "title_en": "Raising the bar on sustainability reporting: ACRA publishes draft Singapore Sustainability Disclosure Standards: Allen & Gledhill",
+      "title_zh": "新加坡ACRA公布新加坡永續揭露準則(SSDS)草案",
+      "summary_zh": "ACRA與SGX成立之永續報告諮詢委員會公布SSDS草案，2025年8月已調整強制氣候報告與確信之分階段實施時程，並由臨時準則委員會(Interim SSC)研擬與國際接軌之準則。",
+      "url": "https://www.allenandgledhill.com/sg/perspectives/articles/33379/sgkh-raising-the-bar-on-sustainability-reporting-acra-publishes-draft-singapore-sustainability-disclosure-standards",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "f865b5dad216",
+      "date": "2026-08-23",
+      "jurisdiction_id": "singapore",
+      "title_en": "Next step in sustainability reporting: Make these disclosures useful",
+      "title_zh": "新加坡ACRA永續揭露準則草案：讓揭露資訊更具實用性",
+      "summary_zh": "商業時報評論ACRA提出之新加坡永續揭露準則草案，探討如何使揭露資訊對利害關係人更具決策效用。",
+      "url": "https://www.businesstimes.com.sg/opinion-features/next-step-sustainability-reporting-make-these-disclosures-useful",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "8d3b8cd6742c",
+      "date": "2026-08-23",
+      "jurisdiction_id": "hongkong",
+      "title_en": "Hong Kong ESG Reporting 2026: Does It Apply to Your Company?",
+      "title_zh": "香港2026年ESG報告規範：確信要求即將到位",
+      "summary_zh": "香港會計師公會(HKICPA)已於2025年3月發布對應ISSA 5000之在地確信準則，並於2025年10月更新職業道德守則；2026年為恒生綜合大型股公司首個強制適用財年，會計及財務匯報局將與監理機關研議確信制度。",
+      "url": "https://smebrother.com/blogs/news/hong-kong-esg-reporting-2026-does-it-apply",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "8c0e2b5fb91e",
+      "date": "2026-08-23",
+      "jurisdiction_id": "malaysia",
+      "title_en": "Joint Statement by BNM and Securities Commission Malaysia: Updates from the 17th Joint Committee on Climate Change (JC3) Meeting - Bank Negara Malaysia",
+      "title_zh": "馬來西亞BNM與證券委員會發布JC3第17次會議聯合聲明",
+      "summary_zh": "馬來西亞國家銀行(BNM)與證券監督委員會於JC3第17次會議後發布聯合聲明，公布NSRF指引文件協助金融機構與保險業者因應永續揭露要求。",
+      "url": "https://www.bnm.gov.my/-/jc3-mtg17",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "d80f2cfbcd7f",
+      "date": "2026-08-23",
+      "jurisdiction_id": "malaysia",
+      "title_en": "JC3 Releases NSRF Guidance Documents (Banks and ITOs) | JC3 Malaysia",
+      "title_zh": "JC3發布NSRF銀行與保險機構指引文件",
+      "summary_zh": "馬來西亞JC3公布銀行及保險/回教保險業者適用之NSRF指引文件，協助業者依循IFRS永續揭露準則及國家永續報告框架提升揭露品質。",
+      "url": "https://jc3malaysia.com/news-events/news-press-releases/jc3-releases-nsrf-guidance-documents-banks-and-itos",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "1aa019944cdb",
+      "date": "2026-08-23",
+      "jurisdiction_id": "brazil",
+      "title_en": "Asuene’s acquisition spree: What does it reflect about the carbon footprint and sustainability reporting sector? – The Long Position",
+      "title_zh": "碳足跡與永續報告產業併購潮：巴西CVM鬆綁強制揭露為自願制",
+      "summary_zh": "文章分析碳會計與永續報告服務業併購趨勢，指出巴西證券交易委員會(CVM)已於2025年6月將原本的永續揭露強制規範調整為自願制度。",
+      "url": "https://saurabbabu.com/2026/08/03/asuene",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "2e70f99f1d1b",
       "date": "2026-08-16",
       "jurisdiction_id": "japan",
@@ -414,6 +535,17 @@
       "needs_review": false
     },
     {
+      "id": "60d5a008aa87",
+      "date": "2026-07-03",
+      "jurisdiction_id": "eu",
+      "title_en": "ESRS Explained — European Sustainability Reporting Standards",
+      "title_zh": "歐盟簡化版ESRS於2026年7月3日通過，2027年適用",
+      "summary_zh": "歐盟執委會通過簡化版歐洲永續報導準則(ESRS)，新版本適用於2027年1月1日以後開始之會計年度，屬Omnibus簡化方案之一環。",
+      "url": "https://uksrs.org.uk/esrs",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "seed-009",
       "date": "2026-06-24",
       "jurisdiction_id": "us",
@@ -546,6 +678,17 @@
       "needs_review": true
     },
     {
+      "id": "89f0d89fc2dd",
+      "date": "2026-02-25",
+      "jurisdiction_id": "uk",
+      "title_en": "UK SRS Timeline — Proposed Mandatory From January 2027 | UK SRS",
+      "title_zh": "英國永續揭露準則(UK SRS)時程：擬自2027年1月起強制實施",
+      "summary_zh": "英國企業貿易部(DBT)與FCA公布UK SRS S1、S2準則及諮詢回應，並發布CP26/5諮詢文件，規劃自2027年1月起分階段強制上市公司採用。",
+      "url": "https://sustainabilityreportingstandards.co.uk/uk-srs-timeline",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "8d432b431c6d",
       "date": "2026-02-03",
       "jurisdiction_id": "uk",
@@ -631,6 +774,28 @@
       "summary_zh": "非 STI 且市值低於 10 億新元之上市公司全套 ISSB 揭露延至 FY2030、確信延至 FY2032；大型非上市公司揭露延至 FY2030；STI 成分股時程不變。",
       "url": "https://www.sgxgroup.com/media-centre/20250825-extended-timelines-most-climate-reporting-requirements-support",
       "impact": "status_change",
+      "needs_review": false
+    },
+    {
+      "id": "b81673c09693",
+      "date": "2025-03-05",
+      "jurisdiction_id": "japan",
+      "title_en": "Even though it's mandatory, will the securities report be filled in later? SSB starting from an average market capitalization of 3 trillion yen or more｜日本個別株デューデリジェンスセンター",
+      "title_zh": "日本SSBJ準則自平均市值3兆日圓以上企業起強制適用",
+      "summary_zh": "文章說明SSBJ已於2025年3月5日發布三項揭露準則，並解析金融廳(FSA)規劃自隔年起要求確信之路線圖，強制範圍將從市值3兆日圓以上企業開始。",
+      "url": "https://note.com/tatsuya_sabato/n/n177abbe35477?hl=en",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "a9f8478f6f1d",
+      "date": "2024-12-18",
+      "jurisdiction_id": "canada",
+      "title_en": "CSDS & OSFI B-15 Physical Climate Risk Data",
+      "title_zh": "加拿大CSDS準則內容與OSFI B-15實體氣候風險資料要求",
+      "summary_zh": "加拿大永續準則委員會(CSSB)於2024年12月18日發布CSDS 1、CSDS 2，採用ISSB基準並對範疇三排放與情境分析量化面向提供三年緩衝期，自2025年1月1日起生效。",
+      "url": "https://www.climate-x.com/regulation/csds",
+      "impact": "info",
       "needs_review": false
     },
     {
