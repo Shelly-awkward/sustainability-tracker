@@ -1,6 +1,28 @@
 {
   "updates": [
     {
+      "id": "eba63c03d0c7",
+      "date": "2026-08-30",
+      "jurisdiction_id": "korea",
+      "title_en": "📢 [리포트] 2028년 ESG 공시 의무화 최종(안) 발표 🌿 섬유 ...",
+      "title_zh": "南韓公布2028年ESG揭露強制化最終方案",
+      "summary_zh": "報導指出南韓主管機關已就2028年永續(ESG)揭露義務化提出最終方案，並整理紡織成衣業者應留意之揭露制度重點。",
+      "url": "https://www.instagram.com/p/DbpUkoDGL_a?img_index=2",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "8a4425dfa834",
+      "date": "2026-08-30",
+      "jurisdiction_id": "eu",
+      "title_en": "Assessing the Proposed ESRS-40a for CSRD Reporting – Considerations for US-based Multinationals",
+      "title_zh": "EFRAG評估CSRD用ESRS-40a新方案對美國跨國企業之影響",
+      "summary_zh": "EFRAG研議以歐盟影響為基礎的ESRS-40a報告方案，考量是否納入歐盟境外之上下游價值鏈、既有寬減規定與過渡條款，可能影響非歐盟企業之揭露範圍與漂綠風險。",
+      "url": "https://www.ropesgray.com/en/insights/viewpoints/2026/08/102nzl4/assessing-the-proposed-esrs-40a-for-csrd-reporting-considerations-for-us-based",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "9eaec06483f6",
       "date": "2026-08-23",
       "jurisdiction_id": "singapore",
@@ -199,6 +221,17 @@
       "needs_review": true
     },
     {
+      "id": "6cdb475e7a7d",
+      "date": "2026-08-10",
+      "jurisdiction_id": "us",
+      "title_en": "Governance & Sustainability Roundup – August 10, 2026 | Vinson & Elkins LLP - JDSupra",
+      "title_zh": "美國永續治理週報：加州CARB延後SB253申報期限，SEC公布2026春季監管議程",
+      "summary_zh": "加州空氣資源局(CARB)將氣候企業資料問責法(SB253)Scope1&2申報期限延後三個月，加州氣候揭露法規面臨多起訴訟且SCOTUS被要求介入阻止SB261合規期限，SEC同時發布2026年春季監管議程。",
+      "url": "https://www.jdsupra.com/legalnews/governance-sustainability-roundup-1875845",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "62c57b194e87",
       "date": "2026-08-09",
       "jurisdiction_id": "issb",
@@ -329,6 +362,17 @@
       "url": "https://www.optisage.com/post/nsrf-malaysias-blueprint-for-global-esg-leadership",
       "impact": "info",
       "needs_review": false
+    },
+    {
+      "id": "5020187592f8",
+      "date": "2026-08-05",
+      "jurisdiction_id": "uk",
+      "title_en": "UK SRS S1 — General Requirements Explained | UK SRS",
+      "title_zh": "英國UK SRS S1現況更新：FCA CP26/5政策聲明尚未發布",
+      "summary_zh": "UK SRS S1已於2026年2月25日發布，目前屬自願性質；FCA CP26/5提案自2029年起要求上市公司遵循或說明氣候揭露，惟截至2026年8月5日政策聲明仍未公布，ISSA(UK)5000確信準則預計於2026年12月15日生效。",
+      "url": "https://sustainabilityreportingstandards.co.uk/uk-srs-s1",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "642ceb7e6054",
@@ -601,6 +645,17 @@
       "needs_review": true
     },
     {
+      "id": "44089382db2a",
+      "date": "2026-05-15",
+      "jurisdiction_id": "australia",
+      "title_en": "Dentons - Australia's mandatory sustainability reporting regime: Key developments and early reporting insights",
+      "title_zh": "澳洲ASIC釐清AASB S2氣候目標定義並延展財報豁免",
+      "summary_zh": "ASIC確認AASB S2下「氣候相關目標」定義涵蓋法規要求達成之目標（如Safeguard Mechanism），並於2026年5月15日發布修正文件2026/313，延展相關註冊計畫之財報豁免。",
+      "url": "https://www.dentons.com/en/insights/articles/2026/august/27/australia-mandatory-sustainability-reporting-regime",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "ssmca2016cons",
       "date": "2026-04-30",
       "jurisdiction_id": "malaysia",
@@ -687,6 +742,17 @@
       "url": "https://sustainabilityreportingstandards.co.uk/uk-srs-timeline",
       "impact": "status_change",
       "needs_review": true
+    },
+    {
+      "id": "34752c858b36",
+      "date": "2026-02-25",
+      "jurisdiction_id": "uk",
+      "title_en": "What is UK SRS? UK Sustainability Reporting Standards explained - Simply Sustainable",
+      "title_zh": "英國政府發布最終版UK永續報告準則(UK SRS)",
+      "summary_zh": "英國政府於2026年2月25日發布最終版UK SRS，改編自ISSB之IFRS S1/S2，作為向投資人、債權人揭露永續相關財務資訊之框架。",
+      "url": "https://simplysustainable.com/insights/what-is-uk-srs",
+      "impact": "info",
+      "needs_review": false
     },
     {
       "id": "8d432b431c6d",
