@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "id": "43ef925202ca",
+      "date": "2026-09-06",
+      "jurisdiction_id": "issb",
+      "title_en": "NOTICE TO MEMBERS! ISSA 5000: Implementation ...",
+      "title_zh": "ISSA 5000實施通知：橋接永續揭露與財務審計",
+      "summary_zh": "IAASB就ISSA 5000發布會員通知，說明此新全球永續確信準則如何連結永續揭露與傳統財務審計技術，協助會員準備實施。",
+      "url": "https://www.facebook.com/Icagh1/posts/notice-to-membersissa-5000-implementation-roadmap-now-availablewhat-does-the-imp/1369805682026217",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "eba63c03d0c7",
       "date": "2026-08-30",
       "jurisdiction_id": "korea",
@@ -441,6 +452,28 @@
       "needs_review": true
     },
     {
+      "id": "4bad217424cd",
+      "date": "2026-08-01",
+      "jurisdiction_id": "australia",
+      "title_en": "Australia ESG Bulletin – August 2026",
+      "title_zh": "ASIC檢視首批AASB S2氣候揭露報告並提出初步觀察",
+      "summary_zh": "澳洲證券及投資委員會（ASIC）審查34家上市公司2025年12月31日年度的首批永續報告，並發布初步觀察結果，供2026年6月30日年度報告編製者參考，預計下半年發布更詳細報告。",
+      "url": "https://www.dentons.com/en/insights/newsletters/2026/august/31/australia-esg-bulletin/australia-esg-bulletin-august-2026",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "8df148608732",
+      "date": "2026-08-01",
+      "jurisdiction_id": "issb",
+      "title_en": "August 2026 – Where does the world stand on ISSB adoption?",
+      "title_zh": "全球ISSB採用現況追蹤（2026年8月）",
+      "summary_zh": "文章彙整截至2026年8月各國採用ISSB永續揭露準則（IFRS S1、S2）之最新進度，追蹤全球各轄區立法與監理機關的落實情形。",
+      "url": "https://www.spglobal.com/sustainable1/en/insights/research-reports/issb-q3-2026",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "558459273610",
       "date": "2026-07-28",
       "jurisdiction_id": "uk",
@@ -599,6 +632,17 @@
       "url": "https://www.bdo.com/insights/sustainability-and-esg/climate-reporting-due-2026-california-rulemakers-provide-updates-on-senate-bills-sb-261-253",
       "impact": "status_change",
       "needs_review": false
+    },
+    {
+      "id": "f2dfcf24d74d",
+      "date": "2026-06-24",
+      "jurisdiction_id": "us",
+      "title_en": "Federal Court Strikes Down New York’s Climate Change Superfund Act | Sidley Environmental, Health, and Safety Brief",
+      "title_zh": "加州CARB延後SB253溫室氣體排放揭露申報期限",
+      "summary_zh": "加州空氣資源局（CARB）於2026年6月24日宣布，將SB253要求企業申報範疇一、二溫室氣體排放的期限由2026年8月10日延後至11月10日，讓企業有更多時間準備。",
+      "url": "https://environmentalhealthsafetybrief.sidley.com/2026/09/01/federal-court-strikes-down-new-yorks-climate-change-superfund-act",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "c871166804a1",
@@ -854,6 +898,17 @@
       "needs_review": false
     },
     {
+      "id": "c2de144273ec",
+      "date": "2025-01-01",
+      "jurisdiction_id": "singapore",
+      "title_en": "Companies should report ESG impacts in financial statements. Are they ready? - The Business Times",
+      "title_zh": "新加坡ACRA提醒企業將ESG影響納入財務報表",
+      "summary_zh": "新加坡會計及企業管制局（ACRA）於2025年指引中提醒董事需確保氣候相關風險妥善納入財務報告，儘管部分氣候揭露要求時程已延後，企業仍應提前準備。",
+      "url": "https://www.businesstimes.com.sg/opinion-features/singapore-companies-should-report-esg-impacts-financial-statements-are-they-ready",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "a9f8478f6f1d",
       "date": "2024-12-18",
       "jurisdiction_id": "canada",
@@ -861,6 +916,17 @@
       "title_zh": "加拿大CSDS準則內容與OSFI B-15實體氣候風險資料要求",
       "summary_zh": "加拿大永續準則委員會(CSSB)於2024年12月18日發布CSDS 1、CSDS 2，採用ISSB基準並對範疇三排放與情境分析量化面向提供三年緩衝期，自2025年1月1日起生效。",
       "url": "https://www.climate-x.com/regulation/csds",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "4dc97da3bb2f",
+      "date": "2024-12-01",
+      "jurisdiction_id": "issb",
+      "title_en": "IAASB Issues ISSA 5000 for Sustainability Assurance",
+      "title_zh": "IAASB發布ISSA 5000永續確信準則",
+      "summary_zh": "國際審計與確信準則委員會（IAASB）發布ISSA 5000，作為全球永續確信新準則，與IFRS S1、S2共同建立永續與氣候相關資訊揭露及確信的一致架構。",
+      "url": "https://www.linkedin.com/posts/aa-impact-inc_issa5000-sustainabilityassurance-iaasb-activity-7496507404872871936-obJx",
       "impact": "info",
       "needs_review": false
     },
