@@ -1,6 +1,72 @@
 {
   "updates": [
     {
+      "id": "0fcffc662828",
+      "date": "2026-09-13",
+      "jurisdiction_id": "japan",
+      "title_en": "Japan Plans to Limit Mandatory Sustainability Assurance to Emissions, Governance and Risk Data for Two Years | Tokyo Brief",
+      "title_zh": "日本擬將強制確信範圍限縮於排放、治理與風險管理資訊兩年",
+      "summary_zh": "日本金融廳規劃將SSBJ準則下強制第三方確信之範圍先限縮於排放、治理與風險管理揭露，為期兩年，並將自行制定確信準則以涵蓋非會計師事務所提供者。",
+      "url": "https://tokyobrief.com/articles/japan-fsa-sustainability-assurance-draft-rules",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "7b3175e90bf1",
+      "date": "2026-09-13",
+      "jurisdiction_id": "malaysia",
+      "title_en": "Reportable Is Not the Same as Assurance-Ready Most companies ...",
+      "title_zh": "馬來西亞NSRF朝向第一、二範疇溫室氣體排放合理確信邁進",
+      "summary_zh": "分析指出馬來西亞國家永續報告框架（NSRF）方向為要求對第一、二範疇溫室氣體排放採合理確信，企業「可申報」不等於「確信就緒」。",
+      "url": "https://www.facebook.com/chengnco/posts/-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%A9%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%9B%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%88%F0%9D%90%AC-%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E-%F0%9D%90%92%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%9E-%F0%9D%90%9A%F0%9D%90%AC-%F0%9D%90%80%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%9E-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%B2most-companies-can-produce-an-emis/1648668197269369",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "67fa0892936e",
+      "date": "2026-09-13",
+      "jurisdiction_id": "malaysia",
+      "title_en": "The Star - Sustainability reporting could be made...",
+      "title_zh": "馬來西亞擬將永續報告義務擴及年營收逾1500萬令吉之非上市公司",
+      "summary_zh": "報導指出馬來西亞可能將永續報告強制義務擴大至年營收超過1500萬令吉的非上市公司，擴大現行NSRF適用範圍。",
+      "url": "https://www.facebook.com/TheStarOnline/posts/sustainability-reporting-could-be-made-mandatory-for-non-listed-companies-earnin/1554078493421337",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "46ca38f001f3",
+      "date": "2026-09-13",
+      "jurisdiction_id": "brazil",
+      "title_en": "B3 publishes Sustainability Financial Information Report in Brazil",
+      "title_zh": "巴西B3交易所發布永續財務資訊報告作為ISSB強制適用前的試行",
+      "summary_zh": "B3交易所發布永續財務資訊報告，作為CVM第193號決議要求巴西上市發行人自2026會計年度起強制採用ISSB準則前的試行演練。",
+      "url": "https://www.linkedin.com/posts/felipe-pedroso-lorgovatti_ifrss1-ifrss2-issb-activity-7496578834050281472-tcvD",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "71d57ff5e9e4",
+      "date": "2026-09-13",
+      "jurisdiction_id": "brazil",
+      "title_en": "[PDF] From Mandate to Voluntarism? Regulatory Reversal, Market ... - SSRN",
+      "title_zh": "研究探討巴西ISSB強制規定撤回後轉向自願揭露之影響",
+      "summary_zh": "學術論文分析巴西原訂IFRS S1/S2強制規定在生效前遭撤回、改為受規範之自願揭露機制，探討此監理轉向對市場之影響。",
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/7315358.pdf?abstractid=7315358&mirid=1",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "87346423358c",
+      "date": "2026-09-09",
+      "jurisdiction_id": "us",
+      "title_en": "Governance & Sustainability Roundup – September 9, 2026 | Vinson & Elkins LLP - JDSupra",
+      "title_zh": "加州SB253/SB261揭露時程更新彙整",
+      "summary_zh": "法律事務所彙整加州氣候揭露法規現況，指出SB253第一、二範疇排放揭露截止日已延至2026年11月10日，第三範疇仍預計2027年，SB261則因第九巡迴法院初步禁制令而暫緩。",
+      "url": "https://www.jdsupra.com/legalnews/governance-sustainability-roundup-3366498",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "43ef925202ca",
       "date": "2026-09-06",
       "jurisdiction_id": "issb",
@@ -485,6 +551,17 @@
       "needs_review": true
     },
     {
+      "id": "1ec3c891b3ed",
+      "date": "2026-07-27",
+      "jurisdiction_id": "us",
+      "title_en": "CARB Issues Proposed Climate Disclosure Regulations - Pillsbury Winthrop Shaw Pittman",
+      "title_zh": "加州CARB提出氣候揭露法規修正案並延後排放申報期限",
+      "summary_zh": "加州空氣資源局（CARB）於2026年7月27日發布SB253/SB261實施細則15日修正提案，將第一、二範疇排放申報期限自8月10日延至11月10日，以爭取企業更多準備時間。",
+      "url": "https://www.pillsburylaw.com/en/news-and-insights/carb-proposed-climate-disclosure-regulations.html",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "1bf639febba5",
       "date": "2026-07-26",
       "jurisdiction_id": "brazil",
@@ -689,6 +766,17 @@
       "needs_review": true
     },
     {
+      "id": "3a67b81ed0b9",
+      "date": "2026-05-29",
+      "jurisdiction_id": "brazil",
+      "title_en": "ISSB Framework: IFRS S1, IFRS S2 and the Four Pillars",
+      "title_zh": "巴西CVM修改第193號決議，撤銷ISSB揭露強制規定改採不遵循即說明",
+      "summary_zh": "巴西證券管理機關CVM於2026年5月29日修改第193號決議，取消原訂ISSB準則強制揭露義務，改採「不遵循即說明」（comply-or-explain）機制。",
+      "url": "https://uksrs.org.uk/issb-framework",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "44089382db2a",
       "date": "2026-05-15",
       "jurisdiction_id": "australia",
@@ -797,6 +885,17 @@
       "url": "https://simplysustainable.com/insights/what-is-uk-srs",
       "impact": "info",
       "needs_review": false
+    },
+    {
+      "id": "4934587bdce0",
+      "date": "2026-02-20",
+      "jurisdiction_id": "japan",
+      "title_en": "State of TNFD in Japan 2026｜Tetsu Hattori",
+      "title_zh": "日本金融廳規定SSBJ揭露自年度有價證券報告書起強制適用",
+      "summary_zh": "日本金融廳（FSA）於2026年2月20日發布規則，要求東證主板部分大型企業自年度有價證券報告書起強制採用SSBJ準則揭露永續資訊，首波涵蓋最大型企業群。",
+      "url": "https://note.com/nature_positive/n/n99b567666ee3",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "8d432b431c6d",
