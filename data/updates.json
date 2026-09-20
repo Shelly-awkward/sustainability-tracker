@@ -1,6 +1,50 @@
 {
   "updates": [
     {
+      "id": "84382d628e00",
+      "date": "2026-09-20",
+      "jurisdiction_id": "japan",
+      "title_en": "FSA Lets Companies Reuse Old Emissions Data for New Climate ...",
+      "title_zh": "日本金融廳允許企業沿用舊排放數據以符合SSBJ氣候揭露要求",
+      "summary_zh": "日本金融廳(FSA)允許企業重複使用既有溫室氣體(GHG)數據，以滿足SSBJ氣候相關揭露規定，降低企業導入SSBJ準則初期的合規負擔。",
+      "url": "https://tokyobrief.com/articles/fsa-ssbj-climate-standard-ghg-shortcut",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "c5f2bbcfc791",
+      "date": "2026-09-20",
+      "jurisdiction_id": "japan",
+      "title_en": "Japan - IAS Plus",
+      "title_zh": "日本永續揭露準則初期兩年可暫免部分揭露規定",
+      "summary_zh": "依據IAS Plus彙整之日本SSBJ規定，企業在導入永續報告的最初兩個會計年度，可選擇不納入永續相關財務揭露，作為過渡緩衝安排。",
+      "url": "https://www.iasplus.com/en/jurisdictions/asia/japan",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "06a3dd2baf8d",
+      "date": "2026-09-20",
+      "jurisdiction_id": "uk",
+      "title_en": "Government Consults On Modernising Corporate And Sustainability Reporting | Ashurst Perkins Coie - JDSupra",
+      "title_zh": "英國政府諮詢結果：暫不強制要求UK SRS永續報告確信",
+      "summary_zh": "英國政府針對企業與永續報告現代化的諮詢作出回應，表示現階段不打算強制要求企業對未來UK SRS報告或其他策略性揭露主題（如網路風險）進行確信查核。",
+      "url": "https://www.jdsupra.com/legalnews/government-consults-on-modernising-4040436",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "fdc9d41f6f13",
+      "date": "2026-09-20",
+      "jurisdiction_id": "malaysia",
+      "title_en": "ACSR Defers Mandatory Sustainability Assurance By One Year To 2028",
+      "title_zh": "馬來西亞ACSR將強制永續確信規定延後一年至2028年",
+      "summary_zh": "馬來西亞永續報告諮詢委員會(ACSR)宣布，原訂於2027年（第一組）及2028年（第二組）啟動的合理確信(reasonable assurance)要求，全數延後一年實施。",
+      "url": "https://www.businesstoday.com.my/2026/09/17/sc-defers-mandatory-sustainability-assurance-by-one-year-to-2028",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "0fcffc662828",
       "date": "2026-09-13",
       "jurisdiction_id": "japan",
@@ -562,6 +606,17 @@
       "needs_review": true
     },
     {
+      "id": "1763921cbe49",
+      "date": "2026-07-27",
+      "jurisdiction_id": "us",
+      "title_en": "Climate Disclosure Update: California Issues Updated Regulations and Guidance for GHG Emissions Reporting | WilmerHale - JDSupra",
+      "title_zh": "加州空氣資源局(CARB)發布溫室氣體排放報告規定修訂版",
+      "summary_zh": "CARB於2026年7月27日發布SB 253溫室氣體排放報告規定的修訂版本，並展開15天公眾意見徵詢，官方表示修訂旨在釐清規定內容而非改變原有涵蓋範圍。",
+      "url": "https://www.jdsupra.com/legalnews/climate-disclosure-update-california-1809187",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "1bf639febba5",
       "date": "2026-07-26",
       "jurisdiction_id": "brazil",
@@ -722,6 +777,17 @@
       "needs_review": true
     },
     {
+      "id": "046ab0d73231",
+      "date": "2026-06-23",
+      "jurisdiction_id": "us",
+      "title_en": "Rescinded, Required, Pending: Mapping U.S. Climate Disclosure Rules in 2026 | Jones Day - JDSupra",
+      "title_zh": "美國加州氣候揭露法規(SB 253)進程：CARB批准後又撤回實施細則",
+      "summary_zh": "加州參議院法案SB 253要求年營收超過10億美元的企業自2026年起報告範圍1、2排放，2027年起報告範圍3；加州空氣資源局(CARB)於2026年2月26日核准初步法規並於5月20日提交行政法辦公室，卻在6月23日撤回該規定，使時程再度不確定。",
+      "url": "https://www.jdsupra.com/legalnews/rescinded-required-pending-mapping-u-s-8330213",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "c871166804a1",
       "date": "2026-06-19",
       "jurisdiction_id": "japan",
@@ -784,6 +850,17 @@
       "title_zh": "澳洲ASIC釐清AASB S2氣候目標定義並延展財報豁免",
       "summary_zh": "ASIC確認AASB S2下「氣候相關目標」定義涵蓋法規要求達成之目標（如Safeguard Mechanism），並於2026年5月15日發布修正文件2026/313，延展相關註冊計畫之財報豁免。",
       "url": "https://www.dentons.com/en/insights/articles/2026/august/27/australia-mandatory-sustainability-reporting-regime",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "4c8864573db9",
+      "date": "2026-05-01",
+      "jurisdiction_id": "brazil",
+      "title_en": "Can Brazil lock in recent progress on deforestation? - Global Canopy",
+      "title_zh": "巴西CVM第244號決議取消2026年起強制採用IFRS S1/S2揭露規定",
+      "summary_zh": "巴西證券管理機關CVM於2026年5月發布第244號決議，取消原訂自2026年起要求上市公司依IFRS S1與S2揭露之強制規定，被視為與ISSB接軌時程的倒退。",
+      "url": "https://globalcanopy.org/insights/insight/can-brazil-lock-in-recent-progress-on-deforestation",
       "impact": "status_change",
       "needs_review": true
     },
