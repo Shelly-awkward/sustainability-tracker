@@ -1,6 +1,127 @@
 {
   "updates": [
     {
+      "id": "5cdf2391902e",
+      "date": "2026-12-15",
+      "jurisdiction_id": "issb",
+      "title_en": "Key takeaways from the first wave of climate reporting",
+      "title_zh": "ISSA 5000確效日確立：適用於2026年12月15日後之保證期間",
+      "summary_zh": "IAASB制定之ISSA 5000確立為全球永續確信基準，適用於2026年12月15日以後開始之報告期間之保證業務，並允許提前採用。",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-my/insights/climate-related-reporting/documents/ey-my-climate-study-2026-09-2026.pdf",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "9cec97f53e8f",
+      "date": "2026-09-27",
+      "jurisdiction_id": "korea",
+      "title_en": "South Korea's Climate Disclosure Rules",
+      "title_zh": "南韓金融服務委員會發布永續揭露路線圖，擴大首波適用範圍並具法定效力",
+      "summary_zh": "南韓金融服務委員會(FSC)於2026年7月發布正式路線圖，將永續揭露納入法定要求並擴大首波適用公司範圍，KSSB準則已於2026年2月26日正式發布。",
+      "url": "https://www.terrascope.com/blog/south-korea-climate-disclosure-rules?hs_amp=true",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "01c945a727d6",
+      "date": "2026-09-27",
+      "jurisdiction_id": "korea",
+      "title_en": "AASB S2 vs ASRS: Governance for ESG and Reputation",
+      "title_zh": "南韓金融服務委員會確定永續揭露規定",
+      "summary_zh": "南韓FSC已正式確定永續揭露規定，為企業建立明確的申報路線圖。",
+      "url": "https://www.linkedin.com/posts/meryl-sukumar_aasbs2-asrs-esg-activity-7503709127051882496-Bn_F",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "9e89ad238c8d",
+      "date": "2026-09-27",
+      "jurisdiction_id": "australia",
+      "title_en": "Clarity in corporate reporting - August-September 2026 | Deloitte Australia",
+      "title_zh": "ASIC審查澳洲永續報告，肯定合規進展但前瞻性揭露仍待加強",
+      "summary_zh": "澳洲證券投資委員會(ASIC)審查312份2025年12月結算年度企業所提交的永續報告中的40份，認為企業普遍符合AASB S2基本法定要求，但前瞻性揭露仍待改善。",
+      "url": "https://www.deloitte.com/au/en/services/audit-assurance/analysis/clarity-corporate-reporting-august-september-2026.html",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "8d2f36ea065f",
+      "date": "2026-09-27",
+      "jurisdiction_id": "australia",
+      "title_en": "ASIC's review of sustainability reports: What's working and what needs attention",
+      "title_zh": "ASIC提醒AASB S2對氣候相關目標定義涵蓋法定目標",
+      "summary_zh": "ASIC於審查報告中指出，AASB S2對氣候相關目標之定義涵蓋依法律或法規須達成之目標，例如安全機制排放目標，企業應留意此範疇認定。",
+      "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/4d419de5/asics-review-of-sustainability-reports",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "169d624f5538",
+      "date": "2026-09-27",
+      "jurisdiction_id": "australia",
+      "title_en": "ASIC's Review of Mandatory Sustainability Reports: Progress Noted, But Work Remains | Global Regulation Tomorrow",
+      "title_zh": "ASIC永續報告審查：第一批企業揭露進展、第二批將於2026年7月起適用",
+      "summary_zh": "報導整理ASIC對312份2025年12月結算年度「第一組」企業永續報告的審查結果，並提醒第二組企業自2026年7月後會計年度起、第三組自2027年7月起需依法揭露。",
+      "url": "https://www.regulationtomorrow.com/2026/09/asics-review-of-mandatory-sustainability-reports-progress-noted-but-work-remains",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "b1d6118875ed",
+      "date": "2026-09-27",
+      "jurisdiction_id": "singapore",
+      "title_en": "ACRA's 3-Tier Climate Reporting Rules",
+      "title_zh": "ACRA永續報告津貼補助首份ISSB合規報告最高30%費用",
+      "summary_zh": "新加坡ACRA提供永續報告津貼，補助企業首份符合ISSB規定之永續報告最高30%合格費用，上限為15萬新加坡元。",
+      "url": "https://www.karbunwise.com/blogs/acras-3-tier-climate-reporting-rules-deadlines-disclosures-and-what-to-do-now",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "f0390f90a791",
+      "date": "2026-09-27",
+      "jurisdiction_id": "singapore",
+      "title_en": "Singapore's Climate Reporting Mandate: Why Large Non- ...",
+      "title_zh": "ACRA將大型非上市公司氣候揭露規定延後至2030財年",
+      "summary_zh": "新加坡會計及企業管制局(ACRA)宣布將大型非上市公司之強制氣候揭露規定延後至2030財年實施。",
+      "url": "https://www.savills.com.sg/blog/article/238884/singapore-articles/singapore-s-climate-reporting-mandate--why-large-non-listed-landlords-must-prepare-in-2026.aspx",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "63dfb16e65fb",
+      "date": "2026-09-27",
+      "jurisdiction_id": "malaysia",
+      "title_en": "Opinion: Building trust in sustainability reporting",
+      "title_zh": "馬來西亞證券委員會將強制性永續確信規定延後至2028年",
+      "summary_zh": "馬來西亞證券委員會(SC)於2026年9月宣布，將第一、二、三類上市公司之強制性永續報告確信規定延後一年至2028年實施。",
+      "url": "https://theedgemalaysia.com/node/818914",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "c1fd27bda5c6",
+      "date": "2026-09-27",
+      "jurisdiction_id": "brazil",
+      "title_en": "ESG 咨询服务市场规模、份额和预测[2034]",
+      "title_zh": "巴西CVM第193號決議規範以ISSB為基礎之永續揭露架構",
+      "summary_zh": "巴西證券交易委員會(CVM)推出第193號決議，建立以ISSB準則(IFRS S1/S2)為基礎之上市公司永續財務揭露規範架構。",
+      "url": "https://www.fortunebusinessinsights.com/zh/esg-consulting-services-market-119146",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "f88a4ac35538",
+      "date": "2026-09-24",
+      "jurisdiction_id": "korea",
+      "title_en": "Carbon Accounting Software Costs in Southeast Asia: 2026 Price Guide",
+      "title_zh": "南韓FSC路線圖：資產逾10兆韓元KOSPI企業自2028年起適用KSSB準則",
+      "summary_zh": "報導指出南韓FSC路線圖規定資產達10兆韓元以上的KOSPI上市公司須自2028年起依KSSB第1號與第2號準則進行永續揭露。",
+      "url": "https://www.terrascope.com/blog/carbon-accounting-software-costs-southeast-asia",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "84382d628e00",
       "date": "2026-09-20",
       "jurisdiction_id": "japan",
@@ -975,6 +1096,17 @@
       "needs_review": true
     },
     {
+      "id": "bafa37d06ff7",
+      "date": "2026-02-20",
+      "jurisdiction_id": "japan",
+      "title_en": "Will Accounting Work Increase Again? — Sustainability Taxonomy｜犬と猫",
+      "title_zh": "日本內閣府令修正確立SSBJ準則強制適用時程",
+      "summary_zh": "日本於2026年2月20日公布修正後的內閣府令，明定SSBJ永續準則之強制適用規定，並搭配2027年版EDINET分類法適用於2027年3月31日以後結束會計年度之有價證券報告書。",
+      "url": "https://note.com/dbai/n/nea352984f963?hl=en",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "8d432b431c6d",
       "date": "2026-02-03",
       "jurisdiction_id": "uk",
@@ -1081,6 +1213,17 @@
       "title_zh": "新加坡ACRA提醒企業將ESG影響納入財務報表",
       "summary_zh": "新加坡會計及企業管制局（ACRA）於2025年指引中提醒董事需確保氣候相關風險妥善納入財務報告，儘管部分氣候揭露要求時程已延後，企業仍應提前準備。",
       "url": "https://www.businesstimes.com.sg/opinion-features/singapore-companies-should-report-esg-impacts-financial-statements-are-they-ready",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "7e706599501d",
+      "date": "2025-01-01",
+      "jurisdiction_id": "hongkong",
+      "title_en": "Hong Kong Institute of Certified Public Accountants",
+      "title_zh": "香港上市公司須自2025年起適用新氣候揭露規定",
+      "summary_zh": "香港會計師公會(HKICPA)提醒，香港上市公司須因應自2025年1月1日以後開始的財政年度所適用之新氣候揭露規定。",
+      "url": "https://www.facebook.com/hkicpa.official/posts/%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E-%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%B0-%F0%9D%90%A0%F0%9D%90%A5%F0%9D%90%A8%F0%9D%90%9B%F0%9D%90%9A%F0%9D%90%A5-%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9D%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9D-%F0%9D%90%9F%F0%9D%90%A8%F0%9D%90%AB-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9D-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A9%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%9E-%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A9%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-with-hong-kong-green-w/1515544877278245",
       "impact": "info",
       "needs_review": false
     },
