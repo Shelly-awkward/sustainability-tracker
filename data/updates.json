@@ -12,6 +12,28 @@
       "needs_review": false
     },
     {
+      "id": "793d63b79b39",
+      "date": "2026-10-04",
+      "jurisdiction_id": "japan",
+      "title_en": "Japan's Climate Disclosure Rules: What You Need to Know",
+      "title_zh": "日本金融廳將SSBJ永續揭露準則導入有價證券報告書",
+      "summary_zh": "日本金融廳（FSA）修訂內閣府令，要求東證Prime市場企業依以IFRS S1/S2為基礎之SSBJ準則揭露永續資訊；市值3兆日圓以上企業自2027年3月結算年度起適用，隔年起加入範疇三與有限確信，並於2028、2029年分別擴及1兆與5000億日圓市值企業。",
+      "url": "https://www.terrascope.com/blog/japan-climate-disclosure-rules?hs_amp=true",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "7a7158e7c29a",
+      "date": "2026-10-04",
+      "jurisdiction_id": "brazil",
+      "title_en": "ESG Reporting Mandates Under Threat | Daniel A. ...",
+      "title_zh": "巴西CVM曾承諾2026年起強制採行ISSB式永續報告",
+      "summary_zh": "文章回顧巴西證券管理委員會（CVM）為全球首個承諾自2026年起強制採行ISSB式永續揭露的主管機關，但同時討論該類強制規範目前面臨的不確定性與潛在調整風險。",
+      "url": "https://www.linkedin.com/posts/daniel-a-adeyemi-env_esg-sustainability-corporategovernance-activity-7507452960856072192-fSnU",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "9cec97f53e8f",
       "date": "2026-09-27",
       "jurisdiction_id": "korea",
@@ -1041,6 +1063,17 @@
       "needs_review": false
     },
     {
+      "id": "daa95527c1ff",
+      "date": "2026-02-26",
+      "jurisdiction_id": "korea",
+      "title_en": "South Korea's Climate Disclosure Rules: What You Need to Know",
+      "title_zh": "南韓KSSB公布最終永續揭露準則並擴大首波適用範圍",
+      "summary_zh": "南韓可持續準則委員會（KSSB）於2026年2月26日公布最終永續揭露準則，隔日金融委員會（FSC）發布分階段路線圖草案；同年7月的路線圖進一步擴大首波強制揭露公司範圍並使其具法定效力。",
+      "url": "https://www.terrascope.com/blog/south-korea-climate-disclosure-rules",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "seed-003",
       "date": "2026-02-25",
       "jurisdiction_id": "uk",
@@ -1180,6 +1213,17 @@
       "title_zh": "馬來西亞Bursa強制透過CSI平台申報氣候與永續揭露",
       "summary_zh": "自2025年12月15日起，馬來西亞交易所(Bursa Malaysia)要求所有氣候與永續揭露須透過新設之集中永續資訊平台(CSI Platform)提交，取代原人工ESG申報平台，並依IFRS S1、S2強制準則辦理。",
       "url": "https://wellkinetics.com.my/esg-reporting-malaysia",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "b1891eb67327",
+      "date": "2025-09-30",
+      "jurisdiction_id": "uk",
+      "title_en": "FCA finalises UK SRS reporting rules | ICAEW",
+      "title_zh": "英國FCA正式採用UK永續揭露準則（UK SRS）",
+      "summary_zh": "英國金融行為監理局（FCA）於9月30日正式採用UK Sustainability Reporting Standards（UK SRS），使英國強制性永續報告規範與國際接軌，並支持以有限確信為起點的分階段確信路徑，呼應FRC後續發展。",
+      "url": "https://www.icaew.com/insights/viewpoints-on-the-news/2026/sep-2026/fca-finalises-uk-srs-reporting-rules",
       "impact": "status_change",
       "needs_review": true
     },
