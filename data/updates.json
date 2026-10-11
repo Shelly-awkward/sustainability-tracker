@@ -12,6 +12,50 @@
       "needs_review": false
     },
     {
+      "id": "e1d977fd4115",
+      "date": "2026-10-11",
+      "jurisdiction_id": "australia",
+      "title_en": "Prepare for global and Australian sustainability standards | KPMG Australia",
+      "title_zh": "KPMG澳洲：為全球與澳洲永續準則做準備",
+      "summary_zh": "KPMG澳洲說明澳洲審計準則委員會(AUASB)制定的ASSA 5000永續確信準則係依循IAASB ISSA 5000並作在地化調整，並說明其適用生效時程。",
+      "url": "https://kpmg.com/au/en/insights/financial-reporting/sustainability-climate-change/issb-sustainability-reporting-disclosures-guide.html",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "d739fe08bdb6",
+      "date": "2026-10-11",
+      "jurisdiction_id": "australia",
+      "title_en": "ASIC's First Comprehensive Review of Sustainability Reports | Ashurst Perkins Coie - JDSupra",
+      "title_zh": "ASIC首次全面檢視永續報告揭露情況",
+      "summary_zh": "澳洲證券與投資委員會(ASIC)完成首次永續報告全面審查，指出部分公司以自願性揭露模糊重大資訊、交叉引用未符合同步公開要求等問題，要求改善AASB S2合規品質。",
+      "url": "https://www.jdsupra.com/legalnews/asic-s-first-comprehensive-review-of-4417546",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "fe3467a30c38",
+      "date": "2026-10-11",
+      "jurisdiction_id": "brazil",
+      "title_en": "XBRL Taxonomy, Tagging & Reporting | Generation Impact Global",
+      "title_zh": "巴西CVM就公司治理揭露規則公開徵求意見",
+      "summary_zh": "巴西證券監理機關CVM發布公開徵求意見通知，就公司治理揭露規則修訂蒐集市場意見，為後續準則制定鋪路。",
+      "url": "https://generationimpact.global/it/solutions/xbrl",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "3c2d9ce8e28b",
+      "date": "2026-10-09",
+      "jurisdiction_id": "brazil",
+      "title_en": "Climate Litigation Updates (October 9, 2026) | Sabin Center for Climate Change Law",
+      "title_zh": "巴西CVM第244號決議撤銷強制ISSB永續揭露規定引發訴訟",
+      "summary_zh": "巴西證券監理機關CVM以第244/2026號決議撤銷原依第193/2023號決議強制採用之IFRS S1/S2永續揭露規定，原告主張此舉缺乏技術分析依據，已提起訴訟挑戰該撤銷決定。",
+      "url": "https://climate.law.columbia.edu/news/climate-litigation-updates-october-9-2026",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "793d63b79b39",
       "date": "2026-10-04",
       "jurisdiction_id": "japan",
@@ -894,6 +938,17 @@
       "title_zh": "歐盟簡化版ESRS於2026年7月3日通過，2027年適用",
       "summary_zh": "歐盟執委會通過簡化版歐洲永續報導準則(ESRS)，新版本適用於2027年1月1日以後開始之會計年度，屬Omnibus簡化方案之一環。",
       "url": "https://uksrs.org.uk/esrs",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "8805e17bbe19",
+      "date": "2026-07-01",
+      "jurisdiction_id": "korea",
+      "title_en": "South Korea's ESG disclosure framework: A welcome mandate, but lacking urgency | IEEFA",
+      "title_zh": "南韓金融服務委員會(FSC)公布強制ESG揭露框架草案",
+      "summary_zh": "南韓FSC於2026年7月發布強制性ESG揭露框架草案，依循ISSB IFRS一般揭露要求制定準則，但外界認為推動時程仍偏保守。",
+      "url": "https://ieefa.org/resources/south-koreas-esg-disclosure-framework-welcome-mandate-lacking-urgency",
       "impact": "status_change",
       "needs_review": true
     },
