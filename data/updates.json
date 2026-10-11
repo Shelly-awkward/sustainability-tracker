@@ -45,6 +45,39 @@
       "needs_review": false
     },
     {
+      "id": "4b0e971d2553",
+      "date": "2026-10-11",
+      "jurisdiction_id": "uk",
+      "title_en": "FCA Finalises Sustainability Disclosure Rules for UK- ...",
+      "title_zh": "FCA定案英國永續揭露規則（UK SRS），採「遵循或說明」原則",
+      "summary_zh": "英國金融行為監理總署（FCA）確認英國永續報告準則（UK SRS）改採「遵循或說明」基礎實施，並要求企業揭露相關資訊是否經過確信。",
+      "url": "https://www.linkedin.com/posts/eversheds-sutherland_the-financial-conduct-authority-fca-has-activity-7512904086132858882-DY39",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "46bfd2b1cf92",
+      "date": "2026-10-11",
+      "jurisdiction_id": "uk",
+      "title_en": "The FCA has let UK boards explain their way out of climate ...",
+      "title_zh": "UK SRS與歐盟CSRD等效性尚未確立",
+      "summary_zh": "評論指出FCA讓英國企業得以「說明」方式豁免部分揭露要求，且UK SRS目前尚未被歐盟執委會認定與CSRD等效，企業仍須揭露適用準則資訊。",
+      "url": "https://e-c-o.com/article/the-fca-has-let-uk-boards-explain-their-way-out-of-climate-reporting-your-eu-subsidiary-cant-do-the-same",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "005571c3578e",
+      "date": "2026-10-11",
+      "jurisdiction_id": "uk",
+      "title_en": "UK SRS rules move to 'comply or explain'",
+      "title_zh": "英國UK SRS揭露規則改為「遵循或說明」",
+      "summary_zh": "英國證券監理機關確認所有適用企業之UK SRS揭露規定將改採「遵循或說明」基礎，相較原規劃為重大調整。",
+      "url": "https://www.corporatedisclosures.org/content/top-stories/uk-srs-rules-move-to-comply-or-explain.html",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "3c2d9ce8e28b",
       "date": "2026-10-09",
       "jurisdiction_id": "brazil",
