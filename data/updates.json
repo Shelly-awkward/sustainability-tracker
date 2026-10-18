@@ -12,6 +12,72 @@
       "needs_review": false
     },
     {
+      "id": "68f3e3c2be1f",
+      "date": "2026-10-18",
+      "jurisdiction_id": "japan",
+      "title_en": "Japan's Climate Disclosure Rules: What You Need to Know",
+      "title_zh": "日本FSA修訂規則，分階段要求企業依SSBJ準則揭露永續資訊",
+      "summary_zh": "日本金融廳（FSA）修訂內閣府令，要求東證主要市場公司依SSBJ準則（基於IFRS S1/S2）在有價證券報告書中申報永續資訊，自2027年3月期起分三階段擴大適用範圍（3兆日圓、1兆日圓、5000億日圓門檻），第二年起並須提供Scope 3排放與有限確信。",
+      "url": "https://www.terrascope.com/blog/japan-climate-disclosure-rules",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "03609ab9bad3",
+      "date": "2026-10-18",
+      "jurisdiction_id": "australia",
+      "title_en": "ASIC's First Comprehensive Review of Sustainability Reports",
+      "title_zh": "ASIC首次全面檢視澳洲企業AASB S2永續報告",
+      "summary_zh": "澳洲證券暨投資委員會（ASIC）首次全面檢視企業依AASB S2編製之永續報告，指出企業不應以自願性揭露模糊重大資訊，且交叉引用資料須與永續報告同時且以相同方式可取得，避免引用付費牆內容。",
+      "url": "https://www.ashurstperkinscoie.com/en/insights/asics-first-comprehensive-review-of-sustainability-reports",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "30cea9ca2311",
+      "date": "2026-10-18",
+      "jurisdiction_id": "uk",
+      "title_en": "Listing regime - FCA publishes final rules on sustainability reporting by UK listed companies",
+      "title_zh": "FCA公布英國上市公司永續報告最終規則",
+      "summary_zh": "英國FCA公布上市公司永續報告最終規則，「遵循或解釋」之永續相關揭露將自2028年起納入上市公司年度報告。",
+      "url": "https://www.lexology.com/library/detail.aspx?g=bc406ce5-bf3a-4ac3-8bc8-ee37cdb6ac63",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "054626f7181b",
+      "date": "2026-10-18",
+      "jurisdiction_id": "malaysia",
+      "title_en": "Malaysia Sustainability Reporting Assurance Requirements",
+      "title_zh": "馬來西亞NSRF第一組別企業2028年起須取得合理確信",
+      "summary_zh": "根據馬來西亞NSRF規定，第一組別企業自2028年1月1日以後開始之報導期間起，須對特定範疇排放取得強制性合理確信。",
+      "url": "https://www.linkedin.com/posts/ees-consultants-pte-ltd_sustainabilityreporting-ifrss1-ifrss2-activity-7507678894511067136-v7wC",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "2133985806a2",
+      "date": "2026-10-18",
+      "jurisdiction_id": "malaysia",
+      "title_en": "ESG Disclosure Assessment Report Sets Baseline for Reporting Practices | BIX",
+      "title_zh": "馬來西亞ESG揭露評估報告設定揭露實踐基準",
+      "summary_zh": "一份ESG揭露評估報告為馬來西亞企業的永續報告實踐設定基準，旨在支持Bursa Malaysia永續報告指引之落實，並鼓勵企業朝國際最佳實務對齊。",
+      "url": "https://www.bixmalaysia.com/learning-center/articles-tutorials/esg-disclosure-assessment-report-sets-baseline-for-reporting-practices",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "86e2aa7416d4",
+      "date": "2026-10-18",
+      "jurisdiction_id": "brazil",
+      "title_en": "Doing Business in Latin America 2026 - 2027",
+      "title_zh": "巴西CVM要求上市公司2027年起依IFRS S1/S2揭露並查核",
+      "summary_zh": "巴西證券交易委員會（CVM）透過第193號決議採用ISSB準則，規定上市公司至2027年須依IFRS S1與S2揭露永續相關財務資訊，並須經獨立審計機構查核，CVM為全球首個採用ISSB準則的證券監理機關。",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/latam/insights/doing-business-latam/documents/ey-doing-business-latam-2026-2027.pdf",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "e1d977fd4115",
       "date": "2026-10-11",
       "jurisdiction_id": "australia",
@@ -85,6 +151,17 @@
       "title_zh": "巴西CVM第244號決議撤銷強制ISSB永續揭露規定引發訴訟",
       "summary_zh": "巴西證券監理機關CVM以第244/2026號決議撤銷原依第193/2023號決議強制採用之IFRS S1/S2永續揭露規定，原告主張此舉缺乏技術分析依據，已提起訴訟挑戰該撤銷決定。",
       "url": "https://climate.law.columbia.edu/news/climate-litigation-updates-october-9-2026",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "10c7ddb5d829",
+      "date": "2026-10-07",
+      "jurisdiction_id": "uk",
+      "title_en": "Quoted Company Newsletter Q3 2026 | Ashurst Perkins Coie - JDSupra",
+      "title_zh": "英國FCA發布PS26/19，UK SRS揭露規則2027年起適用",
+      "summary_zh": "英國金融行為監理局（FCA）發布政策聲明PS26/19，訂定上市公司依「英國永續報告準則（UK SRS）」採「遵循或解釋」方式揭露氣候與永續資訊之規則，取代現行氣候相關財務揭露規定，適用於2027年1月以後開始之會計期間，首次申報為2028年。",
+      "url": "https://www.jdsupra.com/legalnews/quoted-company-newsletter-q3-2026-9438786",
       "impact": "status_change",
       "needs_review": true
     },
@@ -261,6 +338,17 @@
       "title_zh": "馬來西亞ACSR將強制永續確信規定延後一年至2028年",
       "summary_zh": "馬來西亞永續報告諮詢委員會(ACSR)宣布，原訂於2027年（第一組）及2028年（第二組）啟動的合理確信(reasonable assurance)要求，全數延後一年實施。",
       "url": "https://www.businesstoday.com.my/2026/09/17/sc-defers-mandatory-sustainability-assurance-by-one-year-to-2028",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "4d4b4922153a",
+      "date": "2026-09-17",
+      "jurisdiction_id": "malaysia",
+      "title_en": "What is the NSRF? Malaysia's National Sustainability Reporting Framework explained (2026 guide) | Scout360",
+      "title_zh": "馬來西亞SC宣布NSRF強制確信要求自2028年生效",
+      "summary_zh": "馬來西亞證券委員會（Securities Commission Malaysia）於2026年9月17日宣布，根據國家永續報告框架（NSRF），強制性合理確信要求將自2028年起對第一組別（Group 1）企業生效。",
+      "url": "https://scout360.io/knowledge-hub/nsrf-malaysia-explained",
       "impact": "status_change",
       "needs_review": true
     },
@@ -1096,6 +1184,17 @@
       "needs_review": true
     },
     {
+      "id": "b0ab8aab1a47",
+      "date": "2026-05-01",
+      "jurisdiction_id": "brazil",
+      "title_en": "IFRS S1 e S2 avançam mesmo com flexibilização regulatória - CEBDS",
+      "title_zh": "巴西CVM第244號決議取消強制採用ISSB準則，改回自願",
+      "summary_zh": "巴西CVM於2026年5月發布第244號決議，取消原先透過193號決議訂定之強制採用ISSB準則規定，改為維持自願採用；選擇揭露之企業仍須遵循巴西永續準則委員會（CBPS）與ISSB準則，並至少連續三個會計年度持續揭露。",
+      "url": "https://cebds.org/en/noticia/ifrs-s1-e-s2-avancam-mesmo-com-flexibilizacao-regulatoria",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "ssmca2016cons",
       "date": "2026-04-30",
       "jurisdiction_id": "malaysia",
@@ -1228,6 +1327,17 @@
       "needs_review": true
     },
     {
+      "id": "28ab7c9df67c",
+      "date": "2026-02-05",
+      "jurisdiction_id": "korea",
+      "title_en": "Policy Library – Page 7",
+      "title_zh": "韓國FSC與KSSB研議維持與IFRS準則一致性",
+      "summary_zh": "韓國國民議會ESG論壇與金融委員會（FSC）、韓國永續準則委員會（KSSB）於2026年2月5日舉行會議，討論如何維持韓國永續揭露準則與IFRS基礎準則之一致性。",
+      "url": "https://icgn.org/category/policy-library/page/7",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "8d432b431c6d",
       "date": "2026-02-03",
       "jurisdiction_id": "uk",
@@ -1246,6 +1356,17 @@
       "title_zh": "日本內閣府令修正，正式將SSBJ永續揭露準則制度化",
       "summary_zh": "2026年2月的內閣府令修正案正式將SSBJ（日本永續準則委員會）制定的永續揭露準則納入法制，東證主板中五年平均市值3兆日圓以上企業預計自2027年3月31日後結束會計年度起適用，市值1兆日圓以上企業適用時程亦隨後展開。",
       "url": "https://note.com/cc_commons/n/n45943158f794?hl=en",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "922c10db548e",
+      "date": "2026-02-01",
+      "jurisdiction_id": "korea",
+      "title_en": "アジア・オセアニアのサステナビリティ開示｜ISSB導入状況と7類型を解説",
+      "title_zh": "韓國KSSB發布KSDS準則，僅強制氣候揭露、KSDS101遭擱置",
+      "summary_zh": "韓國永續準則委員會（KSSB）於2026年2月公布韓國永續揭露準則（KSDS）第1號與第2號，僅將氣候相關揭露（KSDS2）列為強制，原規劃之韓國特定議題準則「KSDS101」因政策環境變化與企業負擔考量最終未推出。",
+      "url": "https://www.zeroboard.jp/column/5790",
       "impact": "status_change",
       "needs_review": true
     },
@@ -1301,6 +1422,28 @@
       "title_zh": "馬來西亞Bursa強制透過CSI平台申報氣候與永續揭露",
       "summary_zh": "自2025年12月15日起，馬來西亞交易所(Bursa Malaysia)要求所有氣候與永續揭露須透過新設之集中永續資訊平台(CSI Platform)提交，取代原人工ESG申報平台，並依IFRS S1、S2強制準則辦理。",
       "url": "https://wellkinetics.com.my/esg-reporting-malaysia",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "3de904afa990",
+      "date": "2025-11-10",
+      "jurisdiction_id": "us",
+      "title_en": "California Sets November 10 Deadline for First Corporate Climate Reports - ESG News",
+      "title_zh": "加州CARB確定SB 253首次氣候報告截止日為11月10日",
+      "summary_zh": "加州空氣資源委員會（CARB）確定SB 253規定下首次企業氣候報告截止日為2025年11月10日，須揭露Scope 1與Scope 2排放，Scope 3揭露將自2027年起適用；SB 261另要求營收逾5億美元企業揭露氣候相關財務風險。",
+      "url": "https://esgnews.com/california-sets-november-10-deadline-for-first-corporate-climate-reports",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "c96581dd2a45",
+      "date": "2025-11-10",
+      "jurisdiction_id": "us",
+      "title_en": "California Locks in November Deadline for First Corporate Climate Reports - ESG Today",
+      "title_zh": "加州CARB經OAL核准，確定SB 253報告截止日延至11月",
+      "summary_zh": "加州CARB經州法規審查辦公室（OAL）核准規則調整，確認SB 253首次氣候報告截止日延至2025年11月，並已向可能受規範的企業發送提醒信以確保合規。",
+      "url": "https://www.esgtoday.com/california-finalizes-corporate-climate-reporting-rules-locking-in-november-2026-deadline",
       "impact": "status_change",
       "needs_review": true
     },
