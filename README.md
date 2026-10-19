@@ -22,6 +22,10 @@
 1. 依 `status.json` 各轄區的 `search_query` 用 Tavily 搜尋最近 9 天新聞
 2. URL 去重後，一次呼叫 Claude Haiku：過濾非官方雜訊、翻譯繁中標題與摘要、分類影響程度
 3. 寫回 `updates.json` 並自動 commit
+4. 第二步（`--review`）：把 `needs_review: true` 的動態連同該轄區狀態交給 Claude Opus 5.5，
+   它會打開來源連結查證，提出「建議修改＋來源連結」，自動開成 Pull Request（標籤 `status-review`）
+5. 你在 PR 頁面點開來源確認後按合併：狀態修改、`needs_review` 改 `false`、`last_reviewed` 更新一次生效；
+   關閉 PR 則什麼都不改。已有未處理的審查 PR 時，下週會跳過第二步
 
 需要的 GitHub Secrets：`ANTHROPIC_API_KEY`、`TAVILY_API_KEY`。
 
@@ -34,4 +38,5 @@
 
 ## 費用
 
-GitHub Actions 與 Pages 免費；每週 Tavily（免費額度內）＋ Claude Haiku 約 $0.05–0.2 美元。
+GitHub Actions 與 Pages 免費；每週 Tavily（免費額度內）＋ Claude 分類約 $0.05–0.2 美元。
+第二步審查依待確認數量與來源網頁長短而定，每個轄區約數毛到 1 美元（未實測）；第一次要清掉累積的待確認項目，會比平常多。
