@@ -20,7 +20,7 @@
       "summary_zh": "IAASB的ISSA 5000將於2026年12月15日後開始的期間生效並取代ISAE 3000/3410；美國AICPA已於2026年發布AT-C 325與330號確信準則草案以與ISSA 5000接軌。",
       "url": "https://trullion.com/blog/esg-audit-checklist",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "9a81728e7d70",
@@ -31,7 +31,7 @@
       "summary_zh": "日本金融廳(FSA)分階段計畫要求東證Prime市場最大型企業自特定會計年度起依SSBJ準則（相當於ISSB標準）進行永續揭露。",
       "url": "https://www.linkedin.com/pulse/japan-showing-683-companies-door-sasja-beslik-geale",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "15d81d8675a5",
@@ -42,7 +42,7 @@
       "summary_zh": "日本永續準則委員會(SSBJ)發布首套以ISSB準則為藍本的永續揭露準則。",
       "url": "https://www.linkedin.com/top-content/corporate-social-responsibility/esg-reporting-guidelines/corporate-sustainability-reporting-requirements",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "9604ee36269e",
@@ -75,7 +75,7 @@
       "summary_zh": "加州行政法辦公室(OAL)核准CARB實施SB 253與SB 261的初始法規，確立首年範疇1及2排放申報截止日為2026年11月10日。",
       "url": "https://www.societycorpgov.org/blogs/randi-morrison/2026/10/12/carbs-initial-sb-253-261-regulation-approved-and-effective-october-12",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "1bffbc6cb7b4",
@@ -86,7 +86,7 @@
       "summary_zh": "加州SB 253與SB 261自2023年立法以來多次調整期限，SB 261因第九巡迴法院訴訟仍處於執行暫停狀態，企業仍須持續準備。",
       "url": "https://www.schellman.com/blog/esg-sustainability/californias-sb-253-climate-disclosure-requirements",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "911437d061cc",
@@ -97,7 +97,7 @@
       "summary_zh": "法律事務所指出SB 253要求營收超過10億美元企業申報範疇1、2排放，首次申報截止日為2026年11月10日，範疇3排放申報已延後至2027年。",
       "url": "https://www.thompsoncoburn.com/insights/california-climate-disclosure-laws-sb-253-and-sb-261-compliance-deadlines-and-requirements",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "5952a1a99435",
@@ -108,7 +108,7 @@
       "summary_zh": "CARB於2025年11月及12月舉辦工作坊並公布初始法規草案，原提議首年範疇1、2申報截止日為2026年8月10日，後續經調整。",
       "url": "https://www.persefoni.com/blog/california-sb253-sb261",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "9e83591ddfa9",
@@ -119,7 +119,7 @@
       "summary_zh": "加州SB 261要求營收逾5億美元企業自2026年起雙年揭露氣候財務風險，SB 253要求營收逾10億美元企業自2026年起年度揭露範疇1、2排放，範疇3自2027年起納入。",
       "url": "https://www.fbm.com/publications/the-initial-regulation-implementing-california-sb-261-and-sb-253-is-final",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "68f3e3c2be1f",
@@ -130,7 +130,7 @@
       "summary_zh": "日本金融廳（FSA）修訂內閣府令，要求東證主要市場公司依SSBJ準則（基於IFRS S1/S2）在有價證券報告書中申報永續資訊，自2027年3月期起分三階段擴大適用範圍（3兆日圓、1兆日圓、5000億日圓門檻），第二年起並須提供Scope 3排放與有限確信。",
       "url": "https://www.terrascope.com/blog/japan-climate-disclosure-rules",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "03609ab9bad3",
@@ -163,7 +163,7 @@
       "summary_zh": "根據馬來西亞NSRF規定，第一組別企業自2028年1月1日以後開始之報導期間起，須對特定範疇排放取得強制性合理確信。",
       "url": "https://www.linkedin.com/posts/ees-consultants-pte-ltd_sustainabilityreporting-ifrss1-ifrss2-activity-7507678894511067136-v7wC",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "2133985806a2",
@@ -251,7 +251,7 @@
       "summary_zh": "英國證券監理機關確認所有適用企業之UK SRS揭露規定將改採「遵循或說明」基礎，相較原規劃為重大調整。",
       "url": "https://www.corporatedisclosures.org/content/top-stories/uk-srs-rules-move-to-comply-or-explain.html",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "3c2d9ce8e28b",
@@ -273,7 +273,7 @@
       "summary_zh": "英國金融行為監理局（FCA）發布政策聲明PS26/19，訂定上市公司依「英國永續報告準則（UK SRS）」採「遵循或解釋」方式揭露氣候與永續資訊之規則，取代現行氣候相關財務揭露規定，適用於2027年1月以後開始之會計期間，首次申報為2028年。",
       "url": "https://www.jdsupra.com/legalnews/quoted-company-newsletter-q3-2026-9438786",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "793d63b79b39",
@@ -284,7 +284,7 @@
       "summary_zh": "日本金融廳（FSA）修訂內閣府令，要求東證Prime市場企業依以IFRS S1/S2為基礎之SSBJ準則揭露永續資訊；市值3兆日圓以上企業自2027年3月結算年度起適用，隔年起加入範疇三與有限確信，並於2028、2029年分別擴及1兆與5000億日圓市值企業。",
       "url": "https://www.terrascope.com/blog/japan-climate-disclosure-rules?hs_amp=true",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "7a7158e7c29a",
@@ -306,7 +306,7 @@
       "summary_zh": "南韓金融服務委員會(FSC)於2026年7月發布正式路線圖，將永續揭露納入法定要求並擴大首波適用公司範圍，KSSB準則已於2026年2月26日正式發布。",
       "url": "https://www.terrascope.com/blog/south-korea-climate-disclosure-rules?hs_amp=true",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "01c945a727d6",
@@ -372,7 +372,7 @@
       "summary_zh": "新加坡會計及企業管制局(ACRA)宣布將大型非上市公司之強制氣候揭露規定延後至2030財年實施。",
       "url": "https://www.savills.com.sg/blog/article/238884/singapore-articles/singapore-s-climate-reporting-mandate--why-large-non-listed-landlords-must-prepare-in-2026.aspx",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "63dfb16e65fb",
@@ -383,7 +383,7 @@
       "summary_zh": "馬來西亞證券委員會(SC)於2026年9月宣布，將第一、二、三類上市公司之強制性永續報告確信規定延後一年至2028年實施。",
       "url": "https://theedgemalaysia.com/node/818914",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "c1fd27bda5c6",
@@ -405,7 +405,7 @@
       "summary_zh": "報導指出南韓FSC路線圖規定資產達10兆韓元以上的KOSPI上市公司須自2028年起依KSSB第1號與第2號準則進行永續揭露。",
       "url": "https://www.terrascope.com/blog/carbon-accounting-software-costs-southeast-asia",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "84382d628e00",
@@ -416,7 +416,7 @@
       "summary_zh": "日本金融廳(FSA)允許企業重複使用既有溫室氣體(GHG)數據，以滿足SSBJ氣候相關揭露規定，降低企業導入SSBJ準則初期的合規負擔。",
       "url": "https://tokyobrief.com/articles/fsa-ssbj-climate-standard-ghg-shortcut",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "c5f2bbcfc791",
@@ -438,7 +438,7 @@
       "summary_zh": "英國政府針對企業與永續報告現代化的諮詢作出回應，表示現階段不打算強制要求企業對未來UK SRS報告或其他策略性揭露主題（如網路風險）進行確信查核。",
       "url": "https://www.jdsupra.com/legalnews/government-consults-on-modernising-4040436",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "fdc9d41f6f13",
@@ -449,7 +449,7 @@
       "summary_zh": "馬來西亞永續報告諮詢委員會(ACSR)宣布，原訂於2027年（第一組）及2028年（第二組）啟動的合理確信(reasonable assurance)要求，全數延後一年實施。",
       "url": "https://www.businesstoday.com.my/2026/09/17/sc-defers-mandatory-sustainability-assurance-by-one-year-to-2028",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "4d4b4922153a",
@@ -460,7 +460,7 @@
       "summary_zh": "馬來西亞證券委員會（Securities Commission Malaysia）於2026年9月17日宣布，根據國家永續報告框架（NSRF），強制性合理確信要求將自2028年起對第一組別（Group 1）企業生效。",
       "url": "https://scout360.io/knowledge-hub/nsrf-malaysia-explained",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "0fcffc662828",
@@ -471,7 +471,7 @@
       "summary_zh": "日本金融廳規劃將SSBJ準則下強制第三方確信之範圍先限縮於排放、治理與風險管理揭露，為期兩年，並將自行制定確信準則以涵蓋非會計師事務所提供者。",
       "url": "https://tokyobrief.com/articles/japan-fsa-sustainability-assurance-draft-rules",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "7b3175e90bf1",
@@ -493,7 +493,7 @@
       "summary_zh": "報導指出馬來西亞可能將永續報告強制義務擴大至年營收超過1500萬令吉的非上市公司，擴大現行NSRF適用範圍。",
       "url": "https://www.facebook.com/TheStarOnline/posts/sustainability-reporting-could-be-made-mandatory-for-non-listed-companies-earnin/1554078493421337",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "46ca38f001f3",
@@ -526,7 +526,7 @@
       "summary_zh": "法律事務所彙整加州氣候揭露法規現況，指出SB253第一、二範疇排放揭露截止日已延至2026年11月10日，第三範疇仍預計2027年，SB261則因第九巡迴法院初步禁制令而暫緩。",
       "url": "https://www.jdsupra.com/legalnews/governance-sustainability-roundup-3366498",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "43ef925202ca",
@@ -570,7 +570,7 @@
       "summary_zh": "文章解析新加坡ACRA/SGX調整後之強制氣候揭露與確信實施路線圖，說明企業能力建置期程對2026年後合規之影響。",
       "url": "https://samcorporate.com/singapore-issb-climate-reporting-2026",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "faf2ef30b041",
@@ -581,7 +581,7 @@
       "summary_zh": "南韓FSC正式定案強制永續報告規範，資產門檻可能進一步下修至2兆韓元，預計2030年全面實施，並採用與ISSB接軌的KSSB1、KSSB2準則。",
       "url": "https://www.dlapiper.com/en-us/insights/publications/horizon/2026/horizon-news-and-trends-in-sustainability-law-july-2026",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "fac009d66a65",
@@ -603,7 +603,7 @@
       "summary_zh": "美國加州空氣資源委員會(CARB)完成SB253/SB261初步規則制定，重新設定2026年申報期限，並預告2027年新規範架構。",
       "url": "https://www.mayerbrown.com/en/insights/publications/2026/08/california-climate-disclosure-laws-carb-finalizes-its-initial-rulemaking-resets-the-2026-deadline-and-previews-the-2027-framework",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "83d0e5447d3c",
@@ -614,7 +614,7 @@
       "summary_zh": "文章整理OECD各國氣候揭露現況，指出加拿大證券管理機構(CSA)已於2025年4月暫停強制氣候揭露規則制定工作，尚未納入一般證券申報要求。",
       "url": "https://minerva.info/post/climate-disclosure-across-the-oecd-us-risks-becoming-the-exception",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "9415b65f0132",
@@ -625,7 +625,7 @@
       "summary_zh": "ACRA與SGX成立之永續報告諮詢委員會公布SSDS草案，2025年8月已調整強制氣候報告與確信之分階段實施時程，並由臨時準則委員會(Interim SSC)研擬與國際接軌之準則。",
       "url": "https://www.allenandgledhill.com/sg/perspectives/articles/33379/sgkh-raising-the-bar-on-sustainability-reporting-acra-publishes-draft-singapore-sustainability-disclosure-standards",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "f865b5dad216",
@@ -658,7 +658,7 @@
       "summary_zh": "馬來西亞國家銀行(BNM)與證券監督委員會於JC3第17次會議後發布聯合聲明，公布NSRF指引文件協助金融機構與保險業者因應永續揭露要求。",
       "url": "https://www.bnm.gov.my/-/jc3-mtg17",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "d80f2cfbcd7f",
@@ -669,7 +669,7 @@
       "summary_zh": "馬來西亞JC3公布銀行及保險/回教保險業者適用之NSRF指引文件，協助業者依循IFRS永續揭露準則及國家永續報告框架提升揭露品質。",
       "url": "https://jc3malaysia.com/news-events/news-press-releases/jc3-releases-nsrf-guidance-documents-banks-and-itos",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "1aa019944cdb",
@@ -680,7 +680,7 @@
       "summary_zh": "文章分析碳會計與永續報告服務業併購趨勢，指出巴西證券交易委員會(CVM)已於2025年6月將原本的永續揭露強制規範調整為自願制度。",
       "url": "https://saurabbabu.com/2026/08/03/asuene",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "2e70f99f1d1b",
@@ -702,7 +702,7 @@
       "summary_zh": "南韓正式導入強制永續報告義務，KSSB第1號與第2號準則分別對應IFRS S1與S2，並提供過渡期優惠，範疇三排放揭露延後三年實施。",
       "url": "https://www.esgrovia.com/en/blog/korea-introduces-mandatory-esg-reporting",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "9066cca82cd8",
@@ -713,7 +713,7 @@
       "summary_zh": "南韓金融服務委員會（FSC）證實將強制性永續報告義務範圍擴大至超過3,000家企業，擴大KSSB準則的適用對象。",
       "url": "https://www.linkedin.com/pulse/climate-business-213-ny-moratorium-ai-data-centres-south-jordanova-ikxte",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "bc1cd41d4091",
@@ -724,7 +724,7 @@
       "summary_zh": "澳洲政府提議關閉自願性的Climate Active認證計畫，同時說明AASB S2強制氣候揭露規定要求企業揭露治理、策略、風險管理及指標與目標等資訊，正逐步成為主流公司報告的一部分。",
       "url": "https://www.rsm.global/australia/insights/beyond-climate-active-why-proposed-closure-could-strengthen-climate-reporting",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "cc476d19d34a",
@@ -735,7 +735,7 @@
       "summary_zh": "新加坡會計及企業管制局（ACRA）就其永續揭露準則草案展開公眾諮詢，現行SGX上市規則要求上市公司自2025財年起依ISSB準則分階段揭露氣候資訊，作為正式SDS發布前的過渡措施。",
       "url": "https://sustainablefutures.linklaters.com/post/102nhol/acra-consults-on-singapores-sustainability-disclosure-standards",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "a3640d65ce4d",
@@ -746,7 +746,7 @@
       "summary_zh": "香港自2025年8月1日起施行與ISSB準則接軌的HKFRS S1及S2；香港交易所預計於2027年就強制採用香港準則展開諮詢，並預期自2028年1月1日起以比例原則對上市發行人強制適用。",
       "url": "https://sleek.com/hk/resources/esg-reporting-hong-kong",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "a8253a05850a",
@@ -757,7 +757,7 @@
       "summary_zh": "路透社報導，美國駐歐盟大使公開要求歐盟鬆綁使大型企業對其全球供應鏈環境與社會影響負責的法規（如CSRD、CSDDD），並指稱歐盟此前曾承諾此類措施不會妨礙歐美貿易。",
       "url": "https://www.reuters.com/business/autos-transportation/us-raises-pressure-eu-deliver-non-tariff-trade-commitments-2026-08-14/",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "6cdb475e7a7d",
@@ -768,7 +768,7 @@
       "summary_zh": "加州空氣資源局(CARB)將氣候企業資料問責法(SB253)Scope1&2申報期限延後三個月，加州氣候揭露法規面臨多起訴訟且SCOTUS被要求介入阻止SB261合規期限，SEC同時發布2026年春季監管議程。",
       "url": "https://www.jdsupra.com/legalnews/governance-sustainability-roundup-1875845",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "62c57b194e87",
@@ -845,7 +845,7 @@
       "summary_zh": "加州空氣資源局(CARB)於溫室氣體工作坊說明SB253與SB261訴訟進度，第九巡迴法院已對SB261核發暫緩執行令，該案結果可能影響SB253後續執行時程。",
       "url": "https://natlawreview.com/article/california-climate-disclosure-update-carbs-july-2026-workshop-and-2027-reporting",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "705699bc6d0b",
@@ -867,7 +867,7 @@
       "summary_zh": "新加坡研擬SFRS 1與SFRS 2永續揭露準則，基於氣候優先策略，SFRS 2(氣候相關揭露)將採強制適用，SFRS 1則維持自願性質。",
       "url": "https://sg.finance.yahoo.com/news/singapore-charts-streamlined-sustainability-disclosures-180100257.html",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "723b325a70fb",
@@ -911,7 +911,7 @@
       "summary_zh": "UK SRS S1已於2026年2月25日發布，目前屬自願性質；FCA CP26/5提案自2029年起要求上市公司遵循或說明氣候揭露，惟截至2026年8月5日政策聲明仍未公布，ISSA(UK)5000確信準則預計於2026年12月15日生效。",
       "url": "https://sustainabilityreportingstandards.co.uk/uk-srs-s1",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "642ceb7e6054",
@@ -933,7 +933,7 @@
       "summary_zh": "南韓永續準則委員會（KSSB）發布最終版永續揭露準則（第1號一般規範、第2號氣候揭露），與ISSB的IFRS S1/S2大致接軌，並據此擴大強制永續報告的適用公司範圍。",
       "url": "https://www.esgtoday.com/korea-significantly-expands-mandatory-sustainability-reporting-requirements",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "fcb26b07dfbc",
@@ -955,7 +955,7 @@
       "summary_zh": "新加坡會計及企業管制局（ACRA）發布與ISSB接軌的永續揭露準則草案，並推出永續確信知識庫、培訓課程及政府永續報告補助計畫，協助企業準備未來的揭露與確信要求。",
       "url": "https://www.esgtoday.com/singapore-releases-proposed-issb-aligned-sustainability-reporting-standards",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "6341b83dbfbe",
@@ -977,7 +977,7 @@
       "summary_zh": "2026年8月政策摘要指出，新加坡正發展與ISSB接軌的揭露框架，南韓則提案將KSSB第1、2號準則的強制揭露範圍擴大至逾3,000家上市公司。",
       "url": "https://www.linkedin.com/pulse/policy-digest-august-2026-esgbook-tq39e",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "4bad217424cd",
@@ -1021,7 +1021,7 @@
       "summary_zh": "加州空氣資源局（CARB）於2026年7月27日發布SB253/SB261實施細則15日修正提案，將第一、二範疇排放申報期限自8月10日延至11月10日，以爭取企業更多準備時間。",
       "url": "https://www.pillsburylaw.com/en/news-and-insights/carb-proposed-climate-disclosure-regulations.html",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "1763921cbe49",
@@ -1032,7 +1032,7 @@
       "summary_zh": "CARB於2026年7月27日發布SB 253溫室氣體排放報告規定的修訂版本，並展開15天公眾意見徵詢，官方表示修訂旨在釐清規定內容而非改變原有涵蓋範圍。",
       "url": "https://www.jdsupra.com/legalnews/climate-disclosure-update-california-1809187",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "1bf639febba5",
@@ -1170,7 +1170,7 @@
       "summary_zh": "歐盟執委會通過簡化版歐洲永續報導準則(ESRS)，新版本適用於2027年1月1日以後開始之會計年度，屬Omnibus簡化方案之一環。",
       "url": "https://uksrs.org.uk/esrs",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "8805e17bbe19",
@@ -1181,7 +1181,7 @@
       "summary_zh": "南韓FSC於2026年7月發布強制性ESG揭露框架草案，依循ISSB IFRS一般揭露要求制定準則，但外界認為推動時程仍偏保守。",
       "url": "https://ieefa.org/resources/south-koreas-esg-disclosure-framework-welcome-mandate-lacking-urgency",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "seed-009",
@@ -1203,7 +1203,7 @@
       "summary_zh": "加州空氣資源局（CARB）於2026年6月24日宣布，將SB253要求企業申報範疇一、二溫室氣體排放的期限由2026年8月10日延後至11月10日，讓企業有更多時間準備。",
       "url": "https://environmentalhealthsafetybrief.sidley.com/2026/09/01/federal-court-strikes-down-new-yorks-climate-change-superfund-act",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "046ab0d73231",
@@ -1214,7 +1214,7 @@
       "summary_zh": "加州參議院法案SB 253要求年營收超過10億美元的企業自2026年起報告範圍1、2排放，2027年起報告範圍3；加州空氣資源局(CARB)於2026年2月26日核准初步法規並於5月20日提交行政法辦公室，卻在6月23日撤回該規定，使時程再度不確定。",
       "url": "https://www.jdsupra.com/legalnews/rescinded-required-pending-mapping-u-s-8330213",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "c871166804a1",
@@ -1258,7 +1258,7 @@
       "summary_zh": "巴西證券交易委員會（CVM）於2026年6月將原先獨立的強制性永續揭露規定改回自願性制度，儘管其強制性碳交易法SBCE仍維持對大型排放者強制適用。",
       "url": "https://eco-intelligent.com/2026/08/03/asuene",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "3a67b81ed0b9",
@@ -1291,7 +1291,7 @@
       "summary_zh": "ASIC確認AASB S2下「氣候相關目標」定義涵蓋法規要求達成之目標（如Safeguard Mechanism），並於2026年5月15日發布修正文件2026/313，延展相關註冊計畫之財報豁免。",
       "url": "https://www.dentons.com/en/insights/articles/2026/august/27/australia-mandatory-sustainability-reporting-regime",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "4c8864573db9",
@@ -1379,7 +1379,7 @@
       "summary_zh": "南韓可持續準則委員會（KSSB）於2026年2月26日公布最終永續揭露準則，隔日金融委員會（FSC）發布分階段路線圖草案；同年7月的路線圖進一步擴大首波強制揭露公司範圍並使其具法定效力。",
       "url": "https://www.terrascope.com/blog/south-korea-climate-disclosure-rules",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "seed-003",
@@ -1401,7 +1401,7 @@
       "summary_zh": "UK SRS S1、S2準則於2026年2月25日發布，現階段為自願適用，FCA透過CP26/5提案自2027年1月1日起對指定上市公司強制要求採用UK SRS S2氣候揭露。",
       "url": "https://www.smartresilience.com/resources/blogs/uk-srs-s1-vs-s2",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "89f0d89fc2dd",
@@ -1412,7 +1412,7 @@
       "summary_zh": "英國企業貿易部(DBT)與FCA公布UK SRS S1、S2準則及諮詢回應，並發布CP26/5諮詢文件，規劃自2027年1月起分階段強制上市公司採用。",
       "url": "https://sustainabilityreportingstandards.co.uk/uk-srs-timeline",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "34752c858b36",
@@ -1445,7 +1445,7 @@
       "summary_zh": "日本於2026年2月20日公布修正後的內閣府令，明定SSBJ永續準則之強制適用規定，並搭配2027年版EDINET分類法適用於2027年3月31日以後結束會計年度之有價證券報告書。",
       "url": "https://note.com/dbai/n/nea352984f963?hl=en",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "28ab7c9df67c",
@@ -1478,7 +1478,7 @@
       "summary_zh": "2026年2月的內閣府令修正案正式將SSBJ（日本永續準則委員會）制定的永續揭露準則納入法制，東證主板中五年平均市值3兆日圓以上企業預計自2027年3月31日後結束會計年度起適用，市值1兆日圓以上企業適用時程亦隨後展開。",
       "url": "https://note.com/cc_commons/n/n45943158f794?hl=en",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "922c10db548e",
@@ -1511,7 +1511,7 @@
       "summary_zh": "英國商業貿易部已於2026年初定案UK SRS S1與S2準則(現為自願採用)，FCA於2026年1月30日發布CP26/5諮詢文件，提案要求上市公司自2027年1月1日起之會計年度強制依UK SRS揭露。",
       "url": "https://www.sustainabilityoutlookmag.com/sustainability-insights/jaggaer-the-hard-cost-of-carbon",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "66872988ecb4",
@@ -1544,7 +1544,7 @@
       "summary_zh": "自2025年12月15日起，馬來西亞交易所(Bursa Malaysia)要求所有氣候與永續揭露須透過新設之集中永續資訊平台(CSI Platform)提交，取代原人工ESG申報平台，並依IFRS S1、S2強制準則辦理。",
       "url": "https://wellkinetics.com.my/esg-reporting-malaysia",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "3de904afa990",
@@ -1555,7 +1555,7 @@
       "summary_zh": "加州空氣資源委員會（CARB）確定SB 253規定下首次企業氣候報告截止日為2025年11月10日，須揭露Scope 1與Scope 2排放，Scope 3揭露將自2027年起適用；SB 261另要求營收逾5億美元企業揭露氣候相關財務風險。",
       "url": "https://esgnews.com/california-sets-november-10-deadline-for-first-corporate-climate-reports",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "c96581dd2a45",
@@ -1566,7 +1566,7 @@
       "summary_zh": "加州CARB經州法規審查辦公室（OAL）核准規則調整，確認SB 253首次氣候報告截止日延至2025年11月，並已向可能受規範的企業發送提醒信以確保合規。",
       "url": "https://www.esgtoday.com/california-finalizes-corporate-climate-reporting-rules-locking-in-november-2026-deadline",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "b1891eb67327",
@@ -1577,7 +1577,7 @@
       "summary_zh": "英國金融行為監理局（FCA）於9月30日正式採用UK Sustainability Reporting Standards（UK SRS），使英國強制性永續報告規範與國際接軌，並支持以有限確信為起點的分階段確信路徑，呼應FRC後續發展。",
       "url": "https://www.icaew.com/insights/viewpoints-on-the-news/2026/sep-2026/fca-finalises-uk-srs-reporting-rules",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "seed-001",
