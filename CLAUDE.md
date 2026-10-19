@@ -9,7 +9,8 @@
 
 ## 鐵律
 
-1. `data/status.json`（狀態矩陣）**只能人工／在對話中經用戶確認後修改**——自動腳本永遠不碰它。
+1. `data/status.json`（狀態矩陣）**只能人工／在對話中經用戶確認後修改**。唯一的自動例外是 `weekly_update.py --review`：
+   它只在 GitHub Actions 的獨立分支上改、開成 PR（標籤 `status-review`），用戶看過來源按合併才生效，不會直接推到 main。
 2. 改 `status.json` 時：一併更新該轄區 `last_reviewed`，並把觸發修改的動態（`data/updates.json`）之 `needs_review` 改為 `false`。
 3. `updates.json` 由每週腳本維護，手動加項目時格式照舊（id 隨意唯一、date 用 YYYY-MM-DD）。
    **整理動態時不要刪除項目**——URL 一刪就退出去重名單，下週會被重新抓回來；改設 `"hidden": true`（網頁會跳過、去重仍有效）。
@@ -20,6 +21,9 @@
 ```bash
 # 本機手動跑一次每週更新（讀 keys\ 的 Tavily 與 Claude 金鑰）
 python scraper/weekly_update.py
+
+# 本機只跑第二步（較強模型查證待確認動態；會改工作目錄的 status.json / updates.json，用 git diff 檢查）
+python scraper/weekly_update.py --review --pr-body review.md
 
 # 本機預覽網站
 python -m http.server 8000   # 然後開 http://localhost:8000

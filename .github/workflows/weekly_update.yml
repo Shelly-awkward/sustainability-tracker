@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update:
@@ -38,3 +39,29 @@ jobs:
             git commit -m "chore: weekly sustainability updates [$(date -u +%Y-%m-%d)]"
             git push
           fi
+
+      # 第二步：較強的模型查證待確認動態，把建議修改開成 PR（合併前不會生效）
+      - name: 審查待確認動態並開 PR
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$(gh pr list --state open --label status-review --json number --jq '.[].number')" ]; then
+            echo "已有未處理的審查 PR，這週先跳過"
+            exit 0
+          fi
+          python scraper/weekly_update.py --review --pr-body "$RUNNER_TEMP/pr_body.md"
+          if git diff --quiet; then
+            echo "沒有建議修改，不開 PR"
+            exit 0
+          fi
+          BRANCH="review/$(date -u +%Y-%m-%d)-${{ github.run_id }}"
+          git checkout -b "$BRANCH"
+          git add data/status.json data/updates.json
+          git commit -m "review: 待確認動態查證建議 [$(date -u +%Y-%m-%d)]"
+          git push -u origin "$BRANCH"
+          gh label create status-review --color FBCA04 --description "待確認動態的查證建議" --force
+          gh pr create --base main --head "$BRANCH" \
+            --title "待確認動態查證建議 $(date -u +%Y-%m-%d)" \
+            --body-file "$RUNNER_TEMP/pr_body.md" \
+            --label status-review
