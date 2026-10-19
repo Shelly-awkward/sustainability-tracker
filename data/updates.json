@@ -12,6 +12,116 @@
       "needs_review": false
     },
     {
+      "id": "fb223d70fe4d",
+      "date": "2026-10-19",
+      "jurisdiction_id": "us",
+      "title_en": "ESG Audit Checklist: A Guide for Auditors Trullion",
+      "title_zh": "ESG查核指南：ISSA 5000與AICPA擬議確信準則",
+      "summary_zh": "IAASB的ISSA 5000將於2026年12月15日後開始的期間生效並取代ISAE 3000/3410；美國AICPA已於2026年發布AT-C 325與330號確信準則草案以與ISSA 5000接軌。",
+      "url": "https://trullion.com/blog/esg-audit-checklist",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "9a81728e7d70",
+      "date": "2026-10-19",
+      "jurisdiction_id": "japan",
+      "title_en": "Japan Is Showing 683 Companies the Door",
+      "title_zh": "日本683家企業將納入SSBJ強制揭露",
+      "summary_zh": "日本金融廳(FSA)分階段計畫要求東證Prime市場最大型企業自特定會計年度起依SSBJ準則（相當於ISSB標準）進行永續揭露。",
+      "url": "https://www.linkedin.com/pulse/japan-showing-683-companies-door-sasja-beslik-geale",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "15d81d8675a5",
+      "date": "2026-10-19",
+      "jurisdiction_id": "japan",
+      "title_en": "Corporate sustainability reporting requirements",
+      "title_zh": "日本發布首套永續揭露準則",
+      "summary_zh": "日本永續準則委員會(SSBJ)發布首套以ISSB準則為藍本的永續揭露準則。",
+      "url": "https://www.linkedin.com/top-content/corporate-social-responsibility/esg-reporting-guidelines/corporate-sustainability-reporting-requirements",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "9604ee36269e",
+      "date": "2026-10-19",
+      "jurisdiction_id": "eu",
+      "title_en": "EU's VSME comes into force, ESRS revised for FY26",
+      "title_zh": "歐盟VSME正式生效，ESRS於2026財年修訂",
+      "summary_zh": "歐盟自願中小企業永續揭露標準(VSME)正式上路，ESRS準則也因應2026財年進行修訂；同時日本FSA工作小組於2026年1月8日發布永續確信制度最終報告。",
+      "url": "https://www.linkedin.com/posts/john-renvoize_esrs-omnibus-vsme-activity-7508889691694374912-gS53",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "c612ae7d478d",
+      "date": "2026-10-19",
+      "jurisdiction_id": "australia",
+      "title_en": "ASIC publishes eight key actions for organisations drafting sustainability reports | International Adviser",
+      "title_zh": "ASIC發布永續報告撰寫八大重點行動",
+      "summary_zh": "澳洲證券與投資委員會(ASIC)針對企業編製永續報告提出八項重點指引，涵蓋氣候目標定義與重大資訊揭露原則，呼應AASB S2要求。",
+      "url": "https://www.international-adviser.com/asic-publishes-eight-key-actions-for-organisations-drafting-sustainability-reports",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "a3ee0a5333c2",
+      "date": "2026-10-19",
+      "jurisdiction_id": "us",
+      "title_en": "CARB's Initial Climate Disclosure Regulation Approved and Effective",
+      "title_zh": "CARB初始氣候揭露法規經核准並生效",
+      "summary_zh": "加州行政法辦公室(OAL)核准CARB實施SB 253與SB 261的初始法規，確立首年範疇1及2排放申報截止日為2026年11月10日。",
+      "url": "https://www.societycorpgov.org/blogs/randi-morrison/2026/10/12/carbs-initial-sb-253-261-regulation-approved-and-effective-october-12",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "1bffbc6cb7b4",
+      "date": "2026-10-19",
+      "jurisdiction_id": "us",
+      "title_en": "California’s SB 253 Climate Disclosure Requirements",
+      "title_zh": "加州SB 253氣候揭露要求持續演變",
+      "summary_zh": "加州SB 253與SB 261自2023年立法以來多次調整期限，SB 261因第九巡迴法院訴訟仍處於執行暫停狀態，企業仍須持續準備。",
+      "url": "https://www.schellman.com/blog/esg-sustainability/californias-sb-253-climate-disclosure-requirements",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "911437d061cc",
+      "date": "2026-10-19",
+      "jurisdiction_id": "us",
+      "title_en": "California Climate Disclosure Laws: SB 253 and SB 261 Compliance Deadlines and Requirements | Thompson Coburn LLP",
+      "title_zh": "加州SB 253/SB 261合規期限與要求說明",
+      "summary_zh": "法律事務所指出SB 253要求營收超過10億美元企業申報範疇1、2排放，首次申報截止日為2026年11月10日，範疇3排放申報已延後至2027年。",
+      "url": "https://www.thompsoncoburn.com/insights/california-climate-disclosure-laws-sb-253-and-sb-261-compliance-deadlines-and-requirements",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "5952a1a99435",
+      "date": "2026-10-19",
+      "jurisdiction_id": "us",
+      "title_en": "California SB 253 and SB 261: What Businesses Need to Know - Persefoni",
+      "title_zh": "加州SB 253/SB 261規則制定時程更新",
+      "summary_zh": "CARB於2025年11月及12月舉辦工作坊並公布初始法規草案，原提議首年範疇1、2申報截止日為2026年8月10日，後續經調整。",
+      "url": "https://www.persefoni.com/blog/california-sb253-sb261",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "9e83591ddfa9",
+      "date": "2026-10-19",
+      "jurisdiction_id": "us",
+      "title_en": "The Initial Regulation Implementing California SB 261 and SB 253 Is Final",
+      "title_zh": "加州SB 261與SB 253初始法規正式定案",
+      "summary_zh": "加州SB 261要求營收逾5億美元企業自2026年起雙年揭露氣候財務風險，SB 253要求營收逾10億美元企業自2026年起年度揭露範疇1、2排放，範疇3自2027年起納入。",
+      "url": "https://www.fbm.com/publications/the-initial-regulation-implementing-california-sb-261-and-sb-253-is-final",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "68f3e3c2be1f",
       "date": "2026-10-18",
       "jurisdiction_id": "japan",
@@ -1158,6 +1268,17 @@
       "title_zh": "巴西CVM修改第193號決議，撤銷ISSB揭露強制規定改採不遵循即說明",
       "summary_zh": "巴西證券管理機關CVM於2026年5月29日修改第193號決議，取消原訂ISSB準則強制揭露義務，改採「不遵循即說明」（comply-or-explain）機制。",
       "url": "https://uksrs.org.uk/issb-framework",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "d71ddef8db23",
+      "date": "2026-05-29",
+      "jurisdiction_id": "brazil",
+      "title_en": "ISSB standards: IFRS S1 and S2, and who has adopted them (2026) | Sustainability Reporting Standards",
+      "title_zh": "巴西CVM第193號決議經第244號決議修訂",
+      "summary_zh": "巴西證券管理機構CVM於2026年5月29日發布第244號決議，修訂原本採用ISSB準則的第193號決議內容，並更新各國ISSB採用狀態清單。",
+      "url": "https://sustainabilityreportingstandards.com/issb-ifrs-s1-s2",
       "impact": "status_change",
       "needs_review": true
     },
