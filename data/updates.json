@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "id": "c6f6d61d599c",
+      "date": "2027-03-01",
+      "jurisdiction_id": "japan",
+      "title_en": "AZSA Quality 2026/27 - KPMG agentic corporate services",
+      "title_zh": "日本SSBJ準則與第三方保證適用時程確立",
+      "summary_zh": "KPMG報告說明日本金融廳工作小組建議已轉化為內閣府令及金融商品交易法修正，大型主要市場上市公司須自2027年3月期起分階段採用SSBJ準則，部分揭露資訊自揭露隔年起強制第三方保證。",
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/jp/pdf/2026/jp-azsa-quality-2026-a3.pdf.coredownload.inline.pdf",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "5cdf2391902e",
       "date": "2026-12-15",
       "jurisdiction_id": "issb",
@@ -10,6 +21,61 @@
       "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-my/insights/climate-related-reporting/documents/ey-my-climate-study-2026-09-2026.pdf",
       "impact": "info",
       "needs_review": false
+    },
+    {
+      "id": "572d9f38d297",
+      "date": "2026-11-10",
+      "jurisdiction_id": "eu",
+      "title_en": "Sustainability update - Accountancy Europe",
+      "title_zh": "修訂版ESRS生效日及非歐盟公司適用諮詢",
+      "summary_zh": "Accountancy Europe指出修訂版ESRS預計2026年11月10日生效，適用於2027年1月1日後開始之會計年度，並允許2026年提前適用；EFRAG同時就非歐盟企業適用ESRS展開諮詢。",
+      "url": "https://accountancyeurope.eu/update/sustainability-update-261005",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "92d4e013d340",
+      "date": "2026-11-10",
+      "jurisdiction_id": "us",
+      "title_en": "OAL Approves CARB’s Initial Regulation, Locking In November 10, 2026 SB 253 Reporting Deadline - velaw.com",
+      "title_zh": "加州OAL核准CARB規則確立SB253申報截止日",
+      "summary_zh": "美國加州行政法辦公室（OAL）核准CARB對SB253/SB261的初步實施法規，確立2026年11月10日為加州氣候企業資料問責法（SB253）首次溫室氣體排放申報截止日。",
+      "url": "https://www.velaw.com/insights/oal-approves-carbs-initial-regulation-locking-in-november-10-2026-sb-253-reporting-deadline",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "4f37c5560e92",
+      "date": "2026-10-25",
+      "jurisdiction_id": "australia",
+      "title_en": "Financial Services Regulatory ESG updater | Global Regulation Tomorrow",
+      "title_zh": "ASIC檢視首年AASB S2永續報告揭露品質",
+      "summary_zh": "澳洲證券投資委員會（ASIC）審查2025年12月申報期間40份永續報告樣本，發現多項揭露品質問題並提出改善建議，截至報告日已有312份依AASB S2規定提交之永續報告。",
+      "url": "https://www.regulationtomorrow.com/2026/10/financial-services-regulatory-esg-updater-7",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "4975e408fd61",
+      "date": "2026-10-25",
+      "jurisdiction_id": "singapore",
+      "title_en": "Sustainability Reporting Skills Singapore Firms Need",
+      "title_zh": "新加坡外部有限保證時程明確化",
+      "summary_zh": "文章指出新加坡上市公司須自2029財年、大型非上市公司自2032財年起，就範疇一、二排放導入外部有限保證，呼應ACRA氣候揭露與保證階段性路線圖。",
+      "url": "https://rafflescorporateservices.com/sustainability-reporting-capability-singapore",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "c5f19c6a34e6",
+      "date": "2026-10-25",
+      "jurisdiction_id": "brazil",
+      "title_en": "Brazil's Climate Disclosure Rules: What You Need to Know",
+      "title_zh": "巴西CVM釐清ISSB相關揭露適用範圍",
+      "summary_zh": "巴西CVM發布2026年第2號公告函，說明凡報告聲稱「符合」、「依據」或「參考」CBPS或ISSB準則者，均須完整遵循第193號決議之揭露要求；採用GRI準則之報告則不受此規範，CVM將逐案認定。",
+      "url": "https://www.terrascope.com/blog/brazil-climate-disclosure-rules",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "fb223d70fe4d",
@@ -408,6 +474,28 @@
       "needs_review": false
     },
     {
+      "id": "ceb2b06d369a",
+      "date": "2026-09-21",
+      "jurisdiction_id": "eu",
+      "title_en": "A Note on Anticipated Financial Effects - by Heavy Lifting",
+      "title_zh": "ESRS修訂版正式刊登歐盟官方公報",
+      "summary_zh": "歐盟執委會已通過修訂版ESRS並於2026年9月21日刊登官方公報，持續要求揭露永續風險與機會之「預期財務影響」，延續IFRS S1/S2與TCFD之架構。",
+      "url": "https://heavylifting.substack.com/p/a-note-on-anticipated-financial-effects",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "305da766c994",
+      "date": "2026-09-21",
+      "jurisdiction_id": "eu",
+      "title_en": "CSRD and ESRS after Omnibus I: who reports, and when (2026) | Sustainability Reporting Standards",
+      "title_zh": "CSRD與ESRS Omnibus I後適用時程總整理",
+      "summary_zh": "彙整顯示：2025年4月16日停止時鐘指令延後CSRD第二、三波適用兩年；2026年2月26日Omnibus I（指令2026/470）將CSRD範圍限縮至員工1,000人以上且營收4.5億歐元以上企業；簡化版ESRS於9月21日以委任規則2026/1563公告，11月10日生效，自2027會計年度起適用。",
+      "url": "https://sustainabilityreportingstandards.com/csrd-esrs",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "84382d628e00",
       "date": "2026-09-20",
       "jurisdiction_id": "japan",
@@ -771,6 +859,17 @@
       "needs_review": false
     },
     {
+      "id": "752fa27d4393",
+      "date": "2026-08-10",
+      "jurisdiction_id": "us",
+      "title_en": "All about California’s climate laws",
+      "title_zh": "CARB公布SB253/SB261關鍵定義與申報截止日提案",
+      "summary_zh": "文章整理CARB對SB253/SB261中「營收」與「加州營業」定義之正式提案，並說明原訂2026年8月10日之SB253申報截止日提案及費用計算方式。",
+      "url": "https://kpmg.com/us/en/frv/reference-library/2026/california-climate-laws.html",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "62c57b194e87",
       "date": "2026-08-09",
       "jurisdiction_id": "issb",
@@ -1117,6 +1216,17 @@
       "needs_review": false
     },
     {
+      "id": "c407de751dfd",
+      "date": "2026-07-15",
+      "jurisdiction_id": "japan",
+      "title_en": "ESG Regulation Updates: Q3 2026 Roundup",
+      "title_zh": "日本國會通過修法強制永續資訊第三方確信",
+      "summary_zh": "日本國會於2026年7月15日通過《金融商品交易法》修正案，將有價證券報告書永續資訊第三方確信列為強制、建立確信機構登記制度及前瞻性資訊民事責任安全港；金融廳9月15日再修訂永續揭露準則指定，納入SSBJ首號實務解決方案。",
+      "url": "https://www.pulsora.com/blog/esg-regulations-and-framework-updates-q3-2026",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "b2749b3c3f71",
       "date": "2026-07-13",
       "jurisdiction_id": "eu",
@@ -1283,6 +1393,17 @@
       "needs_review": true
     },
     {
+      "id": "75412a76d065",
+      "date": "2026-05-29",
+      "jurisdiction_id": "brazil",
+      "title_en": "ESG Regulations and Reporting Requirements 2026",
+      "title_zh": "歐盟、美國、巴西多國永續揭露規則範圍限縮",
+      "summary_zh": "文章彙整2026年多項法規範圍限縮：歐盟指令2026/470削減CSRD與CSDDD適用範圍；美國SEC於5月29日提案撤銷2024年氣候揭露規則；同日巴西CVM第244號決議將ISSB準則揭露改為自願性，推翻原CVM193號之強制規定預期。",
+      "url": "https://greencalculus.com/standards/esg-regulations",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "44089382db2a",
       "date": "2026-05-15",
       "jurisdiction_id": "australia",
@@ -1380,6 +1501,17 @@
       "url": "https://www.terrascope.com/blog/south-korea-climate-disclosure-rules",
       "impact": "status_change",
       "needs_review": false
+    },
+    {
+      "id": "bbd4e4627106",
+      "date": "2026-02-26",
+      "jurisdiction_id": "eu",
+      "title_en": "EU Omnibus Directive 2026 Explained: What Changed and What It Means for Carbon Reporting | Seedling",
+      "title_zh": "歐盟Omnibus確定CSRD確信仍維持有限保證",
+      "summary_zh": "文章指出歐盟Omnibus改革後，CSRD之確信要求仍維持「有限保證」標準，原規劃日後升級為「合理保證」之安排已被撤回。",
+      "url": "https://www.seedling.earth/en-us/post/eu-omnibus-directive-2026",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "seed-003",
@@ -1589,6 +1721,17 @@
       "url": "https://www.sgxgroup.com/media-centre/20250825-extended-timelines-most-climate-reporting-requirements-support",
       "impact": "status_change",
       "needs_review": false
+    },
+    {
+      "id": "8b80b56e92da",
+      "date": "2025-08-01",
+      "jurisdiction_id": "singapore",
+      "title_en": "Public Consultation on Singapore's Sustainability Disclosure Standards | REACH (Reaching Everyone for Active Citizenry @ Home)",
+      "title_zh": "新加坡永續揭露準則公眾諮詢與時程調整",
+      "summary_zh": "ACRA與SGX RegCo自2022年起推動強制氣候揭露路線圖，2025年5月成立臨時準則委員會研擬本地永續揭露與保證準則，並於2025年8月調整階段性實施時程。",
+      "url": "https://www.reach.gov.sg/latest-happenings/public-consultations/2026/public-consultation-on-singapores-sustainability-disclosure-standards",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "b81673c09693",
