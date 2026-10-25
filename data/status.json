@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-25",
   "jurisdictions": [
     {
       "id": "issb",
@@ -62,12 +62,13 @@
         "status_level": "mandatory",
         "status_zh": "已法制化，2027/3 財年起分階段強制",
         "first_mandatory": "2027/3 結束之財年（東證 Prime 市值 ≥3 兆日圓）",
-        "scope_zh": "東證 Prime 上市公司分階段：市值 ≥3 兆日圓→2027/3 財年；≥1 兆→2028/3；≥5,000 億→2029/3；其餘 Prime 公司時點另定。於有價證券報告書內揭露",
+        "scope_zh": "東證 Prime 上市公司依平均時價總額（前五個財年末平均）分階段：≥3 兆日圓→2027/3 財年；≥1 兆→2028/3（以上已入內閣府令）；≥5,000 億→2029/3（路線圖方針，尚待府令修正）；其餘 Prime 公司時點另定。於有價證券報告書內揭露；適用首年及次年可採二段階揭露，於次期半期報告書提出期限前以訂正報告書補交",
         "timeline": [
           { "date": "2025-03", "event": "SSBJ 正式發布三號準則" },
           { "date": "2025-11", "event": "FSA 發布永續揭露與確信路線圖" },
           { "date": "2026-02", "event": "內閣府令修正定案，SSBJ 準則正式入法" },
           { "date": "2026-04", "event": "FSA 更新路線圖（英文版）" },
+          { "date": "2026-09-15", "event": "FSA 修正永續揭露基準指定告示，納入 SSBJ 首號實務對應基準（運用 SHK 制度溫室氣體排放數據）" },
           { "date": "2027-03", "event": "第一階段（市值 ≥3 兆日圓）首個適用財年結束" }
         ]
       },
@@ -95,7 +96,7 @@
         { "label": "FSA 揭露與確信路線圖（2026/4）", "url": "https://www.fsa.go.jp/en/news/2026/20260409/02.pdf" },
         { "label": "SSBJ 官網", "url": "https://www.ssb-j.jp/en/" }
       ],
-      "last_reviewed": "2026-10-19"
+      "last_reviewed": "2026-10-25"
     },
     {
       "id": "korea",
@@ -142,7 +143,7 @@
         { "label": "IFRS 韓國轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-snapshots/south-korea-ifrs-snapshot.pdf" },
         { "label": "Korea JoongAng Daily（2026/7 最終方案報導）", "url": "https://www.koreajoongangdaily.com/business/govt-finalizes-esg-disclosure-requirement-for-large-listed-firms/12761200" }
       ],
-      "last_reviewed": "2026-10-19"
+      "last_reviewed": "2026-10-25"
     },
     {
       "id": "australia",
@@ -197,24 +198,26 @@
       "search_query": "EU CSRD ESRS EFRAG omnibus sustainability reporting assurance",
       "disclosure": {
         "setter": "歐盟執委會／EFRAG",
-        "standard": "CSRD ＋ ESRS（Omnibus 簡化中）",
+        "standard": "CSRD ＋ ESRS（簡化版 ESRS 2026 已刊登公報，2027 財年起適用）",
         "issb_alignment": "自成體系（雙重重大性），與 ISSB 有互通對照",
         "status_level": "mandatory",
         "status_zh": "已強制中；Omnibus 定案大幅縮小適用範圍",
         "first_mandatory": "2024 財年（第一波大型公司，2025 年申報）",
-        "scope_zh": "Omnibus I 指令 2026/2/26 刊登公報、3/18 生效：適用門檻上調至員工 >1,000 人（並有營收門檻），第二、三波延後兩年（stop-the-clock）；簡化版 ESRS（ESRS 2026）已於 2026/7/3 通過，2027/1/1 起財年適用",
+        "scope_zh": "Omnibus I 指令（2026/470）2026/2/26 刊登公報、3/18 生效：適用門檻上調至員工 >1,000 人且淨營收 >4.5 億歐元；非歐盟集團為歐盟營收連續兩年 >4.5 億歐元且歐盟子公司／分支機構營收 >2 億歐元；第二、三波延後兩年（stop-the-clock）；簡化版 ESRS（ESRS 2026）2026/7/3 通過、9/21 以授權規則 (EU) 2026/1563 刊登公報、11/10 生效，2027/1/1 起財年適用（得提前適用於 2026 財年）；非歐盟企業準則 ESRS-40a 草案諮詢中",
         "timeline": [
           { "date": "2023-07", "event": "第一套 ESRS 授權法案通過" },
           { "date": "2025-04", "event": "Stop-the-clock 指令生效，第二、三波延後兩年" },
           { "date": "2025-07", "event": "EFRAG 發布簡化版 ESRS 徵求意見稿" },
           { "date": "2026-02-26", "event": "Omnibus I 指令刊登歐盟公報（2/24 理事會通過）" },
           { "date": "2026-03-18", "event": "Omnibus I 指令生效；執委會須於 6 個月內通過簡化版 ESRS 授權法案" },
-          { "date": "2026-07-03", "event": "執委會通過簡化版 ESRS（ESRS 2026）授權法案與自願性標準（VSME）：2027/1/1 起財年適用，尚待歐洲議會與理事會 2–4 個月審查" }
+          { "date": "2026-07-03", "event": "執委會通過簡化版 ESRS（ESRS 2026）授權法案與自願性標準（VSME）：2027/1/1 起財年適用，尚待歐洲議會與理事會 2–4 個月審查" },
+          { "date": "2026-07-23", "event": "EFRAG 發布非歐盟企業準則 ESRS-40a 徵求意見稿（諮詢至 10/31，預計 2027 年 1 月向執委會提交技術建議）" },
+          { "date": "2026-09-21", "event": "簡化版 ESRS 以授權規則 (EU) 2026/1563 刊登歐盟公報（自願性標準同步刊登）；11/10 生效，2027/1/1 起財年適用，得提前適用於 2026 財年" }
         ]
       },
       "assurance": {
         "setter": "歐盟執委會／CEAOB",
-        "standard": "有限確信（執委會確信準則 2027/7/1 前通過）",
+        "standard": "有限確信（執委會確信準則 2027/7/1 前通過；CEAOB 已提交以 ISSA 5000 為基礎之技術建議）",
         "status_level": "mandatory",
         "status_zh": "有限確信強制中；合理確信要求已刪除",
         "requirement_zh": "CSRD 報告須經有限確信；Omnibus 刪除「升級為合理確信」之授權以控制成本；執委會通過有限確信準則之期限延至 2027/7/1；第三國確信者 2025–2030 有過渡制度",
@@ -228,6 +231,7 @@
         "timeline": [
           { "date": "2024", "event": "第一波公司報告開始接受有限確信" },
           { "date": "2026-03", "event": "Omnibus 定案：刪除合理確信授權" },
+          { "date": "2026-09", "event": "CEAOB 向執委會提交歐盟有限確信準則技術建議（以 ISSA 5000 為基礎增補／排除），執委會將據以展開公開諮詢" },
           { "date": "2027-07", "event": "執委會通過有限確信準則之最後期限" }
         ]
       },
@@ -235,7 +239,7 @@
         { "label": "EFRAG", "url": "https://www.efrag.org/" },
         { "label": "執委會 CSRD 專頁", "url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en" }
       ],
-      "last_reviewed": "2026-10-19"
+      "last_reviewed": "2026-10-25"
     },
     {
       "id": "us",
@@ -282,7 +286,7 @@
         { "label": "CARB 氣候揭露專區", "url": "https://ww2.arb.ca.gov/our-work/programs/climate-related-disclosure-programs" },
         { "label": "SEC", "url": "https://www.sec.gov/" }
       ],
-      "last_reviewed": "2026-10-19"
+      "last_reviewed": "2026-10-25"
     },
     {
       "id": "canada",
@@ -372,7 +376,7 @@
         { "label": "GOV.UK — UK SRS", "url": "https://www.gov.uk/guidance/uk-sustainability-reporting-standards" },
         { "label": "FRC 永續報導 FAQ", "url": "https://www.frc.org.uk/library/standards-codes-policy/accounting-and-reporting/annual-corporate-reporting/sustainability-reporting-developments-frequently-asked-questions/" }
       ],
-      "last_reviewed": "2026-10-19"
+      "last_reviewed": "2026-10-25"
     },
     {
       "id": "singapore",
@@ -417,7 +421,7 @@
         { "label": "ACRA 永續報導時程", "url": "https://www.acra.gov.sg/regulations/sustainability-reporting/requirements-timeline/" },
         { "label": "SGX 2025/8 展延公告", "url": "https://www.sgxgroup.com/media-centre/20250825-extended-timelines-most-climate-reporting-requirements-support" }
       ],
-      "last_reviewed": "2026-10-19"
+      "last_reviewed": "2026-10-25"
     },
     {
       "id": "hongkong",
@@ -556,7 +560,7 @@
         { "label": "CVM 第 193 號決議（英文版）", "url": "https://www.gov.br/cvm/en/foreign-investors/regulation-files/ResolutionCVM193.pdf" },
         { "label": "IFRS 巴西轄區檔案", "url": "https://www.ifrs.org/content/dam/ifrs/publications/sustainability-jurisdictions/pdf-profiles/brazil-ifrs-profile.pdf" }
       ],
-      "last_reviewed": "2026-10-19"
+      "last_reviewed": "2026-10-25"
     }
   ]
 }
