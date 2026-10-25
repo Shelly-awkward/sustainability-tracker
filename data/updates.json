@@ -9,7 +9,7 @@
       "summary_zh": "KPMG報告說明日本金融廳工作小組建議已轉化為內閣府令及金融商品交易法修正，大型主要市場上市公司須自2027年3月期起分階段採用SSBJ準則，部分揭露資訊自揭露隔年起強制第三方保證。",
       "url": "https://assets.kpmg.com/content/dam/kpmgsites/jp/pdf/2026/jp-azsa-quality-2026-a3.pdf.coredownload.inline.pdf",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "5cdf2391902e",
@@ -31,7 +31,7 @@
       "summary_zh": "Accountancy Europe指出修訂版ESRS預計2026年11月10日生效，適用於2027年1月1日後開始之會計年度，並允許2026年提前適用；EFRAG同時就非歐盟企業適用ESRS展開諮詢。",
       "url": "https://accountancyeurope.eu/update/sustainability-update-261005",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "92d4e013d340",
@@ -42,7 +42,7 @@
       "summary_zh": "美國加州行政法辦公室（OAL）核准CARB對SB253/SB261的初步實施法規，確立2026年11月10日為加州氣候企業資料問責法（SB253）首次溫室氣體排放申報截止日。",
       "url": "https://www.velaw.com/insights/oal-approves-carbs-initial-regulation-locking-in-november-10-2026-sb-253-reporting-deadline",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "4f37c5560e92",
@@ -64,7 +64,7 @@
       "summary_zh": "文章指出新加坡上市公司須自2029財年、大型非上市公司自2032財年起，就範疇一、二排放導入外部有限保證，呼應ACRA氣候揭露與保證階段性路線圖。",
       "url": "https://rafflescorporateservices.com/sustainability-reporting-capability-singapore",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "c5f19c6a34e6",
@@ -218,7 +218,7 @@
       "summary_zh": "英國FCA公布上市公司永續報告最終規則，「遵循或解釋」之永續相關揭露將自2028年起納入上市公司年度報告。",
       "url": "https://www.lexology.com/library/detail.aspx?g=bc406ce5-bf3a-4ac3-8bc8-ee37cdb6ac63",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "054626f7181b",
@@ -295,7 +295,7 @@
       "summary_zh": "英國金融行為監理總署（FCA）確認英國永續報告準則（UK SRS）改採「遵循或說明」基礎實施，並要求企業揭露相關資訊是否經過確信。",
       "url": "https://www.linkedin.com/posts/eversheds-sutherland_the-financial-conduct-authority-fca-has-activity-7512904086132858882-DY39",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "46bfd2b1cf92",
@@ -482,7 +482,7 @@
       "summary_zh": "歐盟執委會已通過修訂版ESRS並於2026年9月21日刊登官方公報，持續要求揭露永續風險與機會之「預期財務影響」，延續IFRS S1/S2與TCFD之架構。",
       "url": "https://heavylifting.substack.com/p/a-note-on-anticipated-financial-effects",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "305da766c994",
@@ -493,7 +493,7 @@
       "summary_zh": "彙整顯示：2025年4月16日停止時鐘指令延後CSRD第二、三波適用兩年；2026年2月26日Omnibus I（指令2026/470）將CSRD範圍限縮至員工1,000人以上且營收4.5億歐元以上企業；簡化版ESRS於9月21日以委任規則2026/1563公告，11月10日生效，自2027會計年度起適用。",
       "url": "https://sustainabilityreportingstandards.com/csrd-esrs",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "84382d628e00",
@@ -636,7 +636,7 @@
       "summary_zh": "報導指出南韓主管機關已就2028年永續(ESG)揭露義務化提出最終方案，並整理紡織成衣業者應留意之揭露制度重點。",
       "url": "https://www.instagram.com/p/DbpUkoDGL_a?img_index=2",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "8a4425dfa834",
@@ -889,7 +889,7 @@
       "summary_zh": "EFRAG針對CSRD架構下適用於非歐盟母公司的ESRS-40a準則草案展開公眾諮詢，該準則沿用經修訂後的ESRS架構。",
       "url": "https://sustainablefutures.linklaters.com/post/102nfav/eu-csrd-efrag-consultation-on-sustainability-reporting-for-non-eu-companies",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "e38f94456e67",
@@ -900,7 +900,7 @@
       "summary_zh": "歐盟財務報告諮詢小組(EFRAG)於2026年7月歐盟執委會通過ESRS簡化版及自願性準則後，重啟並發布適用於非歐盟企業的ESRS-40a草案，現正徵詢意見。",
       "url": "https://www.jdsupra.com/legalnews/efrag-consults-on-proposed-4839426",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "7608fb4d3eef",
@@ -911,7 +911,7 @@
       "summary_zh": "EFRAG發布適用於非歐盟大型公司的ESRS-40a草案，揭露範圍明顯較歐盟本地企業窄，引發投資人對可比性與資料可靠性的疑慮。",
       "url": "https://www.minerva.info/post/the-eus-new-sustainability-regulations-for-non-eu-companies-highlights-a-growing-divide",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "c388e6d17b51",
@@ -977,7 +977,7 @@
       "summary_zh": "新加坡規劃自2030會計年度起，要求所有上市公司及大型非上市公司強制揭露氣候相關影響，與國際準則接軌。",
       "url": "https://www.straitstimes.com/business/companies-markets/all-listed-and-large-companies-in-spore-may-need-to-disclose-their-climate-impact-by-fy2030",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "2205ac2525af",
@@ -1043,7 +1043,7 @@
       "summary_zh": "歐盟執委會原訂2026年6月底前採用適用於非歐盟集團的ESRS-TC永續揭露準則，但依提案的優先順序調整，此時程可能延至最早2027年10月；EFRAG預計自2026年7月起展開為期100天的公眾諮詢。",
       "url": "https://kpmg.com/us/en/frv/reference-library/2026/sustainability-reporting-eu.html",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "f382805e28f6",
@@ -1065,7 +1065,7 @@
       "summary_zh": "ACRA提出的草案為業界提供揭露要求的明確性，其中範疇三排放揭露原則上為自願性，惟部分大型企業除外，此舉將影響新加坡企業未來的報告準備時程。",
       "url": "https://www.businesstimes.com.sg/esg/acra-proposes-sustainability-disclosure-standards-singapore",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "fe153c345fe6",
@@ -1109,7 +1109,7 @@
       "summary_zh": "英國金融行為監理總署（FCA）諮詢文件CP26/5並未在UK SRS揭露初期強制要求確信，而財務報導委員會（FRC）原訂2026年年中啟用的臨時永續確信從業者註冊制，截至7月28日仍未確認上線，且屬自願性質。",
       "url": "https://uksrs.org.uk/uk-srs-reporting",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "1ec3c891b3ed",
@@ -1224,7 +1224,7 @@
       "summary_zh": "日本國會於2026年7月15日通過《金融商品交易法》修正案，將有價證券報告書永續資訊第三方確信列為強制、建立確信機構登記制度及前瞻性資訊民事責任安全港；金融廳9月15日再修訂永續揭露準則指定，納入SSBJ首號實務解決方案。",
       "url": "https://www.pulsora.com/blog/esg-regulations-and-framework-updates-q3-2026",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "b2749b3c3f71",
@@ -1390,7 +1390,7 @@
       "summary_zh": "巴西證券管理機構CVM於2026年5月29日發布第244號決議，修訂原本採用ISSB準則的第193號決議內容，並更新各國ISSB採用狀態清單。",
       "url": "https://sustainabilityreportingstandards.com/issb-ifrs-s1-s2",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "75412a76d065",
@@ -1401,7 +1401,7 @@
       "summary_zh": "文章彙整2026年多項法規範圍限縮：歐盟指令2026/470削減CSRD與CSDDD適用範圍；美國SEC於5月29日提案撤銷2024年氣候揭露規則；同日巴西CVM第244號決議將ISSB準則揭露改為自願性，推翻原CVM193號之強制規定預期。",
       "url": "https://greencalculus.com/standards/esg-regulations",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "44089382db2a",
@@ -1423,7 +1423,7 @@
       "summary_zh": "巴西證券管理機關CVM於2026年5月發布第244號決議，取消原訂自2026年起要求上市公司依IFRS S1與S2揭露之強制規定，被視為與ISSB接軌時程的倒退。",
       "url": "https://globalcanopy.org/insights/insight/can-brazil-lock-in-recent-progress-on-deforestation",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "b0ab8aab1a47",
@@ -1511,7 +1511,7 @@
       "summary_zh": "文章指出歐盟Omnibus改革後，CSRD之確信要求仍維持「有限保證」標準，原規劃日後升級為「合理保證」之安排已被撤回。",
       "url": "https://www.seedling.earth/en-us/post/eu-omnibus-directive-2026",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "seed-003",
@@ -1566,7 +1566,7 @@
       "summary_zh": "日本金融廳（FSA）於2026年2月20日發布規則，要求東證主板部分大型企業自年度有價證券報告書起強制採用SSBJ準則揭露永續資訊，首波涵蓋最大型企業群。",
       "url": "https://note.com/nature_positive/n/n99b567666ee3",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "bafa37d06ff7",
@@ -1731,7 +1731,7 @@
       "summary_zh": "ACRA與SGX RegCo自2022年起推動強制氣候揭露路線圖，2025年5月成立臨時準則委員會研擬本地永續揭露與保證準則，並於2025年8月調整階段性實施時程。",
       "url": "https://www.reach.gov.sg/latest-happenings/public-consultations/2026/public-consultation-on-singapores-sustainability-disclosure-standards",
       "impact": "status_change",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "id": "b81673c09693",
