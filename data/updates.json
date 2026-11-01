@@ -45,6 +45,83 @@
       "needs_review": true
     },
     {
+      "id": "ff1462dd196b",
+      "date": "2026-11-01",
+      "jurisdiction_id": "japan",
+      "title_en": "Building Energy Regulations: A Global Guide | Noda",
+      "title_zh": "日本金融廳分階段實施SSBJ永續揭露準則",
+      "summary_zh": "日本金融廳(FSA)規定東證主板企業依市值分級，自2027年3月期(市值3兆日圓以上)起分階段採用依循ISSB架構之SSBJ準則進行強制永續揭露，並於各期別適用後一年導入第三方確信。",
+      "url": "https://www.noda.ai/guides/building-energy-regulations",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "7cf1d8d9997c",
+      "date": "2026-11-01",
+      "jurisdiction_id": "korea",
+      "title_en": "ANEXO II - Portal Gov.br",
+      "title_zh": "南韓金融委員會訂定KSSB永續揭露強制時程",
+      "summary_zh": "南韓FSC依據以ISSB準則為基礎之KSSB決議，規劃自2028年起對資產逾30兆韓元之企業強制揭露，並逐步於2029年擴大至5兆韓元、2030年擴大至2兆韓元門檻之企業。",
+      "url": "https://www.gov.br/cvm/pt-br/centrais-de-conteudo/publicacoes/estudos/edital_tps_resolucao_193_anexo_ii_experiencia_internacional.pdf",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "dacb233973f2",
+      "date": "2026-11-01",
+      "jurisdiction_id": "australia",
+      "title_en": "Sustainable Finance Market Update Q3 2026 | Westpac IQ",
+      "title_zh": "ASIC發布首份AASB S2氣候揭露報告審查結果",
+      "summary_zh": "澳洲證券投資委員會(ASIC)首次檢視依AASB S2強制氣候揭露規定提交之2025年12月31日報告期永續報告，發現揭露品質與一致性整體提升。",
+      "url": "https://www.westpaciq.com.au/thought-leadership/2026/10/sustainable-finance-market-update-q3-fy26",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "52056b589afd",
+      "date": "2026-11-01",
+      "jurisdiction_id": "australia",
+      "title_en": "First-year reporting is only the beginning: Businesses are expected to improve their disclosures over time",
+      "title_zh": "AASB S2首年揭露僅是開端，企業揭露品質預期持續提升",
+      "summary_zh": "評論指出儘管許多大型企業已自願編製永續報告多年，AASB S2強制氣候揭露規定上路後，企業仍須隨時間持續精進揭露內容與品質。",
+      "url": "https://www.accountingtimes.com.au/profession/first-year-reporting-is-only-the-beginning-businesses-are-expected-to-improve-their-disclosures-over-time",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "c572e718be53",
+      "date": "2026-11-01",
+      "jurisdiction_id": "eu",
+      "title_en": "EFRAG’s proposal for European Sustainability Reporting Standards for non-EU undertakings: Seven things to know | White & Case LLP",
+      "title_zh": "EFRAG提出適用非歐盟企業之ESRS草案",
+      "summary_zh": "EFRAG就非歐盟企業適用之歐洲永續報導準則(ESRS)提出草案說明，釐清ESRS-40a等條文與員工代表資訊揭露義務之關係，不會另外創設新的法定義務。",
+      "url": "https://www.whitecase.com/insight-alert/efrags-proposal-european-sustainability-reporting-standards-non-eu-undertakings-seven",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "8f074058302e",
+      "date": "2026-11-01",
+      "jurisdiction_id": "eu",
+      "title_en": "CSRD burden reduction measures not fit for purpose, say UK companies",
+      "title_zh": "CSRD減負措施恐未達目的，英國企業示警",
+      "summary_zh": "分析指出，針對非歐盟企業放寬的CSRD揭露要求可能適得其反，反而提高非歐盟企業之報導成本與複雜度。",
+      "url": "https://www.responsible-investor.com/csrd-burden-reduction-measures-not-fit-for-purpose-say-uk-companies",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "e993c6e56f1c",
+      "date": "2026-11-01",
+      "jurisdiction_id": "canada",
+      "title_en": "TRENDS IN CORPORATE GOVERNANCE REPORT",
+      "title_zh": "加拿大CSSB準則持續演進但仍維持自願性質",
+      "summary_zh": "加拿大永續準則委員會(CSSB)已發布與ISSB大致接軌之CSDS 1及CSDS 2準則，惟加拿大證券管理局(CSA)仍將其列為自願揭露規範，尚未納入強制要求。",
+      "url": "https://www.laurelhill.ca/s/2026-068-Laurel-Hill_Governance_W.pdf",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
       "id": "4f37c5560e92",
       "date": "2026-10-25",
       "jurisdiction_id": "australia",
@@ -648,6 +725,17 @@
       "url": "https://www.ropesgray.com/en/insights/viewpoints/2026/08/102nzl4/assessing-the-proposed-esrs-40a-for-csrd-reporting-considerations-for-us-based",
       "impact": "info",
       "needs_review": false
+    },
+    {
+      "id": "6e4d082b0a60",
+      "date": "2026-08-28",
+      "jurisdiction_id": "japan",
+      "title_en": "Issue 2026-10-27: Kakaku.com gets a ten-business-day clock; Umios buys in Canada | Tokyo Brief",
+      "title_zh": "日本金融廳公布SSBJ準則分階段上路及第三方確信規定",
+      "summary_zh": "日本金融廳於8月28日氣候資料座談會簡報中公布大型主板上市公司導入SSBJ準則之時程，規定自各集團揭露起算隔年起強制第三方確信，前兩年確信範圍受限，並設有過渡性更正報告機制。",
+      "url": "https://tokyobrief.com/email/issue-2026-10-27",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "9eaec06483f6",
@@ -1437,6 +1525,28 @@
       "needs_review": true
     },
     {
+      "id": "c1e7205a9b1a",
+      "date": "2026-05-01",
+      "jurisdiction_id": "brazil",
+      "title_en": "Corporate & Commercial 2026 - Brazil | Global Practice Guides | Chambers and Partners",
+      "title_zh": "巴西CVM第244號決議撤銷ISSB揭露強制上路時程，改採自願制",
+      "summary_zh": "巴西證券管理機構CVM於2026年5月發布第244號決議，取消原訂強制採用ISSB(IFRS S1/S2)永續揭露之時程，改為自願申報並須由CVM註冊會計師提供確信；自2027年起未選擇揭露之上市公司須以市場公告說明原因。",
+      "url": "https://practiceguides.chambers.com/practice-guides/corporate-commercial-2026/brazil",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "3e9ea4e025aa",
+      "date": "2026-05-01",
+      "jurisdiction_id": "brazil",
+      "title_en": "Regulations Hub | EcoDiligence",
+      "title_zh": "巴西CVM決議244號廢止一般上市公司強制IFRS S1/S2揭露",
+      "summary_zh": "巴西CVM於2026年5月發布244號決議，廢止原訂自2026會計年度起對一般上市公司強制適用IFRS S1/S2之規定，改採自願「遵循或說明」模式；另依CMN 5.185/2024號決議，公開發行或主導集團之金融機構仍須強制採用IFRS S1/S2。",
+      "url": "https://ecodiligence.com/regulations",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "ssmca2016cons",
       "date": "2026-04-30",
       "jurisdiction_id": "malaysia",
@@ -1657,6 +1767,28 @@
       "needs_review": false
     },
     {
+      "id": "e99a261fb22a",
+      "date": "2026-01-08",
+      "jurisdiction_id": "japan",
+      "title_en": "How to extract data from an annual report, in any language",
+      "title_zh": "日本金融廳發布永續揭露與確信路線圖",
+      "summary_zh": "資料彙整顯示日本金融廳於2026年1月8日發布「永續揭露與確信路線圖」，確認東證主板企業依市值分級自2027年3月期起適用SSBJ準則之揭露時程。",
+      "url": "https://www.botminds.ai/solutions/issuer-esg-data-extraction/how-to-extract-data-from-annual-report-any-language",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "7a89ee390a2e",
+      "date": "2026-01-01",
+      "jurisdiction_id": "brazil",
+      "title_en": "NEXUM — Turning complexity into value",
+      "title_zh": "智利、墨西哥2026年起強制採用IFRS S1/S2，巴西亦同步要求",
+      "summary_zh": "智利與墨西哥自2026年1月起強制要求企業依IFRS S1/S2揭露，巴西亦自2026年1月1日起對上市發行人要求採用，2025年度適用有限確信、2026年度起採合理確信。",
+      "url": "https://nexum-latam.com/en",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "seed-002",
       "date": "2025-12-18",
       "jurisdiction_id": "issb",
@@ -1730,6 +1862,17 @@
       "title_zh": "新加坡永續揭露準則公眾諮詢與時程調整",
       "summary_zh": "ACRA與SGX RegCo自2022年起推動強制氣候揭露路線圖，2025年5月成立臨時準則委員會研擬本地永續揭露與保證準則，並於2025年8月調整階段性實施時程。",
       "url": "https://www.reach.gov.sg/latest-happenings/public-consultations/2026/public-consultation-on-singapores-sustainability-disclosure-standards",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "31982ea38a6f",
+      "date": "2025-04-23",
+      "jurisdiction_id": "canada",
+      "title_en": "Canada CSDS 2 Guide for Investors | Emmi",
+      "title_zh": "加拿大CSA於2025年暫停強制氣候揭露規則制定",
+      "summary_zh": "加拿大證券管理局(CSA)已於2025年4月23日暫停強制氣候揭露規則之研擬，現行CSDS準則維持自願性質，但預告未來若訂定強制規則將以CSSB準則為基礎。",
+      "url": "https://emmi.io/resources/regulation-guide/canada-csds-guide",
       "impact": "status_change",
       "needs_review": true
     },
