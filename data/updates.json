@@ -45,6 +45,39 @@
       "needs_review": true
     },
     {
+      "id": "735868918e82",
+      "date": "2026-11-08",
+      "jurisdiction_id": "eu",
+      "title_en": "EFRAG ESRS for certain non-EU Undertakings (ESRS-40a ...",
+      "title_zh": "EFRAG就非歐盟企業適用ESRS-40a提出比例原則建議",
+      "summary_zh": "EFRAG建議對非歐盟最終母公司之集團層級揭露應避免與已依CSRD申報之歐盟子公司資訊重複，並應給予大型企業適當過渡期。",
+      "url": "https://www.afme.eu/media/nbfbd3ir/afme-response-to-esrs-40a-efrag-consultation.pdf",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "e0283705e7a8",
+      "date": "2026-11-08",
+      "jurisdiction_id": "us",
+      "title_en": "OCC Challenges California’s Climate Disclosure Laws",
+      "title_zh": "OCC質疑加州氣候揭露法對聯邦特許銀行之適用性",
+      "summary_zh": "美國貨幣監理署（OCC）表示加州SB253及SB261對聯邦特許金融機構之適用可能與聯邦監理架構衝突，CARB已暫緩SB261相關法規制定以待訴訟結果。",
+      "url": "https://natlawreview.com/article/occ-challenges-californias-climate-disclosure-laws-citing-federal-preemption-and",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
+      "id": "a9231bd9781e",
+      "date": "2026-11-08",
+      "jurisdiction_id": "uk",
+      "title_en": "UK SRS Explained: What the FCA's Final Rules Mean for Climate Reporting in the UK | Nossa Data",
+      "title_zh": "FCA公布英國永續報告準則（UK SRS）最終規則",
+      "summary_zh": "英國金融行為監理局（FCA）發布UK SRS最終規則，要求揭露確信提供者、確信範圍與標準等資訊，惟暫不強制要求第三方確信，並將持續檢視是否強制。",
+      "url": "https://www.nossadata.com/blog/uk-srs-fca-final-rules-climate-reporting-uk",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "ff1462dd196b",
       "date": "2026-11-01",
       "jurisdiction_id": "japan",
@@ -118,6 +151,17 @@
       "title_zh": "加拿大CSSB準則持續演進但仍維持自願性質",
       "summary_zh": "加拿大永續準則委員會(CSSB)已發布與ISSB大致接軌之CSDS 1及CSDS 2準則，惟加拿大證券管理局(CSA)仍將其列為自願揭露規範，尚未納入強制要求。",
       "url": "https://www.laurelhill.ca/s/2026-068-Laurel-Hill_Governance_W.pdf",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "49d164b63203",
+      "date": "2026-11-01",
+      "jurisdiction_id": "uk",
+      "title_en": "Quarterly Listed Company Update – What's new and what's next? - November 2026 | Travers Smith",
+      "title_zh": "UK SRS適用範圍與監理機構說明",
+      "summary_zh": "UK SRS不適用於封閉式投資基金、空殼公司及債務型證券發行人，FCA與FRC將共同負責監督與執行。",
+      "url": "https://www.traverssmith.com/knowledge/knowledge-container/quarterly-listed-company-update-whats-new-and-whats-next-november-2026",
       "impact": "info",
       "needs_review": false
     },
@@ -437,6 +481,17 @@
       "title_zh": "巴西CVM曾承諾2026年起強制採行ISSB式永續報告",
       "summary_zh": "文章回顧巴西證券管理委員會（CVM）為全球首個承諾自2026年起強制採行ISSB式永續揭露的主管機關，但同時討論該類強制規範目前面臨的不確定性與潛在調整風險。",
       "url": "https://www.linkedin.com/posts/daniel-a-adeyemi-env_esg-sustainability-corporategovernance-activity-7507452960856072192-fSnU",
+      "impact": "info",
+      "needs_review": false
+    },
+    {
+      "id": "ee7c951eec31",
+      "date": "2026-10-01",
+      "jurisdiction_id": "malaysia",
+      "title_en": "Budget 2027 and how it relates to sustainability reporting | Scout360",
+      "title_zh": "馬來西亞2027年度預算案確認NSRF架構與確信時程不變",
+      "summary_zh": "馬來西亞2027年度預算案未調整國家永續報告架構（NSRF）之揭露分組、過渡寬限及2028至2030年確信時程，原訂2026年碳稅計畫仍暫緩，政府改以碳信用框架為主。",
+      "url": "https://scout360.io/knowledge-hub/malaysia-budget-2027-esg-nsrf",
       "impact": "info",
       "needs_review": false
     },
@@ -1189,6 +1244,17 @@
       "needs_review": false
     },
     {
+      "id": "f8cd14fb35df",
+      "date": "2026-07-30",
+      "jurisdiction_id": "eu",
+      "title_en": "EU Sustainability reporting – ESMA sets 2026 common enforcement priorities – materiality and providing connected information remain firmly in focus",
+      "title_zh": "ESMA公布2026年歐盟永續報告共同執法重點",
+      "summary_zh": "ESMA於2026年7月30日公布2026年永續報告共同執法優先事項，聚焦重大性評估與關聯性資訊揭露，並提及最終版ESRS與VESRS已於同年7月發布。",
+      "url": "https://www.hlc.com/en/publications/eu-sustainability-reporting",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "558459273610",
       "date": "2026-07-28",
       "jurisdiction_id": "uk",
@@ -1580,6 +1646,17 @@
       "needs_review": false
     },
     {
+      "id": "d09e9ab238ae",
+      "date": "2026-03-01",
+      "jurisdiction_id": "uk",
+      "title_en": "Timeline of key ESG Developments in 2026",
+      "title_zh": "英國FRC永續確信臨時監理機制延後至2026/27年度",
+      "summary_zh": "FRC原訂於2026年中前建立第三方永續確信提供者之臨時自願監理制度與登記制，惟其2026年3月公布之年度計畫顯示該措施將延至2026/27年度才實施。",
+      "url": "https://www.slaughterandmay.com/media/lstbyj2s/timeline-of-key-esg-developments-in-2026.pdf",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "seed-005",
       "date": "2026-02-26",
       "jurisdiction_id": "eu",
@@ -1877,6 +1954,17 @@
       "needs_review": true
     },
     {
+      "id": "d6789f1578d2",
+      "date": "2025-04-23",
+      "jurisdiction_id": "canada",
+      "title_en": "of the pause",
+      "title_zh": "加拿大CSA暫停強制氣候揭露規則制定",
+      "summary_zh": "加拿大證券管理局（CSA）於2025年4月23日宣布暫停強制性氣候相關揭露規則之研擬工作，呼應美國SEC同年稍早終止為氣候揭露規則辯護之立場。",
+      "url": "https://share.ca/wp-content/uploads/2026/10/26-10-28-The-Price-of-the-Pause-EN-SHARE.pdf",
+      "impact": "status_change",
+      "needs_review": true
+    },
+    {
       "id": "b81673c09693",
       "date": "2025-03-05",
       "jurisdiction_id": "japan",
@@ -1886,6 +1974,17 @@
       "url": "https://note.com/tatsuya_sabato/n/n177abbe35477?hl=en",
       "impact": "info",
       "needs_review": false
+    },
+    {
+      "id": "cd3ba00babd0",
+      "date": "2025-03-01",
+      "jurisdiction_id": "japan",
+      "title_en": "Evolving asset management regulation 2026 report",
+      "title_zh": "日本SSBJ準則定案，FSA公布分級適用時程",
+      "summary_zh": "日本永續準則委員會（SSBJ）已於2025年3月完成準則制定，金融廳（FSA）並規劃依企業規模分階段於2027、2028或2029會計年度起分級適用。",
+      "url": "https://assets.kpmg.com/content/dam/kpmgsites/uk/pdf/2026/10/evolving-asset-management-regulations-report-2026.pdf",
+      "impact": "status_change",
+      "needs_review": true
     },
     {
       "id": "c2de144273ec",
